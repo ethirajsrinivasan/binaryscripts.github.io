@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>The Evolution of Contexts in Apache Spark</title>
+		<meta name="description" content="The Apache Spark ecosystem has undergone significant transformations in the past years, with key components like SparkContext, SQLContext, and HiveContext adapting to meet the changing needs of big data processing. In this blog post, we&#39;ll look at the historical evolution of these components and their current role."/>
+		<meta property="og:image" content="https://images.unsplash.com/photo-1476820865390-c52aeebb9891"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/assets/application-ec816bccda848783beb46c6fccbb0faa297eddc1e2f7355c14dd909bf8165745.css" media="screen" />
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<script src="/assets/application-802f9fc6b464e394ae64db61e6b0de8cf5f1e9f73e6e5675b06d076f0e16d3c6.js" data-turbolinks-track="true"></script>
+		<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Jx_621DJSNsJ-vJdVjfpn1cG4TEGnx7vbV4wDRRatWORhloRmAehuXFtK4o3SmQr4-zsLoQ7HRldY4iDHLCjOA" />
+		<link rel="icon" type="image/x-icon" href="/assets/favicon-bfc8f965e9c5b25ff8620b94c33011eeaa4a222a73aef252f51d06ee90009e75.ico" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8495931515801704"
+     crossorigin="anonymous"></script>
+	</head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8HN948EZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8HN948EZZ');
+</script>
+	<body class="blog_body" data-spy="scroll" data-target="#navbar-scrollspy" data-offset="200">
+		<section class="cover text-center" style="background-image: url(https://images.unsplash.com/photo-1476820865390-c52aeebb9891)">
+			<nav class="navbar navbar-expand-lg navbar-trans navbar-light">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="/"><strong>Binary Scripts</strong></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav ms-auto">
+						</div>
+					</div>
+				</div>
+			</nav>
+		</section>
+		<br>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><div id="file" class="md" data-path="Evolution of Contexts in Apache Spark.md"><article class="markdown-body entry-content container-lg" itemprop="text"><h3 dir="auto">
+<a id="user-content-the-evolution-of-contexts-in-apache-spark" class="anchor" aria-hidden="true" tabindex="-1" href="#the-evolution-of-contexts-in-apache-spark" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Evolution of Contexts in Apache Spark</h3>
+<h4 dir="auto">
+<a id="user-content-sparkcontext-sqlcontext-hivecontext-and-the-rise-of-sparksession" class="anchor" aria-hidden="true" tabindex="-1" href="#sparkcontext-sqlcontext-hivecontext-and-the-rise-of-sparksession" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>SparkContext, SQLContext, HiveContext and the Rise of SparkSession</h4>
+<h4 dir="auto">
+<a id="user-content-introduction" class="anchor" aria-hidden="true" tabindex="-1" href="#introduction" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Introduction:</h4>
+<p dir="auto">The Apache Spark ecosystem has undergone significant transformations in the past years, with key components like SparkContext, SQLContext, and HiveContext adapting to meet the changing needs of big data processing. In this blog post, we'll look at the historical evolution of these components and their current role.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/7569031/293580857-498fff49-72ae-4fd4-89ae-e7ec85ca9993.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQxMjY3OTgsIm5iZiI6MTcwNDEyNjQ5OCwicGF0aCI6Ii83NTY5MDMxLzI5MzU4MDg1Ny00OThmZmY0OS03MmFlLTRmZDQtODlhZS1lN2VjODVjYTk5OTMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMDFUMTYyODE4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Nzk3YzBkYTVjN2MzMjQ0YmExZTU1NjU1YWQ0MWJhYjJjOWM5Y2M3OGE1YzI0YWE2ODQwZmRhYWNmMzJhNmMyNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.KwxOsiIeeWotV-W2fkVfwuPhepxUeacijbnzowuuGt4"><div class="text-center"><img src="https://private-user-images.githubusercontent.com/7569031/293580857-498fff49-72ae-4fd4-89ae-e7ec85ca9993.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQxMjY3OTgsIm5iZiI6MTcwNDEyNjQ5OCwicGF0aCI6Ii83NTY5MDMxLzI5MzU4MDg1Ny00OThmZmY0OS03MmFlLTRmZDQtODlhZS1lN2VjODVjYTk5OTMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEwMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMDFUMTYyODE4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Nzk3YzBkYTVjN2MzMjQ0YmExZTU1NjU1YWQ0MWJhYjJjOWM5Y2M3OGE1YzI0YWE2ODQwZmRhYWNmMzJhNmMyNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.KwxOsiIeeWotV-W2fkVfwuPhepxUeacijbnzowuuGt4" alt="Contexts of Spark" style="max-width: 100%;"></div></a></p>
+<blockquote>
+<p dir="auto">Contexts of Spark</p>
+</blockquote>
+<h4 dir="auto">
+<a id="user-content-sparkcontext-foundation-of-spark-applications" class="anchor" aria-hidden="true" tabindex="-1" href="#sparkcontext-foundation-of-spark-applications" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>SparkContext: Foundation of Spark Applications</h4>
+<p dir="auto">In Spark 1.0, <code>SparkContext</code>  a.k.a <code>sc</code> is the main entry point for the Spark application. Its major functions were to set up and initialize the Spark application, establish a connection with the Spark cluster, and coordinate the execution of tasks.</p>
+<p dir="auto">In Spark 2.0, while <code>SparkContext</code> retains its core functionality, the framework introduced a higher-level abstraction known as <code>SparkSession</code>.</p>
+<p dir="auto">In Spark 1.0, <code>SparkContext</code> uses <code>SparkConf</code> to configure the Spark setting as follows:</p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content='from pyspark import SparkContext, SparkConf
+
+# Create a SparkConf object with configuration settings
+conf = SparkConf().setAppName("MyApp").setMaster("local")
+
+# Create a SparkContext with the specified configuration
+sc = SparkContext(conf=conf)'><pre><span class="pl-k">from</span> <span class="pl-s1">pyspark</span> <span class="pl-k">import</span> <span class="pl-v">SparkContext</span>, <span class="pl-v">SparkConf</span>
+
+<span class="pl-c"># Create a SparkConf object with configuration settings</span>
+<span class="pl-s1">conf</span> <span class="pl-c1">=</span> <span class="pl-v">SparkConf</span>().<span class="pl-en">setAppName</span>(<span class="pl-s">"MyApp"</span>).<span class="pl-en">setMaster</span>(<span class="pl-s">"local"</span>)
+
+<span class="pl-c"># Create a SparkContext with the specified configuration</span>
+<span class="pl-s1">sc</span> <span class="pl-c1">=</span> <span class="pl-v">SparkContext</span>(<span class="pl-s1">conf</span><span class="pl-c1">=</span><span class="pl-s1">conf</span>)</pre></div>
+<p dir="auto">In Spark 2.0 and later versions, the creation of <code>SparkContext</code> was implicit.</p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content='from pyspark.sql import SparkSession
+
+# Create a SparkSession, which implicitly creates a SparkContext
+spark = SparkSession.builder.appName("MyApp").getOrCreate()
+
+# Accessing SparkContext from SparkSession
+sc = spark.sparkContext'><pre><span class="pl-k">from</span> <span class="pl-s1">pyspark</span>.<span class="pl-s1">sql</span> <span class="pl-k">import</span> <span class="pl-v">SparkSession</span>
+
+<span class="pl-c"># Create a SparkSession, which implicitly creates a SparkContext</span>
+<span class="pl-s1">spark</span> <span class="pl-c1">=</span> <span class="pl-v">SparkSession</span>.<span class="pl-s1">builder</span>.<span class="pl-en">appName</span>(<span class="pl-s">"MyApp"</span>).<span class="pl-en">getOrCreate</span>()
+
+<span class="pl-c"># Accessing SparkContext from SparkSession</span>
+<span class="pl-s1">sc</span> <span class="pl-c1">=</span> <span class="pl-s1">spark</span>.<span class="pl-s1">sparkContext</span></pre></div>
+<p dir="auto">The <code>getOrCreate()</code> method ensures that a <code>SparkContext</code> is created if it does not exist.</p>
+<h4 dir="auto">
+<a id="user-content-sqlcontext-bridging-the-structured-data-gap" class="anchor" aria-hidden="true" tabindex="-1" href="#sqlcontext-bridging-the-structured-data-gap" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>SQLContext: Bridging the Structured Data Gap</h4>
+<p dir="auto">In version 1.0, the emergence of <code>SQLContext</code> is a significant leap in structured data processing. It provides a high-level API to work with structured data using Spark SQL, allowing users to seamlessly integrate SQL queries into their Spark programs.</p>
+<p dir="auto">As the journey of Spark evolved, In 2.0 the <code>SQLContext</code> has been abstracted into <code>SparkSession</code> to provide a single entry point for the Spark ecosystem.</p>
+<p dir="auto">In Spark 1.0, <code>SQLContext</code> was created from <code>SparkContext</code>.</p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content='from pyspark.sql import SQLContext
+from pyspark import SparkContext, SparkConf
+
+# Create a SparkConf object with configuration settings
+conf = SparkConf().setAppName("MyApp").setMaster("local")
+
+# Create a SparkContext with the specified configuration
+sc = SparkContext(conf=conf)
+
+# Create an SQLContext using the SparkContext
+sqlContext = SQLContext(sc)'><pre><span class="pl-k">from</span> <span class="pl-s1">pyspark</span>.<span class="pl-s1">sql</span> <span class="pl-k">import</span> <span class="pl-v">SQLContext</span>
+<span class="pl-k">from</span> <span class="pl-s1">pyspark</span> <span class="pl-k">import</span> <span class="pl-v">SparkContext</span>, <span class="pl-v">SparkConf</span>
+
+<span class="pl-c"># Create a SparkConf object with configuration settings</span>
+<span class="pl-s1">conf</span> <span class="pl-c1">=</span> <span class="pl-v">SparkConf</span>().<span class="pl-en">setAppName</span>(<span class="pl-s">"MyApp"</span>).<span class="pl-en">setMaster</span>(<span class="pl-s">"local"</span>)
+
+<span class="pl-c"># Create a SparkContext with the specified configuration</span>
+<span class="pl-s1">sc</span> <span class="pl-c1">=</span> <span class="pl-v">SparkContext</span>(<span class="pl-s1">conf</span><span class="pl-c1">=</span><span class="pl-s1">conf</span>)
+
+<span class="pl-c"># Create an SQLContext using the SparkContext</span>
+<span class="pl-s1">sqlContext</span> <span class="pl-c1">=</span> <span class="pl-v">SQLContext</span>(<span class="pl-s1">sc</span>)</pre></div>
+<p dir="auto">In Spark 2.0 and later versions:</p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content='from pyspark.sql import SparkSession
+
+# Create a SparkSession, which implicitly creates a SQLContext
+spark = SparkSession.builder.appName("MyApp").getOrCreate()
+
+# Accessing SQLContext from SparkSession
+sqlContext = spark.sqlContext'><pre><span class="pl-k">from</span> <span class="pl-s1">pyspark</span>.<span class="pl-s1">sql</span> <span class="pl-k">import</span> <span class="pl-v">SparkSession</span>
+
+<span class="pl-c"># Create a SparkSession, which implicitly creates a SQLContext</span>
+<span class="pl-s1">spark</span> <span class="pl-c1">=</span> <span class="pl-v">SparkSession</span>.<span class="pl-s1">builder</span>.<span class="pl-en">appName</span>(<span class="pl-s">"MyApp"</span>).<span class="pl-en">getOrCreate</span>()
+
+<span class="pl-c"># Accessing SQLContext from SparkSession</span>
+<span class="pl-s1">sqlContext</span> <span class="pl-c1">=</span> <span class="pl-s1">spark</span>.<span class="pl-s1">sqlContext</span></pre></div>
+<h4 dir="auto">
+<a id="user-content-hivecontext-bridging-spark-and-hive" class="anchor" aria-hidden="true" tabindex="-1" href="#hivecontext-bridging-spark-and-hive" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>HiveContext: Bridging Spark and Hive</h4>
+<p dir="auto">In the Spark 1.0 era, <code>HiveContext</code> played a crucial role in bridging the gap between Spark and Apache Hive. It allowed Spark applications to leverage Hive's metadata and operate seamlessly on Hive tables.</p>
+<p dir="auto"><code>HiveContext</code> faced deprecation in Spark 2.0. <code>SparkSession</code> with Hive support was the recommended way to serve the community's intention to make SparkSession the single entry point.</p>
+<p dir="auto">Like <code>SQLContext</code>, <code>HiveContext</code> also is created using <code>SparkContext</code> in Spark 1.0</p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content='from pyspark.sql import HiveContext
+from pyspark import SparkContext, SparkConf
+
+# Create a SparkConf object with configuration settings
+conf = SparkConf().setAppName("MyApp").setMaster("local")
+
+# Create a SparkContext with the specified configuration
+sc = SparkContext(conf=conf)
+
+# Create a HiveContext using the SparkContext
+hiveContext = HiveContext(sc)'><pre><span class="pl-k">from</span> <span class="pl-s1">pyspark</span>.<span class="pl-s1">sql</span> <span class="pl-k">import</span> <span class="pl-v">HiveContext</span>
+<span class="pl-k">from</span> <span class="pl-s1">pyspark</span> <span class="pl-k">import</span> <span class="pl-v">SparkContext</span>, <span class="pl-v">SparkConf</span>
+
+<span class="pl-c"># Create a SparkConf object with configuration settings</span>
+<span class="pl-s1">conf</span> <span class="pl-c1">=</span> <span class="pl-v">SparkConf</span>().<span class="pl-en">setAppName</span>(<span class="pl-s">"MyApp"</span>).<span class="pl-en">setMaster</span>(<span class="pl-s">"local"</span>)
+
+<span class="pl-c"># Create a SparkContext with the specified configuration</span>
+<span class="pl-s1">sc</span> <span class="pl-c1">=</span> <span class="pl-v">SparkContext</span>(<span class="pl-s1">conf</span><span class="pl-c1">=</span><span class="pl-s1">conf</span>)
+
+<span class="pl-c"># Create a HiveContext using the SparkContext</span>
+<span class="pl-s1">hiveContext</span> <span class="pl-c1">=</span> <span class="pl-v">HiveContext</span>(<span class="pl-s1">sc</span>)</pre></div>
+<p dir="auto">In Spark 2.0:</p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content='from pyspark.sql import SparkSession
+
+# Create a SparkSession with Hive support
+spark = SparkSession.builder.appName("MyApp").enableHiveSupport().getOrCreate()'><pre><span class="pl-k">from</span> <span class="pl-s1">pyspark</span>.<span class="pl-s1">sql</span> <span class="pl-k">import</span> <span class="pl-v">SparkSession</span>
+
+<span class="pl-c"># Create a SparkSession with Hive support</span>
+<span class="pl-s1">spark</span> <span class="pl-c1">=</span> <span class="pl-v">SparkSession</span>.<span class="pl-s1">builder</span>.<span class="pl-en">appName</span>(<span class="pl-s">"MyApp"</span>).<span class="pl-en">enableHiveSupport</span>().<span class="pl-en">getOrCreate</span>()</pre></div>
+<p dir="auto">The <code>enableHiveSupport()</code> method configures the <code>SparkSession</code> to work seamlessly with Hive, enabling you to execute Hive queries and work with Hive tables.</p>
+<h4 dir="auto">
+<a id="user-content-sparksession-unifying-the-experience" class="anchor" aria-hidden="true" tabindex="-1" href="#sparksession-unifying-the-experience" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>SparkSession: Unifying the Experience</h4>
+<p dir="auto">The introduction of <code>SparkSession</code> not only combined the functionalities of <code>SparkContext</code>, <code>SQLContext</code>, and <code>HiveContext</code> but also provided a unified entry point for Spark applications. This consolidation simplified the user experience, making it easier to interact with Spark, Spark SQL, and Hive within a single interface. This evolution underscores the commitment of the Spark community to provide a cohesive and streamlined experience for big data processing.</p>
+</article></div></body></html>
+
+    </div>
+  </div>
+  <br>
+  <div class="row justify-content-center">
+    <h6 class="text-center">&#x2022;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2022;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2022;</h6>
+  </div>
+  <div class="row">
+    <div class="col">
+    </div>
+  </div>
+  <div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+var disqus_config = function () {
+  this.shortname = "binaryscripts";
+  this.page.url = "http://binaryscripts.com:3000/blogs/the-evolution-of-contexts-in-apache-spark";
+  this.page.identifier = 'blog-1';
+  this.page.title = 'The Evolution of Contexts in Apache Spark'; 
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://binaryscripts.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+</div>
+
+		<div class="spacer"></div>
+		<footer class="footer fixed-bottom">
+			<div class="container">
+				<ul class="list-inline d-flex justify-content-center">
+				</ul>
+			</div>
+		</footer>
+	</body>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-66415800-8', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 200,
+			duration: 600,
+			easing: 'ease-in-sine',
+			delay: 100,
+		});
+	</script>
+</html>
