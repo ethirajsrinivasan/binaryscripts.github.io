@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>A Deep Dive into Apache Hive&#39;s Orchestration</title>
+		<meta name="description" content="In Big Data, Apache Hive emerges as a conductor, orchestrating a symphony of components to transform raw data into actionable insights. This article explains the intricate architecture of Hive, where the virtuosos - Hive Driver, Compiler, Optimizer, Thrift Server, and Clients - harmonize to give seamless big data processing."/>
+		<meta property="og:image" content="https://images.unsplash.com/photo-1551696785-927d4ac2d35b?q=80&amp;w=2940&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../assets/application-ec816bccda848783beb46c6fccbb0faa297eddc1e2f7355c14dd909bf8165745.css" media="screen" />
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<script src="../assets/application-802f9fc6b464e394ae64db61e6b0de8cf5f1e9f73e6e5675b06d076f0e16d3c6.js" data-turbolinks-track="true"></script>
+		<link rel="icon" type="image/x-icon" href="../assets/favicon-9a8d7f763d789ea35674c985ef926a6464ff2412a7614f7f8c816965cc1a798d.ico" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8495931515801704"
+     crossorigin="anonymous"></script>
+	</head>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S8HN948EZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8HN948EZZ');
+</script>
+	<body class="blog_body" data-spy="scroll" data-target="#navbar-scrollspy" data-offset="200">
+		<section class="cover text-center" style="background-image: url(https://images.unsplash.com/photo-1551696785-927d4ac2d35b?q=80&amp;w=2940&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)">
+			<nav class="navbar navbar-expand-lg navbar-trans navbar-light">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="../index.html"><strong><img src="../assets/favicon-9a8d7f763d789ea35674c985ef926a6464ff2412a7614f7f8c816965cc1a798d.jpg" width="30" height="30"></strong></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav ms-auto">
+						</div>
+					</div>
+				</div>
+			</nav>
+		</section>
+		<br>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><div id="file" class="md" data-path="Deep Dive into Apache Hive.md"><article class="markdown-body entry-content container-lg" itemprop="text"><h3 dir="auto">
+<a id="user-content-navigating-the-data-symphony-a-deep-dive-into-apache-hives-orchestration" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#navigating-the-data-symphony-a-deep-dive-into-apache-hives-orchestration" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Navigating the Data Symphony: A Deep Dive into Apache Hive's Orchestration</h3>
+<p dir="auto">In Big Data, Apache Hive emerges as a conductor, orchestrating a symphony of components to transform raw data into actionable insights. This article explains the intricate architecture of Hive, where the virtuosos - Hive Driver, Compiler, Optimizer, Thrift Server, and Clients - harmonize to give seamless big data processing.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="../assets/github_299375666-21452a4b-396d-4852-8f87-ae9ebeb136b8.png" src="/assets/github_299375666-21452a4b-396d-4852-8f87-ae9ebeb136b8.png"><div class="text-center"><img src="../assets/github_299375666-21452a4b-396d-4852-8f87-ae9ebeb136b8.png" alt="image" style="max-width: 100%;" href="../assets/github_299375666-21452a4b-396d-4852-8f87-ae9ebeb136b8.png"></div></a></p>
+<blockquote>
+<p dir="auto">Hive Architecture</p>
+</blockquote>
+<h4 dir="auto">
+<a id="user-content-the-collaborators-hiveclients" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#the-collaborators-hiveclients" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Collaborators: Hive Clients</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6acf64a7cacfc81ee7dc796395ad6b8b833f9855c6c40c59c62ab40c5352c69c/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313535363438343638372d3330363336313634363338623f713d383026773d32383734266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344"><div class="text-center"><img src="https://camo.githubusercontent.com/6acf64a7cacfc81ee7dc796395ad6b8b833f9855c6c40c59c62ab40c5352c69c/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313535363438343638372d3330363336313634363338623f713d383026773d32383734266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344" alt="Collaborators" data-canonical-src="https://images.unsplash.com/photo-1556484687-30636164638b?q=80&amp;w=2874&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="max-width: 100%;"></div></a></p>
+<blockquote>
+<p dir="auto">Photo by Clay Banks on Unsplash</p>
+</blockquote>
+<p dir="auto">The symphony of processing begins with a diverse ensemble of Hive Clients. These versatile messengers are fluent in various programming languages and bring user queries to the Thrift server. The three distinct messengers are the Thift Clients, JDBC Clients, and ODBC Clients - each adding its own note to the harmonious interaction between users and Apache Hive</p>
+<h4 dir="auto">
+<a id="user-content-the-maestro-hive-thriftserver" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#the-maestro-hive-thriftserver" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Maestro: Hive Thrift Server</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ee1d2a89e6ab30d471bdea9c6ceef6c6c4ff281597a2c4475e57523aaab6ee51/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313535383534313936362d6431303731663733323962643f713d383026773d32383333266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344"><div class="text-center"><img src="https://camo.githubusercontent.com/ee1d2a89e6ab30d471bdea9c6ceef6c6c4ff281597a2c4475e57523aaab6ee51/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313535383534313936362d6431303731663733323962643f713d383026773d32383333266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344" alt="Maestro" data-canonical-src="https://images.unsplash.com/photo-1558541966-d1071f7329bd?q=80&amp;w=2833&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="max-width: 100%;"></div></a></p>
+<blockquote>
+<p dir="auto">Photo by Kristina Paparo on Unsplash</p>
+</blockquote>
+<p dir="auto">At the center of the ensemble is the Hive Thrift Server, which facilitates communication between the client and Hive services. Imagine it to be the maestro guiding different instruments to play in unison.</p>
+<ul dir="auto">
+<li>The Thrift server is built on top of Apache thrift protocol, which overcomes language barriers. It supports clients in Java, Python, C++, Ruby, and more, to communicate seamlessly with Hive.</li>
+<li>It supports concurrent requests supporting multiple clients more like the symphony playing without an interruption.</li>
+<li>With the advent of Hive Server 2, it supports open API clients like JDBC and ODBC.</li>
+</ul>
+<h4 dir="auto">
+<a id="user-content-the-maestros-baton-hivedriver" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#the-maestros-baton-hivedriver" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Maestro's Baton: Hive Driver</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/292e2661397246a6af46922259bc542be31fbb03e4e5c004bda982e880b18a62/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313639393532313337363932332d6230373535306136313366303f713d383026773d32393430266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344"><div class="text-center"><img src="https://camo.githubusercontent.com/292e2661397246a6af46922259bc542be31fbb03e4e5c004bda982e880b18a62/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313639393532313337363932332d6230373535306136313366303f713d383026773d32393430266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344" alt="Maestro's Baton" data-canonical-src="https://images.unsplash.com/photo-1699521376923-b07550a613f0?q=80&amp;w=2940&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="max-width: 100%;"></div></a></p>
+<blockquote>
+<p dir="auto">Photo by Alex Cooper on Unsplash</p>
+</blockquote>
+<ul dir="auto">
+<li>
+<strong>Query Compilation and Session Handling</strong>: The Hive driver initiates the compilation process transforming user queries into a series of executable tasks. It also manages sessions isolating each query.</li>
+<li>
+<strong>Execution Initiation and Task Coordination</strong>: The driver takes charge once the execution plan is ready and initiates executions and coordinates the tasks on the Hadoop Cluster. It acts as the orchestra conductor, ensuring a synchronized performance.</li>
+</ul>
+<h4 dir="auto">
+<a id="user-content-the-composer-hivecompiler" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#the-composer-hivecompiler" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Composer: Hive Compiler</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3018287aa32df026cb4396bd423d06a5f60b2f17f1a70cd55a0767a9b661e13b/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313531303237393431303433312d3264303830386436396266383f713d383026773d32393430266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344"><div class="text-center"><img src="https://camo.githubusercontent.com/3018287aa32df026cb4396bd423d06a5f60b2f17f1a70cd55a0767a9b661e13b/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313531303237393431303433312d3264303830386436396266383f713d383026773d32393430266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344" alt="Composer" data-canonical-src="https://images.unsplash.com/photo-1510279410431-2d0808d69bf8?q=80&amp;w=2940&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="max-width: 100%;"></div></a></p>
+<blockquote>
+<p dir="auto">Photo by James Owen on Unsplash</p>
+</blockquote>
+<ul dir="auto">
+<li>
+<strong>Query Parsing and Semantic Analysis</strong>: The compiler parses HiveQL queries with correct syntax and performs semantic analysis by validating against Hive Metastore rules.</li>
+<li>
+<strong>Execution Plan Generation and Optimization Strategies</strong>: Crafts an execution plan as a Directed Acyclic Graph (DAG) and identifies basic optimization opportunities while leaving the complex optimization to the next performer - The Optimizer</li>
+</ul>
+<h4 dir="auto">
+<a id="user-content-the-repository-metastore" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#the-repository-metastore" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Repository: Metastore</h4>
+<ul dir="auto">
+<li>
+<strong>The MetaData Storage</strong>: The Metastore acts as the repository of knowledge. It stores metadata about table structures, partitions, columns, serializers, and deserializers. Implemented as a Relational Database, it provides a Thrift interface for querying and manipulating Hive metadata</li>
+<li>
+<strong>Configuration Modes</strong>: In the remote mode, it operates as a Thrift service, ideal for non-Java applications, and in the embedded mode it allows direct interaction with the Metastore using JDBC, ideal for Java applications</li>
+</ul>
+<h4 dir="auto">
+<a id="user-content-the-virtuoso-optimizer" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#the-virtuoso-optimizer" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Virtuoso: Optimizer</h4>
+<ul dir="auto">
+<li>
+<strong>Optimization Strategies</strong>: The optimizer refines the execution plan with strategies like predicate pushdown, cost-based optimization, and task parallelization for improved efficiency</li>
+<li>
+<strong>Integration with Execution Engine</strong>: The optimizer submits the plan to the execution engine which further translates the logical plan into actionable tasks on the Hadoop cluster.</li>
+</ul>
+<h4 dir="auto">
+<a id="user-content-the-powerhouse-execution-engine" class="anchor" aria-hidden="true" tabindex="-1" href="a-deep-dive-into-apache-hive-s-orchestration.html#the-powerhouse-execution-engine" target="_blank"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The Powerhouse: Execution Engine</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/733ad8c5deec35a9986e39f47865f821d0bcf373b86af9dd870fdd6828290822/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313438363236323731353631392d3637623835653062303864333f713d383026773d32383332266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344"><div class="text-center"><img src="https://camo.githubusercontent.com/733ad8c5deec35a9986e39f47865f821d0bcf373b86af9dd870fdd6828290822/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313438363236323731353631392d3637623835653062303864333f713d383026773d32383332266175746f3d666f726d6174266669743d63726f702669786c69623d72622d342e302e3326697869643d4d3377784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878386641253344253344" alt="The Powerhouse" data-canonical-src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&amp;w=2832&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="max-width: 100%;"></div></a></p>
+<blockquote>
+<p dir="auto">Photo by Chad Kirchoff on Unsplash</p>
+</blockquote>
+<ul dir="auto">
+<li>
+<strong>Seamless Integration and Task Execution</strong>: The execution engine seamlessly integrates with Hadoop, leveraging its distributed processing capabilities and it adapts to various execution frameworks like MapReduce and Tez, ensuring optimal performance for diverse queries. The engine translates logical execution plans into tasks and ensures orderly execution for data integrity and coherence.</li>
+<li>
+<strong>Optimization and Efficiency</strong>: The execution engine executes the optimized execution plan crafted by the optimizer. The execution engine evaluates the expense of different operations within the plan and selects the most cost-effective path saving the resources. The execution engine utilizes a deserializer associated with tables and reads the rows directly from HDFS Files. Once the output is generated, it is stored in temporary HDFS Files through serilizers which serve as intermediates in the next stage-finally giving back the results to the client as required.</li>
+</ul>
+<p dir="auto">Users cast queries like musical notes and Apache Hive, conducted by the dance of components - the Thrift Server, Driver, Compiler, Optimizer, Metastore, and Execution engine, bringing their data aspirations to life in the dynamic landscape of big data.</p>
+</article></div></body></html>
+
+    </div>
+  </div>
+  <br>
+  <div class="row justify-content-center">
+    <h6 class="text-center">&#x2022;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2022;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2022;</h6>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="float-end mt-4">
+        <div class="project_nav_link">The Evolution of Contexts in Apache Spark</div>
+        <a href="the-evolution-of-contexts-in-apache-spark.html">Next Blog &rarr; </a>
+      </div>
+    </div>
+  </div>
+  <div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+var disqus_config = function () {
+  this.shortname = "binaryscripts";
+  this.page.url = "http://binaryscripts.com/blogs/a-deep-dive-into-apache-hive-s-orchestration";
+  this.page.identifier = 'blog-2';
+  this.page.title = 'A Deep Dive into Apache Hive&#39;s Orchestration'; 
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://binaryscripts.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+</div>
+
+		<div class="spacer"></div>
+		<footer class="footer">
+			<div class="container">
+				<br>
+				<div class="row justify-content-center"><div class="col text-center"><small>© 2024 BinaryScripts. All rights reserved.</small></div></div>
+				<ul class="list-inline d-flex justify-content-center">
+				</ul>
+			</div>
+		</footer>
+	</body>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT73T3BZRH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZT73T3BZRH');
+</script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			offset: 200,
+			duration: 600,
+			easing: 'ease-in-sine',
+			delay: 100,
+		});
+	</script>
+</html>

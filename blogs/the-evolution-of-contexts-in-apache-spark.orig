@@ -177,6 +177,10 @@ spark = SparkSession.builder.appName("MyApp").enableHiveSupport().getOrCreate()'
   </div>
   <div class="row">
     <div class="col">
+      <div class="float-start mt-4">
+        <div class="project_nav_link">A Deep Dive into Apache Hive&#39;s Orchestration</div>
+        <a href="/blogs/a-deep-dive-into-apache-hive-s-orchestration">&larr; Previous Blog</a>
+      </div>
     </div>
   </div>
   <div id="disqus_thread"></div>
