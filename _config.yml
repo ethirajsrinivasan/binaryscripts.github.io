@@ -50,7 +50,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Discover code, build solutions, and unlock innovation with BinaryScripts.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://binaryscripts.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://binaryscripts.com" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
