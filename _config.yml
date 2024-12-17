@@ -217,8 +217,8 @@ sitemap: true
 #     color: "#bbb"
 
 # Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
+disqus:
+  shortname: "ethirajsrinivasan"
 
 # Gitment comments
 # gitment:
