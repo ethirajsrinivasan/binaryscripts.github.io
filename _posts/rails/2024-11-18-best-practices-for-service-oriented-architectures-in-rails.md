@@ -2,7 +2,7 @@
 layout: post
 title: Best Practices for Service-Oriented Architectures in Rails  
 subtitle: Learn how to design scalable and maintainable service-oriented architectures in Ruby on Rails.  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "SOA", "Microservices", "API Design", "Scalability"]  
 excerpt: Discover the best practices for building Service-Oriented Architectures (SOA) in Rails applications, including API design, service isolation, authentication, and inter-service communication.  
 ---

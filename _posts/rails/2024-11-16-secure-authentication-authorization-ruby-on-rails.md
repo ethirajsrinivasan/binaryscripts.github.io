@@ -2,7 +2,7 @@
 layout: "post"
 title: "Secure Authentication and Authorization with Ruby on Rails"
 subtitle: "A comprehensive guide to building secure login systems and role-based access control in Rails"
-categories: Ruby on Rails
+categories: Rails
 tags: ["Ruby on Rails", "Authentication", "Authorization", "Devise", "Security", "Web Development"]
 excerpt: "Learn how to implement secure authentication and authorization mechanisms in Ruby on Rails applications using best practices, tools like Devise, and role-based access control."
 ---

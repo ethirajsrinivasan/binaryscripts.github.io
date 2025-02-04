@@ -2,7 +2,7 @@
 layout: post  
 title: The Role of Observables in Rails Development  
 subtitle: Discover how observables can enhance your Rails applications by enabling reactive programming and efficient data management.  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "Observables", "Reactive Programming", "JavaScript", "Event-Driven"]  
 excerpt: Learn how to integrate observables into your Rails applications for better handling of asynchronous operations and dynamic updates.  
 ---

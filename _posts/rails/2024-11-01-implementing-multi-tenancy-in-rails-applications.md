@@ -2,7 +2,7 @@
 layout: post
 title: Implementing Multi-Tenancy in Rails Applications for Scalable SaaS
 subtitle: A deep dive into multi-tenant architectures in Ruby on Rails and their practical implementation
-categories: Ruby on Rails
+categories: Rails
 tags: ["Rails", "Multi-Tenancy", "SaaS", "PostgreSQL", "Software Architecture"]
 excerpt: Learn how to implement multi-tenancy in Rails applications using schema-based and row-based strategies for scalable SaaS platforms.
 ---

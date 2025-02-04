@@ -2,7 +2,7 @@
 layout: "post"
 title: "Architecting Microservices Using Ruby on Rails"
 subtitle: "A technical guide to building scalable microservices architecture with Ruby on Rails"
-categories: Ruby on Rails
+categories: Rails
 tags: ["Ruby on Rails", "Microservices", "Software Architecture", "API Design", "Scalability", "Service-Oriented Architecture"]
 excerpt: "Learn how to design, build, and optimize scalable microservices using Ruby on Rails. Dive into best practices, tools, and strategies for service-oriented architectures."
 ---

@@ -2,7 +2,7 @@
 layout: "post"
 title: "Rails and Elasticsearch: Advanced Search Integration"
 subtitle: "Enhance your Ruby on Rails application's search functionality with Elasticsearch for high-performance indexing and querying."
-categories: Ruby on Rails
+categories: Rails
 tags: ["Rails", "Elasticsearch", "Full-Text Search", "Search Optimization", "Performance Tuning", "Active Record"]
 excerpt: "Learn how to integrate Elasticsearch with Ruby on Rails to build a scalable and efficient search system with advanced query capabilities."
 ---

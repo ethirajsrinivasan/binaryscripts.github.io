@@ -2,7 +2,7 @@
 layout: post  
 title: Exploring Rails ActiveStorage for Managing Media Files  
 subtitle: Learn how to efficiently handle file uploads in Rails using ActiveStorage  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "ActiveStorage", "File Uploads", "Cloud Storage", "Image Processing"]  
 excerpt: A deep dive into Rails ActiveStorage, covering file uploads, cloud storage integration, and performance optimizations for managing media files.  
 ---

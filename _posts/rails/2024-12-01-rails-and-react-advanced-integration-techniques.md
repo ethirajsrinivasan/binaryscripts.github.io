@@ -2,7 +2,7 @@
 layout: post  
 title: Rails and React Advanced Integration Techniques  
 subtitle: Master advanced techniques for seamlessly integrating React with Ruby on Rails  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "React", "API", "Frontend", "Integration", "Scalability"]  
 excerpt: Learn advanced methods to integrate React with Rails, optimize performance, and structure your application for scalability and maintainability.  
 ---

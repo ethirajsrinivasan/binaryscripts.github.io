@@ -2,7 +2,7 @@
 layout: post  
 title: Designing Workflow Engines in Rails Applications  
 subtitle: Learn how to design efficient and scalable workflow engines in your Ruby on Rails applications.  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "Workflow Engine", "State Machine", "Automation", "Ruby"]  
 excerpt: Discover best practices for designing workflow engines in Ruby on Rails applications to streamline processes, improve automation, and enhance efficiency.  
 ---

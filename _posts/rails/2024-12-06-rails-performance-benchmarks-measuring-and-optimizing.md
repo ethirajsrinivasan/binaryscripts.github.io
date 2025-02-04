@@ -2,7 +2,7 @@
 layout: post  
 title: Rails Performance Benchmarks Measuring and Optimizing  
 subtitle: Learn how to measure, analyze, and optimize Ruby on Rails performance with benchmarking techniques  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "Performance", "Benchmarking", "Optimization", "Scalability"]  
 excerpt: Discover essential benchmarking tools and optimization strategies to enhance Ruby on Rails performance, reduce load times, and scale efficiently.  
 ---

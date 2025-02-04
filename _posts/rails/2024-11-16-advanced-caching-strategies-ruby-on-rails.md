@@ -2,7 +2,7 @@
 layout: "post"
 title: "Advanced Caching Strategies in Ruby on Rails for High Performance"
 subtitle: "Boost your Rails app’s performance with cutting-edge caching techniques"
-categories: Ruby on Rails
+categories: Rails
 tags: ["Ruby on Rails", "Caching", "Performance Optimization", "Redis", "Memcached", "Fragment Caching", "Cache Invalidation"]
 excerpt: "Discover advanced caching strategies in Ruby on Rails to enhance your application's speed and efficiency while maintaining scalability."
 ---

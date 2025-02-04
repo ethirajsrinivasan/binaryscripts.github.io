@@ -2,7 +2,7 @@
 layout: "post"
 title: "Real-World Use Cases of Ruby on Rails Engines"
 subtitle: "How Ruby on Rails Engines Enhance Modular Development and Code Reusability"
-categories: Ruby on Rails
+categories: Rails
 tags: ["Ruby on Rails", "Rails Engines", "Modular Development", "Microservices", "Code Reusability"]
 excerpt: "Discover how Ruby on Rails Engines are used in real-world applications to build modular, reusable, and scalable architectures. Explore practical examples from e-commerce, SaaS, and enterprise applications."
 ---

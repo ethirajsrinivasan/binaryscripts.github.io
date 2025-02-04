@@ -2,7 +2,7 @@
 layout: post
 title: Using Rails with NoSQL Databases for Scalability - A Practical Guide
 subtitle: Learn how to integrate NoSQL databases like MongoDB, Redis, and Cassandra with Ruby on Rails for high-performance and scalable applications
-categories: Ruby on Rails
+categories: Rails
 tags: ["Rails", "NoSQL", "MongoDB", "Redis", "Scalability", "Big Data"]
 excerpt: Discover how NoSQL databases like MongoDB, Redis, and Cassandra can improve the scalability and performance of Rails applications. Learn integration techniques, best practices, and real-world use cases.
 ---

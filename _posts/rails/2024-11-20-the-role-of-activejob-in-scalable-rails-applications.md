@@ -2,7 +2,7 @@
 layout: post  
 title: The Role of ActiveJob in Scalable Rails Applications  
 subtitle: Learn how ActiveJob helps scale background processing in Ruby on Rails applications.  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "ActiveJob", "Background Jobs", "Scalability", "Sidekiq"]  
 excerpt: Discover how ActiveJob enables scalable background processing in Ruby on Rails, covering job execution strategies, queue management, retries, and integration with Sidekiq and Resque.  
 ---

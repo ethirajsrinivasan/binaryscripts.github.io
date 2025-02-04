@@ -2,7 +2,7 @@
 layout: post  
 title: Using Rails for IoT Data Processing Pipelines  
 subtitle: Learn how to leverage Ruby on Rails for building scalable IoT data processing pipelines and managing data streams.  
-categories: Ruby on Rails  
+categories: Rails  
 tags: ["Rails", "IoT", "Data Pipelines", "Data Streaming", "Big Data"]  
 excerpt: Discover how to utilize Ruby on Rails to build efficient and scalable data processing pipelines for IoT applications, processing sensor data and integrating with real-time systems.  
 ---
