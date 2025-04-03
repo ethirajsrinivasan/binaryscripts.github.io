@@ -9,7 +9,7 @@ excerpt_image: "https://images.unsplash.com/photo-1485796826113-174aa68fd81b"
 ---
 ![banner](https://images.unsplash.com/photo-1485796826113-174aa68fd81b)
 
-## Introduction
+
 
 Apache Spark MLlib is a robust library for scalable machine learning (ML) on big data. Designed for distributed processing, MLlib provides tools for feature engineering, model training, evaluation, and deployment. This blog explores how to build scalable ML pipelines with MLlib, ensuring efficiency and reproducibility for large datasets.
 

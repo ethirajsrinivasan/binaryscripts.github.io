@@ -7,7 +7,7 @@ tags: ["Rails", "ActiveJob", "Background Jobs", "Scalability", "Sidekiq"]
 excerpt: Discover how ActiveJob enables scalable background processing in Ruby on Rails, covering job execution strategies, queue management, retries, and integration with Sidekiq and Resque.  
 ---
 
-#### **Introduction**
+
 As Rails applications scale, **handling background jobs efficiently** becomes crucial. From processing emails to managing API calls and large data operations, ActiveJob provides a **unified interface** to interact with various background job frameworks like **Sidekiq, Resque, and Delayed Job**.
 
 In this guide, we will explore:  

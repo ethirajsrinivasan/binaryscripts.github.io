@@ -7,7 +7,7 @@ tags: ["Rails Performance", "Memory Leaks", "Garbage Collection", "Optimization"
 excerpt: Learn how to detect, debug, and fix memory issues in Rails applications using profiling tools, garbage collection tuning, and best practices.
 ---
 
-#### **Introduction**
+
 **Memory issues** can cripple a Ruby on Rails application, causing **slow performance, unexpected crashes, and high server costs**. Common symptoms include:
 
 ❌ Increasing **memory usage over time**  

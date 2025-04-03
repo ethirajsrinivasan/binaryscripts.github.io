@@ -7,7 +7,7 @@ tags: ["Flask", "GraphQL", "API", "Python", "Web Development", "Graphene"]
 excerpt: "Discover how to use Flask with GraphQL to create powerful APIs. Learn about Graphene, schema design, query handling, and optimizations."
 ---
 
-## Introduction
+
 
 REST APIs have been the standard for web development, but **GraphQL offers a more flexible alternative**. Unlike REST, GraphQL allows **clients to request only the data they need**, reducing over-fetching and under-fetching issues.
 

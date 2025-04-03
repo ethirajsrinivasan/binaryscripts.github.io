@@ -7,7 +7,7 @@ tags: ["Rails", "ActiveRecord", "Performance Optimization", "Database", "N+1 Que
 excerpt: Learn how to detect, debug, and fix N+1 query problems in Ruby on Rails applications using techniques like eager loading, bullet gem, and optimized query structures.  
 ---
 
-#### **Introduction**
+
 One of the most common **performance bottlenecks** in Ruby on Rails applications is the **N+1 query problem**. This issue occurs when Rails executes **multiple unnecessary database queries** instead of fetching related records efficiently.
 
 If left unchecked, N+1 queries can **slow down page loads, increase database load, and degrade user experience**. In this guide, we'll cover:

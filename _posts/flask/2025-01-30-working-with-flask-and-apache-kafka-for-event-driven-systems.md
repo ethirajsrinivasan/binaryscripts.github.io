@@ -7,7 +7,7 @@ tags: ["Flask", "Kafka", "Event-Driven Architecture", "Python", "Streaming"]
 excerpt: "Learn how to integrate Flask with Apache Kafka to build scalable event-driven architectures for real-time data processing."
 ---
 
-## Introduction
+
 
 In modern applications, **event-driven architectures** allow systems to be **asynchronous, scalable, and resilient**. One of the most popular tools for handling event-driven workflows is **Apache Kafka**, which enables real-time data streaming and event processing.
 

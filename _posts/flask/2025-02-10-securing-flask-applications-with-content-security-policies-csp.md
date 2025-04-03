@@ -7,7 +7,7 @@ tags: ["Flask", "Security", "CSP", "XSS Prevention", "Web Security", "Secure Hea
 excerpt: "Learn how to protect your Flask applications from cross-site scripting (XSS) attacks by implementing a robust Content Security Policy (CSP) with Flask-Talisman and custom configurations."
 ---
 
-## Introduction
+
 
 Security is a critical aspect of web development. One of the most effective ways to protect Flask applications from **cross-site scripting (XSS) attacks** is by enforcing a **Content Security Policy (CSP)**. CSP acts as a **browser-level security mechanism** that restricts sources of scripts, styles, and other resources.
 

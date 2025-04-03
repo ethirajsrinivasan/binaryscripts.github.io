@@ -8,7 +8,7 @@ excerpt: Explore the key differences between Apache Spark's Structured Streaming
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"
 ---
 
-### Introduction
+#
 
 Stream processing has become an essential component in modern data engineering, with real-time analytics and event-driven applications gaining popularity. Two of the most widely used frameworks for real-time stream processing are **Apache Spark**'s **Structured Streaming** and **Apache Flink**. Both of these frameworks provide powerful tools for processing high-throughput, low-latency data streams, but they differ in architecture, performance, and use cases.
 

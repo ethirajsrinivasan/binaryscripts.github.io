@@ -7,7 +7,7 @@ tags: ["Python", "AWS Lambda", "Serverless", "Microservices", "Cloud Computing",
 excerpt: "Explore how to build efficient, scalable, and cost-effective microservices using Python and AWS Lambda in a serverless architecture."
 ---
 
-#### Introduction
+
 
 In today’s cloud-driven world, **serverless architectures** are transforming the way applications are built and deployed. **AWS Lambda**, a key serverless compute service, enables developers to run code without managing servers, reducing infrastructure costs while maintaining scalability.
 
@@ -219,7 +219,7 @@ tags: ["Python", "AWS Lambda", "Serverless", "Microservices", "Cloud Computing",
 excerpt: "Explore how to build efficient, scalable, and cost-effective microservices using Python and AWS Lambda in a serverless architecture."
 ---
 
-#### Introduction
+
 
 In today’s cloud-driven world, **serverless architectures** are transforming the way applications are built and deployed. **AWS Lambda**, a key serverless compute service, enables developers to run code without managing servers, reducing infrastructure costs while maintaining scalability.
 

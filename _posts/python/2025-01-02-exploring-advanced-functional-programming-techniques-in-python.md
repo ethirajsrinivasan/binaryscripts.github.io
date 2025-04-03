@@ -7,7 +7,7 @@ tags: ["Python", "Functional Programming", "Higher-Order Functions", "Lambdas", 
 excerpt: "Learn how to leverage advanced functional programming techniques in Python to write concise, expressive, and efficient code."
 ---
 
-## Introduction
+
 
 Functional programming (FP) is a **paradigm** that treats computation as the evaluation of **pure functions** and avoids mutable state. Python supports **FP concepts** like **higher-order functions, function composition, currying, monads, and lazy evaluation**.
 

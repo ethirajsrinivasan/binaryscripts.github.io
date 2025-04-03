@@ -8,7 +8,7 @@ excerpt: This blog post explores how to use Apache Spark MLlib to build efficien
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"
 ---
 
-### Introduction
+#
 
 Recommendation systems have become a crucial part of applications across various industries, from e-commerce to media streaming platforms. Apache Spark MLlib, Spark's machine learning library, provides robust tools for building scalable recommendation systems. In this post, we will explore how to use Spark MLlib to build recommendation systems, focusing on the collaborative filtering algorithm, which is one of the most popular approaches.
 

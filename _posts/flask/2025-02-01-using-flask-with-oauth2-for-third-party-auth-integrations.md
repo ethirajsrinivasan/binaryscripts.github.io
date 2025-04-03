@@ -7,7 +7,7 @@ tags: ["Flask", "OAuth2", "Authentication", "Authorization", "Security", "API", 
 excerpt: "Learn how to integrate OAuth2 authentication in Flask using providers like Google, GitHub, and Facebook. Secure your applications with third-party authentication and protect user data."
 ---
 
-## Introduction
+
 
 OAuth2 is the industry-standard protocol for **secure authentication**. Instead of handling passwords, applications delegate authentication to **trusted providers** like:
 

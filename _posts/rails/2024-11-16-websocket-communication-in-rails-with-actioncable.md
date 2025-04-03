@@ -7,7 +7,7 @@ tags: ["Rails", "WebSockets", "ActionCable", "Real-time", "Broadcasting", "Turbo
 excerpt: "A deep dive into WebSocket communication in Rails using ActionCable, covering setup, channels, broadcasting, and real-world applications."
 ---
 
-## **Introduction**
+
 
 Real-time communication is crucial for modern web applications, whether for **chat apps, live notifications, collaborative editing, or stock market updates**. In Rails, **ActionCable** provides a built-in solution to integrate **WebSockets** seamlessly.
 

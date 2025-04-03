@@ -7,7 +7,7 @@ tags: ["Rails", "Vue.js", "Real-Time Analytics", "WebSockets", "Dashboards"]
 excerpt: Learn how to integrate Ruby on Rails with Vue.js to create real-time analytics dashboards powered by WebSockets and APIs.
 ---
 
-#### **Introduction**
+
 Businesses rely on **real-time analytics dashboards** to track KPIs, monitor performance, and react to data instantly. Combining **Ruby on Rails** for backend data processing with **Vue.js** for interactive UI updates allows us to build **efficient, scalable, and dynamic dashboards**.
 
 In this guide, we’ll cover:  

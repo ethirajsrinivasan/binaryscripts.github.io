@@ -7,7 +7,6 @@ tags: ["Flask", "Tracing", "Microservices", "OpenTelemetry", "Observability"]
 excerpt: "Learn how to implement distributed tracing in Flask using OpenTelemetry to monitor and troubleshoot microservices efficiently."
 ---
 
-## Introduction
 
 In **microservices architectures**, a single request often traverses multiple services, making it challenging to **track performance issues and failures**. **Distributed tracing** provides **end-to-end visibility** into request flows, helping developers **diagnose latency issues and optimize performance**.
 

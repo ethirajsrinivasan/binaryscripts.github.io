@@ -7,7 +7,7 @@ tags: ["Flask", "Celery", "Background Tasks", "Asynchronous Processing", "Python
 excerpt: "Learn how to integrate Celery with Flask for executing long-running tasks asynchronously, improving scalability and performance."
 ---
 
-## Introduction
+
 
 Flask is a lightweight framework for building web applications, but it is **synchronous by default**, meaning requests are processed one at a time. This can be a limitation when handling **long-running tasks** like:
 

@@ -7,7 +7,7 @@ tags: ["Rails", "Logging", "Observability", "Performance Monitoring", "Structure
 excerpt: Learn best practices for logging in Ruby on Rails applications to improve observability, debugging, and performance monitoring.  
 ---
 
-#### **Introduction**
+
 Effective logging is essential for maintaining **observability** in Rails applications. Proper logs help with **debugging, performance monitoring, and security auditing** while ensuring your system remains scalable.
 
 In this guide, we will cover:  

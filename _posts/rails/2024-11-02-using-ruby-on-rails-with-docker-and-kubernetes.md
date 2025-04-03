@@ -7,7 +7,7 @@ tags: ["Rails", "Docker", "Kubernetes", "DevOps", "Containers"]
 excerpt: A step-by-step guide on using Docker to containerize a Ruby on Rails application and deploying it on Kubernetes for scalability and resilience.
 ---
 
-#### **Introduction**
+
 Docker and Kubernetes have revolutionized **application deployment and scalability**.  
 By containerizing Ruby on Rails applications with Docker and deploying them on Kubernetes, we can achieve:
 

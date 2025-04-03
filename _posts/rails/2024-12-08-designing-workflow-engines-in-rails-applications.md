@@ -7,7 +7,7 @@ tags: ["Rails", "Workflow Engine", "State Machine", "Automation", "Ruby"]
 excerpt: Discover best practices for designing workflow engines in Ruby on Rails applications to streamline processes, improve automation, and enhance efficiency.  
 ---
 
-#### **Introduction**
+
 In complex web applications, processes often involve multiple steps that need to be executed in a specific order, with state transitions and conditions to be checked. This is where **workflow engines** come into play. A workflow engine provides a framework for managing business workflows, automating tasks, and ensuring that processes are completed in the correct order.
 
 In this post, we will explore the concept of **workflow engines** in the context of Ruby on Rails applications, including how to design and implement one using Rails' built-in tools and popular gems.

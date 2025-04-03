@@ -7,7 +7,7 @@ tags: ["Flask", "WebSockets", "Real-Time", "Python", "SocketIO", "Microservices"
 excerpt: "Discover how to use Flask with WebSockets to build real-time applications. Learn about Flask-SocketIO, event handling, broadcasting, and performance optimizations."
 ---
 
-## Introduction
+
 
 Traditional HTTP-based applications rely on request-response cycles, making **real-time interactions** challenging. WebSockets solve this problem by providing **full-duplex communication** between clients and servers.
 

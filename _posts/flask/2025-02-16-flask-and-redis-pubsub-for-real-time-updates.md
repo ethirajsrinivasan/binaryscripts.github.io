@@ -7,7 +7,7 @@ tags: ["Flask", "Redis", "Pub/Sub", "WebSockets", "Real-Time", "Streaming"]
 excerpt: "Learn how to integrate Flask with Redis Pub/Sub for real-time messaging and event-driven communication, enabling instant updates and scalable architectures."
 ---
 
-## Introduction
+
 
 Real-time applications are essential for **live notifications, chat applications, and event-driven architectures**. **Flask**, when combined with **Redis Pub/Sub**, enables instant **message broadcasting** and **event handling** without the complexity of traditional WebSocket setups.
 

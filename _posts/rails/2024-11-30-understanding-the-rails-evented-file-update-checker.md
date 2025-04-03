@@ -7,7 +7,7 @@ tags: ["Rails", "Evented File Update Checker", "File Watching", "Performance", "
 excerpt: Learn how Rails' Evented File Update Checker works, how it improves file watching efficiency, and how to configure it for optimal performance.  
 ---
 
-#### **Introduction**
+
 Modern web applications constantly monitor file changes, whether for **code reloads**, **asset compilation**, or **development environment updates**.
 
 Rails achieves this efficiently using the **EventedFileUpdateChecker**, which relies on **OS-level file system notifications** instead of inefficient polling.

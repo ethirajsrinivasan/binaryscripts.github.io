@@ -7,7 +7,7 @@ tags: ["Rails", "DDD", "Software Architecture", "Microservices", "Event-Driven D
 excerpt: A deep dive into implementing Domain-Driven Design (DDD) in Ruby on Rails, covering bounded contexts, aggregates, repositories, and event-driven design for scalable applications.  
 ---
 
-#### **Introduction**
+
 Modern Rails applications require **scalable architectures** to manage complexity, and **Domain-Driven Design (DDD)** offers a structured approach. DDD helps in **aligning business logic with the codebase**, improving **modularity, maintainability, and scalability**.
 
 In this guide, we will explore:

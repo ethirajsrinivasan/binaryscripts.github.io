@@ -7,7 +7,7 @@ tags: ["Rails Migrations", "Database Optimization", "PostgreSQL", "MySQL", "Perf
 excerpt: Learn best practices for handling large-scale Rails database migrations efficiently, avoiding downtime, and ensuring data integrity.
 ---
 
-#### **Introduction**
+
 **How do you apply Rails migrations safely in production on large databases without downtime?**
 
 Rails' **ActiveRecord migrations** make schema changes easy, but as your database grows, migrations can **lock tables, cause slow queries, or even take down production**.
