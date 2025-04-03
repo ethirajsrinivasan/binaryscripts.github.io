@@ -2,7 +2,7 @@
 layout: post  
 title: Advanced ActionMailer Techniques for High-Volume Emails  
 subtitle: Optimize ActionMailer for scalability, performance, and deliverability  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "ActionMailer", "Email Deliverability", "Background Jobs", "SMTP", "SendGrid"]  
 excerpt: Learn advanced ActionMailer techniques for handling high-volume emails efficiently in Rails, including background processing, SMTP optimizations, and monitoring.  
 ---

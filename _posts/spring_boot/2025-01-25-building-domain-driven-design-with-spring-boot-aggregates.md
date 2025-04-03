@@ -2,13 +2,10 @@
 layout: post
 title: Building Domain-Driven Design with Spring Boot Aggregates
 subtitle: Model complex business logic with DDD aggregates and Spring Boot for scalable and maintainable applications
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, DDD, Domain-Driven Design, Aggregates, Architecture, CQRS]
 excerpt: Learn how to apply Domain-Driven Design principles in Spring Boot using aggregates. Build maintainable systems by modeling rich domain logic, enforcing boundaries, and aligning code with business concepts.
 ---
-
-
-
 As systems grow more complex, organizing business logic becomes a serious challenge. **Domain-Driven Design (DDD)** offers a powerful methodology to build **maintainable, modular, and expressive applications** by modeling software around the core business domain.
 
 At the heart of DDD lies the concept of **aggregates**, which group related entities and enforce business invariants. In this guide, you'll learn how to apply DDD in Spring Boot, focusing on implementing and managing **aggregates** effectively in Java-based applications.

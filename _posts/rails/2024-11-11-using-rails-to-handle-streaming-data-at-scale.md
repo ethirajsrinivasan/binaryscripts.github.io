@@ -2,7 +2,7 @@
 layout: post
 title: Using Rails to Handle Streaming Data at Scale
 subtitle: Learn how to process real-time streaming data efficiently using Ruby on Rails.
-categories: Rails
+categories: RubyOnRails
 tags: ["Streaming Data", "Rails Performance", "Kafka", "RabbitMQ", "WebSockets", "Event-Driven"]
 excerpt: Discover strategies for handling large-scale streaming data in Ruby on Rails using WebSockets, Kafka, RabbitMQ, and event-driven architectures.
 ---

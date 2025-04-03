@@ -2,7 +2,7 @@
 layout: post  
 title: Debugging and Fixing N+1 Query Problems in Rails  
 subtitle: Optimize your Rails application by identifying and fixing N+1 query issues efficiently.  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "ActiveRecord", "Performance Optimization", "Database", "N+1 Queries", "Eager Loading"]  
 excerpt: Learn how to detect, debug, and fix N+1 query problems in Ruby on Rails applications using techniques like eager loading, bullet gem, and optimized query structures.  
 ---

@@ -2,13 +2,10 @@
 layout: post
 title: Creating Custom Annotations in Spring Boot for Dynamic Behavior
 subtitle: Build reusable and expressive code with custom annotations in Spring Boot
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, Annotations, AOP, Reflection, Dynamic Behavior, Custom Logic]
 excerpt: Learn how to create and use custom annotations in Spring Boot to add dynamic behavior, enforce cross-cutting concerns, and simplify reusable business logic using AOP and reflection.
 ---
-
-
-
 **Annotations** are a powerful feature in Java and Spring Boot that allow you to add metadata to code, enabling dynamic behavior at runtime. While Spring provides a rich set of annotations like `@Transactional`, `@RestController`, and `@Autowired`, you can go a step further by creating **custom annotations** tailored to your application's needs.
 
 In this post, you'll learn how to:

@@ -2,13 +2,10 @@
 layout: post
 title: Advanced Logging and Monitoring in Spring Boot with Prometheus and Grafana
 subtitle: Implement powerful observability in Spring Boot using Prometheus for metrics and Grafana for real-time visualization
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Prometheus, Grafana, Logging, Monitoring, Observability, Micrometer]
 excerpt: Learn how to implement advanced logging and monitoring in Spring Boot applications using Prometheus and Grafana. Set up metrics, visualize performance, and build real-time dashboards for operational insights.
 ---
-
-
-
 In production systems, having visibility into application behavior is critical. Without effective **monitoring** and **logging**, diagnosing failures or performance issues becomes guesswork.
 
 **Spring Boot**, in combination with **Prometheus** and **Grafana**, provides a robust, open-source toolchain for **observability**. In this article, we’ll walk through setting up **metrics collection**, **custom monitoring**, and **visual dashboards** to track the health and performance of your Spring Boot application in real time.

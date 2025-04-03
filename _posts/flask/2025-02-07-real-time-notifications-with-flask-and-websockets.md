@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "WebSockets", "Real-Time", "Notifications", "Flask-SocketIO", "Python"]
 excerpt: "Discover how to implement a real-time notification system in Flask using WebSockets and Flask-SocketIO for instant data updates and seamless user experience."
 ---
-
-
-
 Traditional HTTP-based web applications rely on **request-response cycles**, meaning users only receive updates when they refresh the page. However, for applications that require **real-time notifications**, such as:
 
 - Chat applications

@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, Immutable Collections, Concurrency, Thread Safety, Functional Programming]
 excerpt: Learn how to use immutable collections in Java to write thread-safe and predictable code. Explore built-in tools from Java 9+, Guava, and functional techniques that reduce concurrency bugs.
 ---
-
-
-
 Managing shared data in multi-threaded applications is hard. Thread-safety bugs like race conditions and visibility issues are notoriously difficult to reproduce and debug.
 
 One of the most powerful strategies to simplify **concurrent programming in Java** is using **immutable collections**. Immutable data structures eliminate the need for synchronization, reduce side effects, and improve code readability and reliability.

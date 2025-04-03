@@ -2,7 +2,7 @@
 layout: post  
 title: Customizing Rails Middleware for Advanced Use Cases  
 subtitle: Learn how to modify and extend Rails middleware for performance, security, and custom processing  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "Middleware", "Performance", "Security", "Customization"]  
 excerpt: Discover how to customize Rails middleware to optimize performance, enhance security, and add custom request processing to your application.  
 ---

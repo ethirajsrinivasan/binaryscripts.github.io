@@ -2,13 +2,10 @@
 layout: post
 title: Integrating Spring Boot with Cassandra for Scalable Data Storage
 subtitle: Build high-performance and scalable applications by integrating Spring Boot with Apache Cassandra
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, Cassandra, NoSQL, Scalable Storage, Database, Distributed Systems]
 excerpt: Learn how to integrate Spring Boot with Apache Cassandra for highly scalable, fault-tolerant data storage. Understand schema modeling, data access, performance tuning, and production best practices.
 ---
-
-
-
 As applications scale and demand real-time performance, traditional relational databases may struggle with write throughput and horizontal scaling. **Apache Cassandra** is a highly scalable, fault-tolerant **NoSQL database** designed for high availability and big data use cases.
 
 In this post, you'll learn how to integrate **Spring Boot with Apache Cassandra** to build cloud-native applications with scalable and resilient data storage. We’ll cover configuration, schema modeling, CRUD operations, performance tips, and real-world production considerations.

@@ -2,13 +2,10 @@
 layout: post
 title: Implementing Multi-Tenancy in Spring Boot Applications
 subtitle: Build scalable, tenant-aware applications with Spring Boot using schema and database separation strategies
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Java, Multi-Tenancy, Hibernate, JPA, SaaS, Architecture]
 excerpt: Learn how to implement multi-tenancy in Spring Boot applications using separate schemas or databases. Explore Hibernate support, tenant resolvers, and design considerations for scalable SaaS systems.
 ---
-
-
-
 **Multi-tenancy** is a key architectural pattern in Software as a Service (SaaS) platforms. It allows a single application instance to serve multiple customers (tenants) while logically isolating their data.
 
 In this post, we’ll explore how to implement **multi-tenancy in Spring Boot** using **Hibernate**, **Spring Data JPA**, and **TenantContext resolution** strategies. We'll cover schema-based and database-based multi-tenancy, tenant identification, and best practices for secure and scalable design.

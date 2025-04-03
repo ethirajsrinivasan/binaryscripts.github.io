@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Elasticsearch", "Search", "Full-Text Search", "Indexing", "Big Data"]
 excerpt: "Learn how to integrate Elasticsearch with Flask to implement advanced search functionalities. This guide covers indexing, querying, and optimizing search performance."
 ---
-
-
-
 Search functionality is a **critical feature** in modern web applications. **Elasticsearch**, a powerful **full-text search engine**, enables fast and scalable search capabilities. In this guide, we will integrate **Flask with Elasticsearch** to build an **advanced search system** with **indexing, querying, and filtering**.
 
 ## Setting Up Elasticsearch

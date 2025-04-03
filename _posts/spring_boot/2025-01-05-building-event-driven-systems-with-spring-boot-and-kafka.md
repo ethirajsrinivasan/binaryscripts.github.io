@@ -2,13 +2,10 @@
 layout: post
 title: Building Event-Driven Systems with Spring Boot and Kafka
 subtitle: Design scalable and reactive systems using Spring Boot and Apache Kafka for event-driven architecture
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, Kafka, Event-Driven, Microservices, Messaging, Architecture]
 excerpt: Learn how to build event-driven systems using Spring Boot and Apache Kafka. This guide covers producers, consumers, event contracts, error handling, and performance tuning for reactive microservices.
 ---
-
-
-
 In modern software architecture, **event-driven systems** have emerged as a powerful approach to building **scalable**, **decoupled**, and **resilient** applications. Rather than relying on synchronous calls, services communicate by emitting and reacting to **events**, leading to more responsive and modular designs.
 
 **Apache Kafka**, paired with **Spring Boot**, provides a high-performance, distributed messaging platform and seamless integration for building event-driven microservices in Java.

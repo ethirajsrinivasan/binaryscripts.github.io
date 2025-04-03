@@ -2,13 +2,10 @@
 layout: post
 title: Advanced Configuration Management in Spring Boot
 subtitle: Manage complex application properties with profiles, external configs, encryption, and centralized config servers
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Configuration, Profiles, Spring Cloud Config, YAML, Encryption]
 excerpt: Learn how to manage complex configuration in Spring Boot using profiles, property injection, YAML, environment variables, and Spring Cloud Config for centralized management.
 ---
-
-
-
 Managing configuration is critical in modern applications. As environments grow more complex — from local development to cloud deployments — applications need flexible, secure, and scalable ways to manage configuration.
 
 Spring Boot excels at **configuration management**, offering support for property files, YAML, profiles, environment variables, command-line arguments, and even externalized configuration services like **Spring Cloud Config**.

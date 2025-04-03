@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Celery", "Task Queue", "Asynchronous Processing", "Python", "Distributed Systems", "Redis"]
 excerpt: "Learn how to integrate Celery with Flask to handle background tasks efficiently. Improve scalability, manage long-running operations, and enhance performance with distributed task queues."
 ---
-
-
-
 Modern web applications often need to process long-running tasks, such as sending emails, processing files, or handling complex computations. **Flask**, being a lightweight framework, is not designed for background task execution. This is where **Celery** comes in—a **powerful distributed task queue** that allows Flask applications to process tasks asynchronously.
 
 In this blog, we will explore **how to integrate Celery with Flask**, optimize task execution, and improve performance using **Redis** as a message broker.

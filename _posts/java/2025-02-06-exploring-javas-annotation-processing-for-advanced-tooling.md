@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, Annotation Processing, Code Generation, APT, Compiler Tools, Reflection]
 excerpt: Learn how to use Java’s annotation processing API to build advanced compile-time tools. Generate source code, perform validation, and enhance your development workflow with custom annotations.
 ---
-
-
-
 Annotations in Java are often used for configuration (like `@Override` or `@Autowired`), but they also power some of the most sophisticated frameworks in the Java ecosystem. What many developers don’t realize is that you can **build your own tools** using Java’s **annotation processing API**.
 
 In this post, we’ll explore how to implement custom annotation processors to **generate code**, **enforce compile-time constraints**, and **enhance developer productivity** — all without runtime overhead.

@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, Reactive Streams, Concurrency, Reactive Programming, Project Reactor, RxJava]
 excerpt: Dive into Java’s Reactive Streams specification to build responsive, resilient, and scalable applications. Learn how publishers, subscribers, and processors work together to enable non-blocking backpressure-driven data flows.
 ---
-
-
-
 Modern applications often need to handle **huge volumes of data** efficiently while maintaining responsiveness and scalability. Whether it's real-time analytics, messaging systems, or stream processing, blocking I/O is no longer viable.
 
 Enter the **Reactive Streams Specification** — a standard API introduced in Java 9 (under `java.util.concurrent.Flow`) that facilitates **asynchronous stream processing with non-blocking backpressure**. In this post, we’ll explore how it works and how to implement it using Project Reactor, RxJava, and other reactive frameworks.

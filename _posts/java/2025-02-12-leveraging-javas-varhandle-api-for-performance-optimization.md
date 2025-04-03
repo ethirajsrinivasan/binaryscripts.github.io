@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, VarHandle, Performance, Concurrency, Memory Access, Unsafe, Low Latency]
 excerpt: Explore the VarHandle API introduced in Java 9 to safely and efficiently access variables at the memory level. Learn how it improves performance in concurrent and low-latency applications as a safer alternative to sun.misc.Unsafe.
 ---
-
-
-
 The Java platform is built on strong memory safety and abstraction. However, for high-performance or low-latency applications, developers often need more control over memory and concurrency than traditional Java constructs offer.
 
 Prior to Java 9, developers used `sun.misc.Unsafe` for low-level operations — but it came with risks and lacked proper access control. Enter **VarHandle**: a modern, type-safe, and modular alternative introduced in Java 9 to enable **fine-grained access to fields, arrays, and buffers**, including **volatile**, **atomic**, and **opaque** memory semantics.

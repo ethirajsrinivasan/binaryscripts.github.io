@@ -2,13 +2,10 @@
 layout: "post"
 title: "Rails and Elasticsearch: Advanced Search Integration"
 subtitle: "Enhance your Ruby on Rails application's search functionality with Elasticsearch for high-performance indexing and querying."
-categories: Rails
+categories: RubyOnRails
 tags: ["Rails", "Elasticsearch", "Full-Text Search", "Search Optimization", "Performance Tuning", "Active Record"]
 excerpt: "Learn how to integrate Elasticsearch with Ruby on Rails to build a scalable and efficient search system with advanced query capabilities."
 ---
-
-
-
 Search functionality is a crucial feature for many web applications, and while traditional SQL-based full-text search can work for small datasets, it **struggles with performance and scalability** as data grows. **Elasticsearch**, a powerful open-source search engine, provides **blazing-fast, full-text search** and **advanced query capabilities**, making it an excellent choice for Rails applications.
 
 In this guide, we will explore:

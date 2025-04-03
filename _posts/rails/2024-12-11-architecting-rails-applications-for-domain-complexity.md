@@ -2,7 +2,7 @@
 layout: post  
 title: Architecting Rails Applications for Domain Complexity  
 subtitle: Learn how to structure Ruby on Rails applications to manage complex business domains effectively  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "Domain-Driven Design", "Architecture", "Complexity", "Best Practices"]  
 excerpt: Discover best practices for architecting Rails applications that can handle domain complexity, ensuring scalability, maintainability, and clear separation of concerns.  
 ---

@@ -2,7 +2,7 @@
 layout: post  
 title: Optimizing Database Indexing in Rails Applications  
 subtitle: Improve database performance in Rails by mastering indexing techniques  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "Database Indexing", "PostgreSQL", "MySQL", "Performance Optimization"]  
 excerpt: Learn how to optimize database indexing in Ruby on Rails applications to improve query performance, reduce load times, and enhance scalability.  
 ---

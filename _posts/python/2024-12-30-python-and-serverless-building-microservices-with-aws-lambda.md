@@ -6,9 +6,6 @@ categories: Python
 tags: ["Python", "AWS Lambda", "Serverless", "Microservices", "Cloud Computing", "API Gateway"]
 excerpt: "Explore how to build efficient, scalable, and cost-effective microservices using Python and AWS Lambda in a serverless architecture."
 ---
-
-
-
 In today’s cloud-driven world, **serverless architectures** are transforming the way applications are built and deployed. **AWS Lambda**, a key serverless compute service, enables developers to run code without managing servers, reducing infrastructure costs while maintaining scalability.
 
 In this guide, we’ll explore how to build **microservices** using **Python and AWS Lambda**, integrate them with **Amazon API Gateway**, and optimize their performance.
@@ -218,9 +215,6 @@ categories: Python
 tags: ["Python", "AWS Lambda", "Serverless", "Microservices", "Cloud Computing", "API Gateway"]
 excerpt: "Explore how to build efficient, scalable, and cost-effective microservices using Python and AWS Lambda in a serverless architecture."
 ---
-
-
-
 In today’s cloud-driven world, **serverless architectures** are transforming the way applications are built and deployed. **AWS Lambda**, a key serverless compute service, enables developers to run code without managing servers, reducing infrastructure costs while maintaining scalability.
 
 In this guide, we’ll explore how to build **microservices** using **Python and AWS Lambda**, integrate them with **Amazon API Gateway**, and optimize their performance.

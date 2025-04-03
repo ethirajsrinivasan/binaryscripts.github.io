@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Multi-Tenancy", "SQLAlchemy", "Database", "Web Development"]
 excerpt: "Learn how to design and implement a multi-tenant architecture in Flask using database isolation and schema-based approaches."
 ---
-
-
-
 Multi-tenancy is a **software architecture pattern** that allows a **single application instance** to serve multiple **customers (tenants)** while keeping their data isolated. In this guide, we'll explore different **multi-tenancy strategies** in Flask, including:
 
 - **Database-per-tenant**

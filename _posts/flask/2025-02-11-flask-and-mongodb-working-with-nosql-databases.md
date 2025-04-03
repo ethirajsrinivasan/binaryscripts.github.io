@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "MongoDB", "NoSQL", "Database", "PyMongo", "API", "CRUD"]
 excerpt: "Explore how to connect Flask with MongoDB, perform CRUD operations, and build a scalable NoSQL-based web application with PyMongo."
 ---
-
-
-
 MongoDB is a **NoSQL database** that offers **scalability, flexibility, and high performance** for modern applications. Unlike relational databases, MongoDB stores data in **JSON-like documents**, making it a great choice for **dynamic applications**.
 
 In this tutorial, we will explore:

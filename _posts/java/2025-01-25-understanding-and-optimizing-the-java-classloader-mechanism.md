@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, ClassLoader, JVM, Performance, Modularity, Classpath]
 excerpt: Explore the internals of the Java ClassLoader mechanism and learn how to optimize it for better modularity, performance, and memory management in large-scale Java applications.
 ---
-
-
-
 One of the most underrated but powerful features of the JVM is its **ClassLoader mechanism**. Every class in Java is loaded into memory using a class loader, and understanding how this works is essential for building **modular, dynamic, and optimized applications**.
 
 In this post, we’ll walk through the fundamentals of the ClassLoader architecture, explore use cases for custom class loaders, and share practical strategies for avoiding memory leaks and classpath conflicts in enterprise-scale Java applications.

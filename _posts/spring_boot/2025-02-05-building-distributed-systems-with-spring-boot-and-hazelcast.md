@@ -2,13 +2,10 @@
 layout: post
 title: Building Distributed Systems with Spring Boot and Hazelcast
 subtitle: Design scalable and resilient distributed systems using Spring Boot and Hazelcast's in-memory data grid
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, Hazelcast, Distributed Systems, Caching, Clustering, Microservices]
 excerpt: Learn how to build scalable distributed systems using Spring Boot and Hazelcast. Explore clustering, in-memory caching, pub-sub messaging, and distributed data structures to build resilient microservices.
 ---
-
-
-
 Modern applications must scale horizontally and provide **high availability**, especially in cloud-native and microservices-based environments. Building such distributed systems often introduces challenges around **state sharing**, **data consistency**, and **coordination**.
 
 This is where **Hazelcast**, an in-memory data grid (IMDG), shines. It enables **data sharing, caching, clustering**, and **distributed computing** — all integrated seamlessly with **Spring Boot**.

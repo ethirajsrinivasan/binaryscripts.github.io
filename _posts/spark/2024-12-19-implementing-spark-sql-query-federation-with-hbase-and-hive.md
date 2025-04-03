@@ -6,9 +6,6 @@ categories: Spark
 tags: ["Apache Spark", "HBase", "Hive", "Big Data", "SQL Query Federation"]
 excerpt: "Discover the power of Spark SQL query federation by combining HBase and Hive to enable unified data access and analytics."
 ---
-
-
-
 As big data environments grow increasingly complex, organizations often face the challenge of integrating disparate data sources. Apache Spark, with its powerful SQL capabilities, enables **query federation**—a method to unify data access across multiple storage systems.
 
 In this blog, we`ll explore how to implement query federation using Spark SQL with **HBase** and **Hive**, creating a seamless bridge between these systems for comprehensive analytics.

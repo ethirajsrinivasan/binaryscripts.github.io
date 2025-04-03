@@ -6,9 +6,6 @@ categories: Python
 tags: ["Python", "AsyncIO", "Aiohttp", "Event-Driven Programming", "Concurrency", "Networking"]
 excerpt: "Learn how to leverage event-driven programming in Python using AsyncIO and Aiohttp to build scalable and high-performance applications."
 ---
-
-
-
 Event-driven programming enables **non-blocking execution**, making applications **responsive and scalable**. Python’s **AsyncIO** and **Aiohttp** provide powerful tools for handling concurrent tasks **efficiently**.
 
 🔹 **Why use event-driven programming?**  

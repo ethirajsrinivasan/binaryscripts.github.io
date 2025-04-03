@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Plugins", "Extensibility", "Python", "Modular Design"]
 excerpt: "Learn how to develop a plugin system in Flask to enable dynamic extensions and modular architecture for scalable applications."
 ---
-
-
-
 Flask is a lightweight framework known for its simplicity and flexibility. However, as applications grow, **maintaining a monolithic codebase can become a challenge**. A **plugin system** allows developers to **extend functionality dynamically** without modifying the core application.
 
 This guide will cover:

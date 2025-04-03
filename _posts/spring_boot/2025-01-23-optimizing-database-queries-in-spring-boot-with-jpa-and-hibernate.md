@@ -2,13 +2,10 @@
 layout: post
 title: Optimizing Database Queries in Spring Boot with JPA and Hibernate
 subtitle: Improve performance and efficiency in Spring Boot apps using advanced JPA and Hibernate query tuning techniques
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, JPA, Hibernate, Database Optimization, Performance, SQL]
 excerpt: Learn how to optimize database queries in Spring Boot applications using JPA and Hibernate. Discover performance tuning techniques including fetch strategies, joins, native queries, and profiling tools.
 ---
-
-
-
 Efficient database interaction is critical for the performance and scalability of modern Spring Boot applications. Poorly tuned queries, excessive joins, and unintentional N+1 problems can lead to latency spikes and resource exhaustion in production environments.
 
 This guide walks you through practical techniques to **optimize database queries using JPA and Hibernate**, helping you minimize overhead and maximize performance without compromising maintainability.

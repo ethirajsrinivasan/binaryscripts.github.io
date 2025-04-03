@@ -2,13 +2,10 @@
 layout: post
 title: Building Asynchronous Applications with Spring Boot and RabbitMQ
 subtitle: Unlock scalable and responsive microservices with Spring Boot and RabbitMQ-based message-driven architecture
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, RabbitMQ, Messaging, Asynchronous, Microservices, Queue]
 excerpt: Learn how to build highly scalable asynchronous applications using Spring Boot and RabbitMQ. Implement message producers, consumers, queues, and retry strategies for robust event-driven systems.
 ---
-
-
-
 Modern systems need to be **responsive**, **resilient**, and **scalable**. One of the best ways to achieve this is by using **asynchronous communication** via messaging queues. In Java applications, **Spring Boot** and **RabbitMQ** form a powerful combination for building **event-driven architectures** and decoupling microservices.
 
 In this post, we’ll explore how to build asynchronous applications using **Spring Boot** and **RabbitMQ**, covering configuration, message producers, consumers, custom listeners, retry policies, and best practices.

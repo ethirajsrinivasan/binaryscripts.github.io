@@ -2,13 +2,10 @@
 layout: post
 title: Spring Boot with Apache Spark for Scalable Data Processing
 subtitle: Combine Spring Boot and Apache Spark to build scalable and maintainable big data processing pipelines
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Apache Spark, Big Data, Java, Data Processing, ETL, Scalability]
 excerpt: Learn how to integrate Spring Boot with Apache Spark to build scalable, real-time or batch data processing applications. Explore job orchestration, SparkSession management, and modular pipeline design.
 ---
-
-
-
 As the volume of data grows, applications need to be equipped with **scalable data processing capabilities**. While Spring Boot excels at building RESTful services and microservices, **Apache Spark** is a powerful engine for distributed computation across big data sets.
 
 Combining the two allows you to build **maintainable, cloud-ready data pipelines** that are easy to monitor, secure, and deploy. In this post, we explore how to **integrate Spring Boot with Apache Spark** to build batch and streaming data processors in Java.

@@ -2,7 +2,7 @@
 layout: post  
 title: Integrating Rails with External APIs Securely  
 subtitle: Learn best practices for securely integrating external APIs in Ruby on Rails applications.  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "API Security", "OAuth", "JWT", "Webhooks"]  
 excerpt: Discover the best practices for securely integrating external APIs in Rails applications, covering authentication methods, rate limiting, error handling, and data validation.  
 ---

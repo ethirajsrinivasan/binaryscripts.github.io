@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, GraphQL, Spring Boot, APIs, Backend, Query Language]
 excerpt: Learn how to build and consume GraphQL APIs in Java using Spring Boot. Discover schema design, resolvers, query execution, and best practices for performance and flexibility.
 ---
-
-
-
 Modern applications demand flexible, client-driven APIs — especially for mobile and complex frontend use cases. **GraphQL** has emerged as a powerful alternative to REST, allowing clients to query only the data they need.
 
 In this post, we’ll explore how to build robust **GraphQL APIs in Java using Spring Boot**. We’ll walk through GraphQL schema definition, resolvers, query execution, and best practices — all with real Java code examples.

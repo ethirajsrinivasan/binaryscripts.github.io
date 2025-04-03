@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, REST, OAuth2, Security, Spring Boot, API Security]
 excerpt: Learn how to secure REST APIs in Java using OAuth2 protocols. Understand token-based authentication, access scopes, and integration with Spring Security for enterprise-grade security.
 ---
-
-
-
 APIs power the modern web — from microservices to mobile backends. But with growing threats and compliance requirements, **security is no longer optional**. OAuth2 has become the de-facto standard for secure API authentication and authorization.
 
 In this guide, we’ll explore how to build and secure REST APIs in Java using **OAuth2**. We’ll cover concepts like access tokens, scopes, client credentials, and how to implement OAuth2 flows using **Spring Boot and Spring Security**.

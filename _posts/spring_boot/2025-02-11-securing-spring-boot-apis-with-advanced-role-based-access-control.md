@@ -2,13 +2,10 @@
 layout: post
 title: Securing Spring Boot APIs with Advanced Role-Based Access Control
 subtitle: Implement fine-grained role-based access control (RBAC) for secure Spring Boot APIs
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Security, RBAC, Access Control, Authorization, Java]
 excerpt: Learn how to secure your Spring Boot APIs using advanced role-based access control (RBAC). This guide covers user roles, authorities, method-level security, dynamic permissions, and integration with JWT.
 ---
-
-
-
 Security isn’t just about authentication — it’s about **who can access what and when**. That’s where **Role-Based Access Control (RBAC)** comes in. By mapping users to roles and restricting access to resources based on those roles, you can design flexible and scalable authorization systems.
 
 In this guide, we’ll explore how to implement **advanced RBAC in Spring Boot** using annotations, custom permission evaluators, and dynamic role hierarchies. You’ll learn how to enforce policies at both API and method levels, and integrate seamlessly with token-based authentication systems like JWT.

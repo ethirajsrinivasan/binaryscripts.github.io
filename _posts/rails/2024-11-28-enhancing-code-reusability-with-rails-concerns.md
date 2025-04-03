@@ -2,7 +2,7 @@
 layout: post  
 title: Enhancing Code Reusability with Rails Concerns  
 subtitle: Write cleaner, modular, and maintainable Rails code using Concerns  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "Concerns", "Code Reusability", "Refactoring", "OOP", "Modular Design"]  
 excerpt: Learn how to enhance code reusability in Rails using Concerns, making your codebase cleaner, more modular, and easier to maintain.  
 ---

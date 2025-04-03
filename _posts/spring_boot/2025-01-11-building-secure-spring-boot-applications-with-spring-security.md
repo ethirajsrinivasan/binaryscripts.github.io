@@ -2,13 +2,10 @@
 layout: post
 title: Building Secure Spring Boot Applications with Spring Security
 subtitle: Secure your Spring Boot apps using authentication, authorization, and modern Spring Security practices
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Java, Spring Security, JWT, OAuth2, Authentication, Authorization]
 excerpt: Learn how to secure your Spring Boot applications using Spring Security. Explore configurations for authentication, role-based access, JWT integration, CSRF protection, and best practices for modern web security.
 ---
-
-
-
 Security is one of the most critical aspects of web application development. Without proper safeguards, your app is vulnerable to unauthorized access, data leaks, and injection attacks. Fortunately, **Spring Security** offers a robust and customizable security framework that integrates seamlessly with **Spring Boot**.
 
 In this post, we’ll explore how to build **secure Spring Boot applications** using Spring Security. We’ll cover authentication, authorization, JWT integration, CSRF protection, custom filters, and essential best practices for modern application security.

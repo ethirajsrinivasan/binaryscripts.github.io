@@ -2,13 +2,10 @@
 layout: post
 title: Building Modular Spring Boot Applications with Spring Data
 subtitle: Architect scalable and maintainable Spring Boot apps with modular design and Spring Data integration
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Java, Spring Data, Microservices, Architecture, Modularity]
 excerpt: Discover how to design modular Spring Boot applications using Spring Data. Learn about layered architecture, domain-driven design, repository patterns, and component-based module separation.
 ---
-
-
-
 As Java applications grow in size and complexity, maintaining a monolithic codebase becomes increasingly challenging. Modularity is the key to building scalable, testable, and maintainable systems — and **Spring Boot**, paired with **Spring Data**, provides an excellent platform to implement it.
 
 In this blog, we’ll explore how to architect **modular Spring Boot applications** by separating responsibilities into distinct, reusable modules. We’ll also demonstrate how to structure your **Spring Data repositories**, entities, and services for clean and decoupled data access.

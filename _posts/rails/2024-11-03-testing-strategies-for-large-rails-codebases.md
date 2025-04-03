@@ -2,7 +2,7 @@
 layout: post
 title: Testing Strategies for Large Rails Codebases - Best Practices for Scalable Applications
 subtitle: Learn essential testing strategies to ensure maintainability and performance in large Ruby on Rails applications
-categories: Rails
+categories: RubyOnRails
 tags: ["Rails", "Testing", "RSpec", "TDD", "CI/CD", "Scalability"]
 excerpt: Discover best practices for testing large Ruby on Rails codebases, covering unit, integration, and performance testing while optimizing for speed and maintainability.
 ---

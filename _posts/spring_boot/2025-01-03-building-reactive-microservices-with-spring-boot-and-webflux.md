@@ -2,13 +2,10 @@
 layout: post
 title: Building Reactive Microservices with Spring Boot and WebFlux
 subtitle: Create scalable and non-blocking microservices using Spring Boot and WebFlux's reactive programming model
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, WebFlux, Reactive, Microservices, Reactor, Non-Blocking IO]
 excerpt: Learn how to build high-performance, non-blocking microservices with Spring Boot and WebFlux. Understand reactive programming principles, Reactor Core, and real-world patterns for reactive service design.
 ---
-
-
-
 As applications scale and workloads increase, traditional thread-per-request models often hit limitations. Reactive programming offers a non-blocking, event-driven alternative that makes better use of system resources under high load.
 
 **Spring WebFlux**, introduced in Spring 5, is a reactive-stack web framework built to support non-blocking I/O. It works on top of **Project Reactor**, enabling Java developers to build **reactive microservices** that are highly scalable and efficient.

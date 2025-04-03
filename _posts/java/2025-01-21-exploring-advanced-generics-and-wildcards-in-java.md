@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, Generics, Wildcards, Type Safety, JVM, Big Data, Apache Spark]
 excerpt: Dive into the advanced concepts of Java generics and wildcards to improve your code's flexibility and maintainability. Learn about bounded types, PECS, type erasure, and how to write type-safe APIs using Java's generic system.
 ---
-
-
-
 Java generics are a cornerstone of the language's type system, enabling developers to write flexible, reusable, and type-safe code. While most developers are familiar with basic generics, **advanced generics and wildcard usage** can be daunting. In this deep dive, we’ll explore the less-traveled paths of Java generics, including **bounded wildcards**, the **PECS principle**, **type erasure**, and **generic method design**.
 
 This article is designed for *intermediate to advanced* Java developers who want to deepen their understanding of generics and improve the **robustness** and **readability** of their code.

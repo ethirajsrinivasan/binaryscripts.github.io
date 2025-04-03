@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "CI/CD", "DevOps", "GitHub Actions", "Docker", "Kubernetes"]
 excerpt: "Learn how to set up a CI/CD pipeline for Flask applications using GitHub Actions, Docker, and Kubernetes to automate testing and deployment."
 ---
-
-
-
 Continuous Integration and Continuous Deployment (**CI/CD**) play a crucial role in modern software development. Automating the testing, building, and deployment process ensures **faster delivery, fewer errors, and improved reliability**.
 
 In this guide, we will explore **how to build a CI/CD pipeline for Flask applications** using:

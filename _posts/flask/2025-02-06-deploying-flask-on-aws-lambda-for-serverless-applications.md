@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "AWS Lambda", "Serverless", "API Gateway", "Zappa", "Python"]
 excerpt: "Learn how to deploy Flask applications on AWS Lambda for serverless, scalable, and cost-efficient API hosting using API Gateway and Zappa."
 ---
-
-
-
 **AWS Lambda** allows developers to run applications without managing servers, making it an excellent choice for **serverless Flask applications**. By integrating **AWS API Gateway**, we can deploy Flask-based APIs in a fully managed, scalable environment.
 
 This guide covers:  

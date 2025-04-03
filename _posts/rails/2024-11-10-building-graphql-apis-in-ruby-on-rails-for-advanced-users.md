@@ -2,7 +2,7 @@
 layout: post
 title: Building GraphQL APIs in Ruby on Rails for Advanced Users
 subtitle: Master GraphQL in Rails with performance optimizations, advanced queries, and real-world best practices.
-categories: Rails
+categories: RubyOnRails
 tags: ["GraphQL", "Rails API", "Performance", "Authorization", "Data Loading"]
 excerpt: Learn how to build scalable, high-performance GraphQL APIs in Ruby on Rails using advanced techniques, including query optimization, authorization, and data loading strategies.
 ---

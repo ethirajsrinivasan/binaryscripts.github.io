@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "JWT", "Authentication", "Authorization", "Security", "REST", "API"]
 excerpt: "Learn how to implement JWT authentication and authorization in Flask to secure your APIs. Understand token-based authentication, role-based access control, and best practices for securing API endpoints."
 ---
-
-
-
 In modern web applications, securing APIs is **critical** to prevent unauthorized access. One of the most effective ways to manage authentication and authorization is using **JWT (JSON Web Tokens)**.
 
 JWT provides a **stateless** way to authenticate users, eliminating the need for session storage while ensuring secure access control. In this blog, we'll cover **how to implement JWT authentication and authorization in Flask**, including **token generation, verification, and role-based access control**.

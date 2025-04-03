@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "AsyncIO", "Asynchronous", "Performance", "Concurrency", "Web Development"]
 excerpt: "Learn how to implement asynchronous processing in Flask using AsyncIO to handle I/O-bound operations efficiently and improve performance in high-load applications."
 ---
-
-
-
 Flask, by default, is **synchronous**, meaning each request blocks execution until completion. This can be **inefficient** for applications handling **long-running or I/O-bound tasks** such as API calls, database queries, or file processing.
 
 By integrating **AsyncIO**, we can achieve **non-blocking execution**, enhancing Flask’s responsiveness and scalability.

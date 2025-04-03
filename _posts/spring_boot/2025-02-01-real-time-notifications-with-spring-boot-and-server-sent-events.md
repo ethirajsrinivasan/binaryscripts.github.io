@@ -2,13 +2,10 @@
 layout: post
 title: Real-Time Notifications with Spring Boot and Server-Sent Events
 subtitle: Build efficient real-time push notifications in Java using Spring Boot and Server-Sent Events
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, SSE, Server-Sent Events, Real-Time, Notifications, Java, WebSockets]
 excerpt: Learn how to implement real-time notifications in Spring Boot applications using Server-Sent Events (SSE). This guide covers streaming data to clients, broadcasting updates, and managing persistent connections.
 ---
-
-
-
 Modern applications are expected to push real-time updates to users — whether it's a chat message, stock price, or system alert. While technologies like **WebSockets** and **polling** exist, **Server-Sent Events (SSE)** offers a simpler, HTTP-based alternative for **one-way streaming from server to client**.
 
 In this post, we’ll explore how to implement **real-time notifications** in a Spring Boot application using SSE. You’ll learn how to stream live events, manage client connections, and broadcast updates with minimal overhead.

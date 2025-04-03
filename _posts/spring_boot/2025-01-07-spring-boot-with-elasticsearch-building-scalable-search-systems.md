@@ -2,13 +2,10 @@
 layout: post
 title: Spring Boot with Elasticsearch Building Scalable Search Systems
 subtitle: Integrate Spring Boot with Elasticsearch to build robust, high-performance search solutions
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, Elasticsearch, Search, Big Data, Indexing]
 excerpt: Learn how to integrate Elasticsearch with Spring Boot to build scalable search systems. Explore indexing strategies, query optimization, and best practices for high-performance applications.
 ---
-
-
-
 Search is a critical feature in modern applications — from e-commerce and content platforms to enterprise portals and analytics dashboards. Integrating **Spring Boot** with **Elasticsearch** enables developers to build scalable, high-performance search systems using the powerful features of both technologies.
 
 This guide walks through setting up Elasticsearch with Spring Boot, defining indices, performing search queries, and optimizing performance for real-world applications.

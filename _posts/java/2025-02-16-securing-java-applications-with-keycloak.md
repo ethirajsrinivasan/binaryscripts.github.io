@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, Keycloak, OAuth2, Authentication, Security, Spring Security, OpenID]
 excerpt: Learn how to secure Java applications using Keycloak. Set up SSO, OAuth2 flows, role-based access control, and JWT validation with Spring Boot and Jakarta EE integration.
 ---
-
-
-
 Security is a critical part of any enterprise application — but implementing authentication and authorization from scratch can be time-consuming and error-prone. **Keycloak** is an open-source identity and access management tool that simplifies user login, role-based access, and integration with OAuth2 and OpenID Connect.
 
 In this post, you’ll learn how to integrate **Keycloak with Java applications** using **Spring Boot**, configure login flows, secure endpoints, and enforce role-based access with minimal effort.

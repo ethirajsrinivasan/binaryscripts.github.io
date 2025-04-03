@@ -2,13 +2,10 @@
 layout: "post"
 title: "Real-World Use Cases of Ruby on Rails Engines"
 subtitle: "How Ruby on Rails Engines Enhance Modular Development and Code Reusability"
-categories: Rails
+categories: RubyOnRails
 tags: ["Ruby on Rails", "Rails Engines", "Modular Development", "Microservices", "Code Reusability"]
 excerpt: "Discover how Ruby on Rails Engines are used in real-world applications to build modular, reusable, and scalable architectures. Explore practical examples from e-commerce, SaaS, and enterprise applications."
 ---
-
-
-
 Ruby on Rails **Engines** provide a way to build modular applications by encapsulating functionality into separate components. They act as **mini Rails applications** that can be embedded into larger projects, making them useful for **code reusability, modularity, and scalability**.
 
 In this guide, we explore **real-world use cases** of Rails Engines, highlighting how they are leveraged in **e-commerce, SaaS platforms, enterprise applications, and multi-tenant architectures**.

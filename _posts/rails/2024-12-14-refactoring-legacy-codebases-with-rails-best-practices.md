@@ -2,7 +2,7 @@
 layout: post  
 title: Refactoring Legacy Codebases with Rails Best Practices  
 subtitle: How to efficiently refactor legacy Rails applications using modern best practices  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Ruby on Rails", "Legacy Code", "Refactoring", "Best Practices", "Software Maintenance"]  
 excerpt: Learn how to refactor legacy Rails codebases effectively by following modern best practices and avoiding common pitfalls.  
 ---

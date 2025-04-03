@@ -2,13 +2,10 @@
 layout: post
 title: Spring Boot and OpenTelemetry for Distributed Tracing
 subtitle: Monitor and trace distributed Java applications using Spring Boot and OpenTelemetry
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, OpenTelemetry, Distributed Tracing, Observability, Java, Microservices]
 excerpt: Learn how to instrument Spring Boot applications with OpenTelemetry for complete distributed tracing. Capture spans, correlate requests across services, and improve observability with ease.
 ---
-
-
-
 Modern systems are composed of **distributed microservices**, often running across different environments, containers, or even cloud providers. When something goes wrong — latency spikes, failed requests, or inconsistent data — pinpointing the root cause can be extremely difficult.
 
 This is where **distributed tracing** shines. With **OpenTelemetry**, the emerging industry standard for observability, you can track the entire lifecycle of a request as it flows through multiple services.

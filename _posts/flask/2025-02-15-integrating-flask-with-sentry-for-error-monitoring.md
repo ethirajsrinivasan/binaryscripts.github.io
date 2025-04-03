@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Sentry", "Error Monitoring", "Logging", "Performance Optimization"]
 excerpt: "Learn how to integrate Sentry with Flask to track errors, debug issues, and optimize application performance in real time."
 ---
-
-
-
 Errors and exceptions in **Flask applications** can be difficult to track, especially in production environments. **Sentry** provides **real-time error tracking, performance monitoring, and debugging tools** to help developers proactively detect and fix issues.
 
 **Why use Sentry in Flask?**

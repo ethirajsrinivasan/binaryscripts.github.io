@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Error Handling in Ruby on Rails  
 subtitle: Learn how to implement robust error handling in Rails applications to improve stability and debugging.  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "Error Handling", "Exceptions", "Logging", "Best Practices"]  
 excerpt: Discover advanced error handling techniques in Ruby on Rails, including custom exceptions, centralized error management, logging, and debugging best practices.  
 ---

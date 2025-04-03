@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "OpenAPI", "API Design", "Swagger", "RESTful APIs"]
 excerpt: "Learn how to integrate OpenAPI into Flask applications to improve API documentation, validation, and standardization using Flask-Swagger and Flask-RESTPlus."
 ---
-
-
-
 **OpenAPI** (formerly known as Swagger) is the industry standard for designing, documenting, and validating **RESTful APIs**. By integrating **OpenAPI with Flask**, developers can:
 
 ✔ **Auto-generate API documentation**  

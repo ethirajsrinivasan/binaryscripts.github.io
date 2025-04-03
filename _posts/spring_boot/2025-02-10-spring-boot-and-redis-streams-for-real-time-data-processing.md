@@ -2,13 +2,10 @@
 layout: post
 title: Spring Boot and Redis Streams for Real-Time Data Processing
 subtitle: Build scalable real-time data processing pipelines with Spring Boot and Redis Streams
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Redis, Redis Streams, Real-Time, Messaging, Data Processing]
 excerpt: Learn how to use Redis Streams with Spring Boot to build real-time data processing systems. Explore producers, consumers, consumer groups, and reliable message delivery patterns.
 ---
-
-
-
 Real-time data processing is a critical component of modern applications. Whether you're handling financial transactions, IoT sensor readings, or event-based logs, you need a messaging system that is fast, reliable, and scalable.
 
 **Redis Streams** is a powerful data structure introduced in Redis 5.0 that supports append-only log semantics with built-in message queues and consumer groups. Combined with **Spring Boot**, you can build **reactive, real-time pipelines** for ingesting, processing, and distributing event data efficiently.

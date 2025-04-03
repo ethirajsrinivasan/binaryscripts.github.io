@@ -6,9 +6,6 @@ categories: Python
 tags: ["Poetry", "Dependency Management", "Python", "Package Management", "Virtual Environments", "Best Practices"]
 excerpt: "Learn how to simplify Python dependency management using Poetry. Discover best practices for project setup, version control, and environment isolation."
 ---
-
-
-
 Managing dependencies in Python projects can be challenging, especially when dealing with version conflicts, virtual environments, and deployment requirements. **Poetry** is a modern dependency management tool that simplifies packaging, virtual environment handling, and publishing. In this guide, we’ll explore how to effectively manage Python project dependencies using Poetry.
 
 ---

@@ -2,13 +2,10 @@
 layout: post
 title: Developing Real-Time Web Applications with Spring Boot and WebSockets
 subtitle: Build responsive real-time applications in Java using Spring Boot and WebSocket integration
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, WebSocket, Real-Time, Java, Messaging, STOMP, SockJS]
 excerpt: Learn how to develop real-time, bidirectional communication in your web apps using Spring Boot and WebSockets. From server setup to message broadcasting and client integration, this guide covers it all.
 ---
-
-
-
 Modern web applications increasingly rely on **real-time capabilities** — live chat, notifications, collaborative editing, and real-time dashboards are now expected features. Traditional HTTP is **request-response** and not ideal for pushing updates from server to client.
 
 **WebSockets** provide full-duplex communication between client and server, enabling low-latency, event-driven architectures. This post explains how to use **Spring Boot and WebSockets** to build real-time web applications in Java.

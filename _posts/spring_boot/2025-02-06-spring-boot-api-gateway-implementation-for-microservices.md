@@ -2,13 +2,10 @@
 layout: post
 title: Spring Boot API Gateway Implementation for Microservices
 subtitle: Implement a secure and efficient API Gateway using Spring Boot and Spring Cloud Gateway
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, API Gateway, Microservices, Spring Cloud, Routing, Security]
 excerpt: Learn how to build a fully functional API Gateway using Spring Boot and Spring Cloud Gateway. Handle routing, filtering, authentication, and resilience in microservice architectures.
 ---
-
-
-
 In a microservices architecture, client requests are typically routed through an **API Gateway**. This central component provides a unified entry point to all backend services, handling responsibilities like **routing**, **security**, **rate limiting**, **logging**, and **load balancing**.
 
 **Spring Cloud Gateway**, built on top of Spring Boot and Project Reactor, offers a powerful, non-blocking API gateway framework that’s easy to integrate into existing Java systems.

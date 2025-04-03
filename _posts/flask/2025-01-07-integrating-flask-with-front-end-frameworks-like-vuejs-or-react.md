@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Vue.js", "React", "Full Stack", "API", "JavaScript", "Python", "Frontend"]
 excerpt: "Learn how to integrate Flask with modern front-end frameworks like Vue.js and React to build seamless full-stack applications. Explore API design, CORS handling, authentication, and deployment strategies."
 ---
-
-
-
 Flask is a powerful backend framework for building APIs, but integrating it with **modern front-end frameworks like Vue.js and React** can be challenging. This guide covers **best practices for API design, handling CORS, authentication, and deployment strategies** to create a seamless full-stack experience.
 
 ## Setting Up the Flask Backend

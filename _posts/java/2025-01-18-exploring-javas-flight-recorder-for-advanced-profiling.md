@@ -6,9 +6,6 @@ categories: Java
 tags: ["Java", "Flight Recorder", "JFR", "Performance Profiling", "JVM Optimization", "Troubleshooting"]
 excerpt: "Java Flight Recorder (JFR) is a powerful profiling tool built into the JVM, offering low-overhead performance monitoring and deep insights into application behavior. Learn how to use JFR effectively for advanced debugging and performance tuning."
 ---
-
-
-
 Performance optimization is crucial for building scalable, high-performing Java applications. While traditional profiling tools can introduce **significant overhead**, Java provides a **built-in, low-overhead** solution: **Java Flight Recorder (JFR)**.
 
 JFR is a **continuous profiling tool** that collects **detailed runtime metrics**, helping developers **identify bottlenecks, diagnose issues, and fine-tune JVM performance**. In this article, we’ll explore how **JFR works**, how to **enable and configure it**, and how to **analyze performance data effectively**.

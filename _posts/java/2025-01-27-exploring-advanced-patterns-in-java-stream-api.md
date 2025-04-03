@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, Streams, Functional Programming, Lambda, Performance, Stream API]
 excerpt: Go beyond the basics with Java Stream API. Learn advanced patterns like grouping, flatMapping, reduction, and custom collectors to write elegant and performant functional code.
 ---
-
-
-
 Java Streams revolutionized how we work with collections by enabling **functional programming** paradigms. Most developers use `map`, `filter`, and `collect`, but there's much more under the hood. Understanding **advanced Stream patterns** helps you write cleaner, more efficient, and more expressive code.
 
 In this post, we’ll explore sophisticated use cases like **flatMap**, **grouping**, **reductions**, **custom collectors**, and **parallel streams**. Whether you're writing data pipelines or processing large datasets, mastering these patterns will make your code shine.

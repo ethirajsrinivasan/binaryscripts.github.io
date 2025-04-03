@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Prometheus", "Monitoring", "Performance", "Metrics", "DevOps"]
 excerpt: "Discover how to integrate Prometheus with Flask to monitor application performance, track metrics, and optimize API response times."
 ---
-
-
-
 Monitoring is essential for ensuring **optimal performance and reliability** in web applications. **Prometheus**, an open-source monitoring system, provides **powerful metrics collection, querying, and alerting** capabilities.
 
 In this guide, we will explore how to **integrate Prometheus with Flask** to monitor application performance, collect useful metrics, and visualize them with **Grafana**.

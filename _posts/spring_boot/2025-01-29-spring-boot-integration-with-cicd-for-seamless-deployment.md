@@ -2,13 +2,10 @@
 layout: post
 title: Spring Boot Integration with CI/CD for Seamless Deployment
 subtitle: Automate testing, building, and deployment of Spring Boot applications using modern CI/CD pipelines
-categories: Spring Boot
+categories: SpringBoot
 tags: [Java, Spring Boot, CI/CD, DevOps, Jenkins, GitHub Actions, Docker, Deployment]
 excerpt: Learn how to integrate Spring Boot applications with CI/CD pipelines for seamless testing and deployment. Use tools like GitHub Actions, Jenkins, and Docker to automate your software delivery process.
 ---
-
-
-
 Modern software development demands speed, reliability, and automation. Manual deployments are error-prone and slow. The answer? **CI/CD pipelines** that build, test, and deploy your Spring Boot applications seamlessly.
 
 In this guide, you'll learn how to integrate **Spring Boot with CI/CD** using tools like **GitHub Actions**, **Jenkins**, **Docker**, and Kubernetes. We'll cover best practices for building automated pipelines that ensure code quality, reduce downtime, and deliver updates quickly and safely.

@@ -2,13 +2,10 @@
 layout: "post"
 title: "Using GraphQL with Ruby on Rails - An Intermediate Guide"
 subtitle: "Optimize your Ruby on Rails API with GraphQL for better performance and flexibility"
-categories: Rails
+categories: RubyOnRails
 tags: ["GraphQL", "Ruby on Rails", "API Development", "REST vs GraphQL", "Advanced GraphQL"]
 excerpt: "Learn how to integrate and optimize GraphQL with Ruby on Rails. This intermediate guide covers schema design, query optimization, authentication, and advanced GraphQL techniques."
 ---
-
-
-
 GraphQL has revolutionized API development by offering a flexible query language that allows clients to request only the data they need. If you are already familiar with Ruby on Rails and RESTful APIs, this guide will help you integrate GraphQL efficiently and explore advanced techniques like query optimization, authentication, and real-time subscriptions.
 
 ### Why Use GraphQL with Ruby on Rails?

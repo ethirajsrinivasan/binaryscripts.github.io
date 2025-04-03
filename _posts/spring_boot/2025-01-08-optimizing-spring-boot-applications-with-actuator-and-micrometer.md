@@ -2,13 +2,10 @@
 layout: post
 title: Optimizing Spring Boot Applications with Actuator and Micrometer
 subtitle: Use Actuator and Micrometer to monitor, tune, and optimize Spring Boot performance
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Micrometer, Actuator, Monitoring, Performance, Observability]
 excerpt: Discover how to optimize Spring Boot applications using Actuator and Micrometer. Track metrics, monitor health, and improve performance with real-time observability and diagnostics.
 ---
-
-
-
 Performance is a critical factor in modern applications. Whether you're serving millions of requests or running lightweight microservices, understanding how your **Spring Boot application** behaves in real-time is essential for stability and scalability.
 
 Spring Boot provides two powerful tools to address this: **Spring Boot Actuator** and **Micrometer**. Combined, they offer deep insights into your application’s internals and expose metrics in a way that’s ready for modern monitoring tools like Prometheus and Grafana.

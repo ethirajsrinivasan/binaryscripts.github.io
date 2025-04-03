@@ -6,9 +6,6 @@ categories: Python
 tags: ["Python", "Graph Theory", "Network Analysis", "Data Science", "Algorithms", "NetworkX"]
 excerpt: "Learn how to apply graph theory concepts in Python using NetworkX, Graph-tool, and other libraries for network analysis, visualization, and real-world applications."
 ---
-
-
-
 Graph theory is a **fundamental concept in computer science and mathematics**, with applications in **social networks, supply chains, recommendation systems, and biological networks**. Python provides **powerful libraries** like **NetworkX**, **Graph-tool**, and **iGraph** to efficiently work with **graphs, nodes, edges, and algorithms**.
 
 In this guide, we’ll cover:  

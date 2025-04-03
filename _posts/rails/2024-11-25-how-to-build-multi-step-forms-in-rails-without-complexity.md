@@ -2,7 +2,7 @@
 layout: post  
 title: How to Build Multi-Step Forms in Rails Without Complexity  
 subtitle: Create user-friendly multi-step forms in Rails without unnecessary complexity  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "Multi-Step Forms", "Wizards", "Form Handling", "UX"]  
 excerpt: Learn how to build simple and scalable multi-step forms in Rails, improving user experience and data handling while keeping the implementation clean and efficient.  
 ---

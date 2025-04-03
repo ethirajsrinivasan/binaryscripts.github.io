@@ -6,9 +6,6 @@ categories: Spark
 tags: ["Apache Spark", "Tungsten Engine", "Big Data", "Performance Optimization", "Data Engineering"]
 excerpt: "Dive into Spark`s Tungsten Execution Engine and learn how it enhances performance through memory management, code generation, and execution optimization."
 ---
-
-
-
 Apache Spark is renowned for its **fast, in-memory distributed computing**, but its **Tungsten Execution Engine** takes performance to an entirely new level. Introduced in Spark 1.5, Tungsten represents a major leap in optimizing execution, focusing on **memory management**, **code generation**, and **improved query execution**.
 
 In this post, we will explore the architecture of Spark`s Tungsten Engine, understand its components, and learn how it boosts performance in **big data processing workflows**.

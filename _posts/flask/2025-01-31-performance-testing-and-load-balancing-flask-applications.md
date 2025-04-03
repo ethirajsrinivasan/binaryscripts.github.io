@@ -6,9 +6,6 @@ categories: Flask
 tags: ["Flask", "Performance Testing", "Load Balancing", "Gunicorn", "NGINX", "Scaling"]
 excerpt: "Learn how to enhance the performance of Flask applications through benchmarking, profiling, and load balancing techniques using tools like Locust, JMeter, Gunicorn, and NGINX."
 ---
-
-
-
 Flask is a lightweight web framework, but as applications grow, **performance bottlenecks** can arise. To handle increased traffic efficiently, **performance testing** and **load balancing** are essential.
 
 In this guide, you’ll learn:

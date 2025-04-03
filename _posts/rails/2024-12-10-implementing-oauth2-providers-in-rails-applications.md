@@ -2,7 +2,7 @@
 layout: post  
 title: Implementing OAuth2 Providers in Rails Applications  
 subtitle: Learn how to implement OAuth2 authentication providers in Ruby on Rails for secure and scalable integrations  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "OAuth2", "Authentication", "API Security", "OAuth Providers", "Devise"]  
 excerpt: Explore how to implement OAuth2 providers in Ruby on Rails, enabling third-party authentication integrations for your application.  
 ---

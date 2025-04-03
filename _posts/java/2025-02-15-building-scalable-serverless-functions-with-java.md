@@ -6,9 +6,6 @@ categories: Java
 tags: [Java, Serverless, AWS Lambda, GCP Functions, Azure Functions, Scalability]
 excerpt: Learn how to build and deploy serverless functions in Java using AWS Lambda, Azure Functions, and GCP. Optimize cold starts, manage dependencies, and architect event-driven scalable systems.
 ---
-
-
-
 Serverless computing is transforming how we build scalable applications. It abstracts away infrastructure management, allowing developers to focus on **code and business logic**, not provisioning servers.
 
 While Java has traditionally been associated with monolithic apps or microservices, it’s perfectly suited for **serverless architectures** — especially with the latest optimizations in **JVM startup times**, **GraalVM**, and **function-as-a-service (FaaS)** platforms.

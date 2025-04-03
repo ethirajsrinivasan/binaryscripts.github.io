@@ -2,7 +2,7 @@
 layout: post
 title: Advanced Custom Validations in Rails Models
 subtitle: Create powerful and reusable custom validations to enhance data integrity in your Rails applications.
-categories: Rails
+categories: RubyOnRails
 tags: ["Rails", "Custom Validations", "ActiveRecord", "Best Practices", "Data Integrity"]
 excerpt: Learn how to build advanced custom validations in Ruby on Rails models to enforce complex business rules and ensure data integrity.
 ---

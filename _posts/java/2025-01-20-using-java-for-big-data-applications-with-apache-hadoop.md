@@ -6,9 +6,6 @@ categories: Java
 tags: ["Java", "Big Data", "Hadoop", "MapReduce", "HDFS", "YARN", "Distributed Computing"]
 excerpt: "Learn how to use Java for Big Data applications with Apache Hadoop, including MapReduce programming, HDFS interactions, and performance optimizations."
 ---
-
-
-
 Big Data has transformed industries by enabling **large-scale data processing** and **analytics**. At the heart of this revolution is **Apache Hadoop**, a powerful framework for **distributed storage and processing**. Java, being Hadoop’s **native language**, provides seamless integration with its ecosystem, making it an excellent choice for **Big Data application development**.
 
 This article explores **how Java is used in Hadoop applications**, covering **MapReduce programming, HDFS operations, YARN resource management, and performance tuning**.

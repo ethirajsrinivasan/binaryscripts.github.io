@@ -2,7 +2,7 @@
 layout: post  
 title: Using Rails for Advanced Analytics Applications  
 subtitle: A deep dive into how Rails can be leveraged for building robust, scalable analytics applications  
-categories: Rails  
+categories: RubyOnRails  
 tags: ["Rails", "Analytics", "Data Science", "Big Data", "Machine Learning"]  
 excerpt: Learn how to utilize Ruby on Rails for building advanced analytics applications that scale, integrate with big data tools, and support machine learning workflows.  
 ---

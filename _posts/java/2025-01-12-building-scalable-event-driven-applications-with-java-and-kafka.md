@@ -6,9 +6,6 @@ categories: Java
 tags: ["Java", "Kafka", "Event-Driven Architecture", "Microservices", "Streaming", "Scalability"]
 excerpt: "Learn how to build scalable event-driven applications using Java and Apache Kafka. This guide covers architecture, best practices, and performance optimizations."
 ---
-
-
-
 Modern applications demand **real-time data processing, scalability, and high availability**. **Event-driven architecture (EDA)** provides an efficient way to handle asynchronous workflows and **decouple services**.
 
 **Apache Kafka**, a high-throughput distributed event streaming platform, combined with **Java**, is an ideal choice for building **scalable event-driven applications**. In this guide, we'll explore **Kafka’s core concepts, architecture, and implementation strategies** for high-performance event processing.

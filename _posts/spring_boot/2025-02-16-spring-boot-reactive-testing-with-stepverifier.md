@@ -2,13 +2,10 @@
 layout: post
 title: Spring Boot Reactive Testing with StepVerifier
 subtitle: Test reactive streams effectively in Spring Boot using StepVerifier and Project Reactor
-categories: Spring Boot
+categories: SpringBoot
 tags: [Spring Boot, Reactive, WebFlux, Testing, StepVerifier, Project Reactor]
 excerpt: Learn how to test Spring Boot reactive applications with StepVerifier. Validate Mono and Flux streams using assertions, time manipulation, and best practices for non-blocking tests.
 ---
-
-
-
 Reactive programming is revolutionizing how Java applications are built. Spring Boot, with **WebFlux** and **Project Reactor**, allows developers to create fully non-blocking, reactive applications that scale with fewer resources.
 
 But testing reactive code introduces unique challenges. Traditional testing techniques often fail to validate asynchronous, time-sensitive behavior properly. This is where **StepVerifier**, part of the Reactor Test module, becomes essential.
