@@ -3,6 +3,7 @@ layout: post
 title: "Python Debugging Techniques: Advanced Tools and Methods"
 subtitle: "Master debugging in Python with powerful tools like PDB, PySnooper, and memory profilers"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Debugging", "PDB", "Profiling", "Logging", "Error Handling"]
 excerpt: "Learn advanced Python debugging techniques, including breakpoints, logging, profiling, and memory analysis using powerful tools like PDB, PySnooper, and PySpy."
 ---

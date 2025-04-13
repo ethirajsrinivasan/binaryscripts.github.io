@@ -3,6 +3,7 @@ layout: post
 title: Understanding and Optimizing the Java ClassLoader Mechanism
 subtitle: Unpack Java ClassLoader architecture to optimize memory, load time, and modularity
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, ClassLoader, JVM, Performance, Modularity, Classpath]
 excerpt: Explore the internals of the Java ClassLoader mechanism and learn how to optimize it for better modularity, performance, and memory management in large-scale Java applications.
 ---

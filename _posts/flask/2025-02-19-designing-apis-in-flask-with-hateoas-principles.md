@@ -3,6 +3,7 @@ layout: post
 title: "Designing APIs in Flask with HATEOAS Principles"
 subtitle: "Enhance RESTful APIs with HATEOAS for better discoverability and navigation"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "RESTful API", "HATEOAS", "Hypermedia", "API Design"]
 excerpt: "Learn how to implement HATEOAS principles in Flask APIs to improve discoverability, maintainability, and client interactions."
 ---

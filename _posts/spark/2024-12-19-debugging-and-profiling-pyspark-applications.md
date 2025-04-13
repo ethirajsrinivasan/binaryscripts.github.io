@@ -3,6 +3,7 @@ layout: post
 title: "Debugging and Profiling PySpark Applications for Optimization"
 subtitle: "Master techniques for debugging and profiling PySpark applications to achieve optimal performance in distributed environments."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [PySpark, Debugging, Profiling, Big Data, Optimization, Apache Spark]
 excerpt: "Learn how to debug and profile PySpark applications efficiently, using tools and techniques to identify bottlenecks and improve performance in large-scale data processing."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Performance Optimization Strategies for Ruby Applications"
 subtitle: "Boost your Ruby app's efficiency with these advanced optimization techniques."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Performance, Optimization, Ruby, Applications, Techniques]
 excerpt: "Learn how to optimize the performance of Ruby applications using profiling, caching, and advanced Ruby features."
 excerpt_image: "https://images.unsplash.com/photo-1527383418406-f85a3b146499"

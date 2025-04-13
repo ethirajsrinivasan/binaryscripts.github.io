@@ -3,6 +3,7 @@ layout: post
 title: Using Spring Boot with Docker and Kubernetes for Scalable Deployments
 subtitle: Containerize and orchestrate your Spring Boot applications with Docker and Kubernetes for enterprise-scale deployment
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Docker, Kubernetes, Microservices, DevOps, Cloud Native]
 excerpt: Learn how to build and deploy Spring Boot applications using Docker and Kubernetes. This guide covers containerization, configuration, scaling, and cloud-native deployment strategies.
 ---

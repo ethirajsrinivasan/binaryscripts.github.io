@@ -3,6 +3,7 @@ layout: post
 title: "Mastering Ruby Enumerators for Efficient Data Processing"
 subtitle: "Unlock the power of Ruby Enumerators to enhance data processing efficiency and performance"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Enumerators, Data Processing, Performance, Optimization, Collections]
 excerpt: "Learn how to use Ruby Enumerators effectively to handle large datasets and optimize performance in data processing tasks."
 excerpt_image: "https://images.unsplash.com/photo-1474546652694-a33dd8161d66"

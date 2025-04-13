@@ -3,6 +3,7 @@ layout: post
 title: "Securing Flask Applications with Content Security Policies (CSP)"
 subtitle: "Enhance Flask security by implementing Content Security Policy (CSP) to prevent XSS attacks"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Security", "CSP", "XSS Prevention", "Web Security", "Secure Headers"]
 excerpt: "Learn how to protect your Flask applications from cross-site scripting (XSS) attacks by implementing a robust Content Security Policy (CSP) with Flask-Talisman and custom configurations."
 ---

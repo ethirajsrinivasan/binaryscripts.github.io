@@ -3,6 +3,7 @@ layout: "post"
 title: "Handling Semi-Structured Data in Spark with JSON and Avro"
 subtitle: "Learn how to effectively process and manage semi-structured data in Apache Spark using JSON and Avro formats."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "JSON", "Avro", "Big Data", "Semi-Structured Data", "Data Processing"]
 excerpt: "Explore how to handle semi-structured data in Spark with JSON and Avro formats, optimizing big data workflows and improving performance."
 ---

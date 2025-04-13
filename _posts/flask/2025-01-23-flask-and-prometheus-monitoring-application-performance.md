@@ -3,6 +3,7 @@ layout: post
 title: "Flask and Prometheus Monitoring: Enhancing Application Performance"
 subtitle: "Learn how to monitor Flask applications using Prometheus for real-time performance insights"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Prometheus", "Monitoring", "Performance", "Metrics", "DevOps"]
 excerpt: "Discover how to integrate Prometheus with Flask to monitor application performance, track metrics, and optimize API response times."
 ---

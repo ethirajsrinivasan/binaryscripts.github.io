@@ -3,6 +3,7 @@ layout: post
 title: Understanding the Rails Asset Pipeline for Performance Optimization
 subtitle: Learn how to leverage the Rails Asset Pipeline for faster load times, efficient caching, and optimized assets.
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Asset Pipeline", "Performance", "Caching", "Web Optimization"]
 excerpt: Discover how the Rails Asset Pipeline improves application performance by managing JavaScript, CSS, and images efficiently. Learn best practices for asset organization, precompilation, and caching.
 ---

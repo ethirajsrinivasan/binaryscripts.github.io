@@ -3,6 +3,7 @@ layout: post
 title: Integrating Java Applications with CI/CD Pipelines
 subtitle: Automate your Java development workflow with powerful CI/CD pipeline integrations
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, CI/CD, DevOps, Jenkins, GitHub Actions, Automation, Build Tools]
 excerpt: Learn how to integrate Java applications with CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI. Automate testing, builds, deployments, and release cycles for faster, error-free delivery.
 ---

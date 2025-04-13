@@ -3,6 +3,7 @@ layout: post
 title: Optimizing ETL Pipelines in Apache Spark for Data Lakes
 subtitle: Best practices and techniques to enhance ETL pipeline efficiency in Apache Spark for scalable data lake architectures.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "ETL", "Data Lakes", "Big Data", "Data Engineering"]
 excerpt: Learn how to optimize ETL pipelines in Apache Spark to handle large-scale data ingestion and transformation for efficient data lake management.
 ---

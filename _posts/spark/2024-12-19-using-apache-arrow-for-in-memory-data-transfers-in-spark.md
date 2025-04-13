@@ -3,6 +3,7 @@ layout: "post"
 title: "Using Apache Arrow for In-Memory Data Transfers in Spark"
 subtitle: "Boost Spark`s performance with efficient in-memory data transfers using Apache Arrow."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Apache Arrow", "In-Memory Processing", "Big Data"]
 excerpt: "Learn how to leverage Apache Arrow to optimize in-memory data transfers in Spark, enhancing performance for data-intensive operations."
 ---

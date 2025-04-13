@@ -3,6 +3,7 @@ layout: post
 title: "Writing Maintainable Ruby Code with Clean Architecture Principles"
 subtitle: "Discover how to apply Clean Architecture principles to write maintainable, testable, and scalable Ruby code"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Clean Architecture, Maintainability, Testing, Scalable, Ruby Best Practices]
 excerpt: "Learn how to apply Clean Architecture principles to your Ruby code to improve maintainability, scalability, and testability, ensuring long-term success."
 excerpt_image: "https://images.unsplash.com/photo-1629303075179-dbbab5b01439"

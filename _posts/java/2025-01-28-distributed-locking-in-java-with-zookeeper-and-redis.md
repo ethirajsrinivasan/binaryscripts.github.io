@@ -3,6 +3,7 @@ layout: post
 title: Distributed Locking in Java with Zookeeper and Redis
 subtitle: Ensure data consistency in distributed Java applications using Zookeeper and Redis locks
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Zookeeper, Redis, Distributed Systems, Locking, Concurrency]
 excerpt: Learn how to implement distributed locking in Java using Zookeeper and Redis. Prevent race conditions and ensure safe access to shared resources in distributed applications.
 ---

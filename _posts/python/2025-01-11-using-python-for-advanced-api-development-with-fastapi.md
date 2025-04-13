@@ -3,6 +3,7 @@ layout: post
 title: "Using Python for Advanced API Development with FastAPI"
 subtitle: "A deep dive into building high-performance APIs with FastAPI"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["FastAPI", "API Development", "Python", "Async Programming", "REST API", "Microservices"]
 excerpt: "Explore advanced techniques for developing high-performance APIs using FastAPI, including async programming, dependency injection, authentication, and best practices."
 ---

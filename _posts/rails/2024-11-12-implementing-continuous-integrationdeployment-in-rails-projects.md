@@ -3,6 +3,7 @@ layout: post
 title: Implementing Continuous Integration and Deployment in Rails Projects
 subtitle: Automate testing, integration, and deployment in your Ruby on Rails applications using CI/CD pipelines.
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["CI/CD", "Rails Deployment", "GitHub Actions", "Docker", "Capistrano", "DevOps"]
 excerpt: Learn how to set up a robust Continuous Integration and Deployment (CI/CD) pipeline in your Rails projects using GitHub Actions, Docker, and Capistrano.
 ---

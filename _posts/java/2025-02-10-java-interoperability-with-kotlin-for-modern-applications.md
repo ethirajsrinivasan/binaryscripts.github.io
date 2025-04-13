@@ -3,6 +3,7 @@ layout: post
 title: Java Interoperability with Kotlin for Modern Applications
 subtitle: Seamlessly integrate Kotlin into existing Java codebases to modernize applications without rewriting
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Kotlin, Interoperability, JVM, Modernization, Android]
 excerpt: Learn how to enable seamless interoperability between Java and Kotlin in modern JVM applications. Discover syntax bridging, calling conventions, null safety integration, and best practices for hybrid codebases.
 ---

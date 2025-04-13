@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Use Cases of Spark`s Dataset API"
 subtitle: "Dive deep into Spark`s Dataset API for tackling complex data processing challenges."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Dataset API, Big Data, Data Engineering, Advanced Spark]
 excerpt: "Explore advanced techniques with Spark`s Dataset API to handle complex data transformations, optimizations, and integrations for modern data engineering."
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

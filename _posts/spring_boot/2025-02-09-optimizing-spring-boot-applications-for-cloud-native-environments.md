@@ -3,6 +3,7 @@ layout: post
 title: Optimizing Spring Boot Applications for Cloud-Native Environments
 subtitle: Fine-tune your Spring Boot applications to thrive in dynamic, containerized cloud-native environments
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, Cloud Native, Kubernetes, Docker, Performance, Configuration, DevOps]
 excerpt: Learn how to optimize Spring Boot applications for cloud-native environments. Discover best practices for configuration, startup time, containerization, observability, and resource efficiency.
 ---

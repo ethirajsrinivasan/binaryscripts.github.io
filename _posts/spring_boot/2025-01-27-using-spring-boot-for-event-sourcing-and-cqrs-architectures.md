@@ -3,6 +3,7 @@ layout: post
 title: Using Spring Boot for Event Sourcing and CQRS Architectures
 subtitle: Implement scalable, decoupled systems with Spring Boot using Event Sourcing and CQRS
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, CQRS, Event Sourcing, DDD, Architecture, Axon]
 excerpt: Learn how to implement Event Sourcing and Command Query Responsibility Segregation (CQRS) in Spring Boot. Discover patterns, tools, and best practices for scalable microservice design.
 ---

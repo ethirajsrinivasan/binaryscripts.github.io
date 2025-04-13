@@ -3,6 +3,7 @@ layout: post
 title: "Understanding Spark`s Shuffle Mechanics: A Deep Dive into Data Exchange"
 subtitle: "Explore the inner workings of data shuffling in Apache Spark and its impact on performance."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Shuffle, Data Exchange, Big Data, Spark Optimization]
 excerpt: "A comprehensive guide to Apache Spark`s shuffle mechanics, focusing on data exchange, optimization techniques, and best practices to enhance performance."
 ---

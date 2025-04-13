@@ -3,6 +3,7 @@ layout: post
 title: "Using Python for Graph Theory and Network Analysis"
 subtitle: "Explore powerful Python libraries for graph algorithms, network analysis, and visualization"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Graph Theory", "Network Analysis", "Data Science", "Algorithms", "NetworkX"]
 excerpt: "Learn how to apply graph theory concepts in Python using NetworkX, Graph-tool, and other libraries for network analysis, visualization, and real-world applications."
 ---

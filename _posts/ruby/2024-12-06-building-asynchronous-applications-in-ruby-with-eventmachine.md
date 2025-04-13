@@ -3,6 +3,7 @@ layout: post
 title: Building Asynchronous Applications in Ruby with EventMachine
 subtitle: Master asynchronous programming in Ruby with EventMachine for scalable, high-performance applications
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, EventMachine, Asynchronous Programming, Concurrency]
 excerpt: Explore the power of EventMachine in Ruby to build scalable and non-blocking asynchronous applications for high-performance tasks.
 excerpt_image: "https://images.unsplash.com/photo-1551651653-c5186a1fbba2"

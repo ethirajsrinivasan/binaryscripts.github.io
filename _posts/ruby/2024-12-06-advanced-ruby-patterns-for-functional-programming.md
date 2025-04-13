@@ -3,6 +3,7 @@ layout: post
 title: Advanced Ruby Patterns for Functional Programming
 subtitle: Exploring functional programming techniques in Ruby and how advanced patterns can improve your Ruby code.
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Functional Programming, Code Patterns, Lambda, Higher Order Functions, Immutable Data, FP]
 excerpt: Discover advanced Ruby patterns for functional programming, including techniques like higher-order functions, immutability, and composition that can enhance your codebase’s performance and readability.
 excerpt_image: "https://images.unsplash.com/photo-1576502200272-341a4b8d5ebb"

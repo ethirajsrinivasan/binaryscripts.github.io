@@ -3,6 +3,7 @@ layout: post
 title: "Java's Loom Project - Structured Concurrency Explained"
 subtitle: "A deep dive into Java's Structured Concurrency and its role in simplifying multithreading with Project Loom."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Project Loom", "Structured Concurrency", "Multithreading", "Concurrency", "Performance Optimization"]
 excerpt: "Project Loom introduces Structured Concurrency, a powerful approach to managing concurrent tasks efficiently in Java. Learn how it simplifies multithreading and enhances application performance."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Webhooks in Flask for Event-Driven Systems"
 subtitle: "Learn how to build and handle webhooks in Flask for real-time event-driven applications"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Webhooks", "Event-Driven", "API", "Automation", "Python"]
 excerpt: "Discover how to implement webhooks in Flask to handle real-time event-driven communication. Learn about request validation, security, and best practices."
 ---

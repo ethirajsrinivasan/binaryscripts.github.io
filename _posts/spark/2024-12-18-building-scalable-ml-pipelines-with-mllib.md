@@ -3,6 +3,7 @@ layout: "post"
 title: "Building Scalable Machine Learning Pipelines with MLlib"
 subtitle: "Learn how to create scalable and efficient ML pipelines using Apache Spark MLlib"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "MLlib", "Machine Learning", "Big Data", "Data Science"]
 excerpt: "Explore techniques to build scalable and efficient machine learning pipelines with Apache Spark MLlib for large-scale data processing."
 excerpt_image: "https://images.unsplash.com/photo-1485796826113-174aa68fd81b"

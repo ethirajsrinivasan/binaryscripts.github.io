@@ -3,6 +3,7 @@ layout: post
 title: "Using Flask Blueprints for Large-Scale Application Structures"
 subtitle: "Organizing Flask applications with Blueprints for better scalability and maintainability"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Blueprints", "Python", "REST API", "Microservices", "Scalability"]
 excerpt: "Learn how to structure large Flask applications using Blueprints. Discover best practices for modularization, routing, and maintaining a scalable Flask project."
 ---

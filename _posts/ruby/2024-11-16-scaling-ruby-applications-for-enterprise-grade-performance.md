@@ -3,6 +3,7 @@ layout: post
 title: "Scaling Ruby Applications for Enterprise-Grade Performance"
 subtitle: "Learn how to optimize and scale Ruby applications to handle high traffic and enterprise workloads"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Scaling, Performance, Ruby Performance, Enterprise, High Traffic, Optimization]
 excerpt: "Discover key strategies for scaling Ruby applications to meet the demands of enterprise environments, from optimizing code to leveraging distributed systems."
 excerpt_image: "https://images.unsplash.com/photo-1668198991378-59ee7fdd264a"

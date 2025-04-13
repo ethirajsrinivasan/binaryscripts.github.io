@@ -3,6 +3,7 @@ layout: post
 title: "Designing RESTful APIs in Flask with Advanced Query Parameters"
 subtitle: "Enhance your Flask APIs with powerful query parameters for filtering, pagination, and sorting"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "REST API", "Query Parameters", "Filtering", "Pagination", "Sorting"]
 excerpt: "Learn how to design RESTful APIs in Flask with advanced query parameters for efficient data retrieval, including filtering, pagination, and sorting techniques."
 ---

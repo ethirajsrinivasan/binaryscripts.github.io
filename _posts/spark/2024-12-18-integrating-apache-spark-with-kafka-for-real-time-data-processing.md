@@ -3,6 +3,7 @@ layout: "post"
 title: "Integrating Apache Spark with Kafka for Real-Time Data Processing"
 subtitle: "Learn how to integrate Apache Spark with Kafka for seamless real-time data streaming and processing"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Apache Kafka", "Real-Time Data", "Stream Processing", "Big Data", "Data Pipelines"]
 excerpt: "Discover how to use Apache Spark and Apache Kafka together to build real-time data processing pipelines for scalable, low-latency applications."
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

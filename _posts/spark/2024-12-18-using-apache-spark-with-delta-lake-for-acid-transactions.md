@@ -3,6 +3,7 @@ layout: "post"
 title: "Using Apache Spark with Delta Lake for ACID Transactions"
 subtitle: "Implement robust and scalable data pipelines with Delta Lake and Apache Spark"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Delta Lake", "ACID Transactions", "Big Data", "Data Lakes", "ETL"]
 excerpt: "Learn how to leverage Delta Lake with Apache Spark to enable ACID transactions, manage data consistency, and build reliable big data pipelines."
 excerpt_image: "https://images.unsplash.com/photo-1662026911591-335639b11db6"

@@ -3,6 +3,7 @@ layout: post
 title: Managing Transactions in Spring Boot with Advanced Techniques
 subtitle: Master transactional integrity in Spring Boot using nested transactions, propagation, isolation levels, and AOP
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, Transactions, JPA, Propagation, Isolation, AOP, Rollback]
 excerpt: Learn advanced transaction management in Spring Boot. Explore propagation types, isolation levels, rollback strategies, and AOP-driven transactional architecture to ensure data consistency in enterprise applications.
 ---

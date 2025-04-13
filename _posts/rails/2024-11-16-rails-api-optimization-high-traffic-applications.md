@@ -3,6 +3,7 @@ layout: "post"
 title: "Rails API Optimization for High Traffic Applications"
 subtitle: "Boosting the performance of Rails APIs to handle high traffic and scale efficiently"
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Ruby on Rails", "API Optimization", "Performance Tuning", "Scalability", "High Traffic", "Backend Development"]
 excerpt: "Discover advanced techniques to optimize Ruby on Rails APIs for high-traffic applications. Learn strategies for caching, database tuning, and reducing response times."
 ---

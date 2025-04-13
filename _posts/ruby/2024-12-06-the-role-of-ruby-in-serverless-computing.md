@@ -3,6 +3,7 @@ layout: post
 title: The Role of Ruby in Serverless Computing
 subtitle: Discover how Ruby can be effectively used in serverless architectures and why it’s a great choice for building scalable, event-driven applications.
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Serverless, AWS Lambda, Cloud Computing, Event Driven, Architecture, DevOps]
 excerpt: Explore how Ruby fits into serverless computing and learn best practices for building serverless applications with AWS Lambda and other cloud platforms.
 excerpt_image: "https://images.unsplash.com/photo-1667372525747-0268cfbc7c17"

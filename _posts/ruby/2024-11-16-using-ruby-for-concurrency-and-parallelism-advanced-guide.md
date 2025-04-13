@@ -3,6 +3,7 @@ layout: post
 title: "Using Ruby for Concurrency and Parallelism - An Advanced Guide"
 subtitle: "Master concurrency and parallelism in Ruby to build high-performance applications"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Concurrency, Parallelism, Ruby Performance, Multithreading, Ruby Tips]
 excerpt: "Explore advanced techniques for concurrency and parallelism in Ruby, including thread management, fiber usage, and leveraging external libraries for optimal performance."
 excerpt_image: "https://images.unsplash.com/photo-1684049734262-76444452ffe0"

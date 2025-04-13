@@ -3,6 +3,7 @@ layout: post
 title: "Using Ruby for ETL Pipelines: A Comprehensive Guide"
 subtitle: "Building efficient ETL pipelines with Ruby for data processing and transformation."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, ETL, Data Processing, Big Data, Pipelines]
 excerpt: "Learn how to use Ruby for building robust ETL pipelines, with best practices and tools to streamline data extraction, transformation, and loading processes."
 excerpt_image: "https://images.unsplash.com/photo-1700716465891-9e5e9f501d7d"

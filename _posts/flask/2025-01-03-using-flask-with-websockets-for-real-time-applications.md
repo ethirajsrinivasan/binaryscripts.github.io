@@ -3,6 +3,7 @@ layout: post
 title: "Using Flask with WebSockets for Real-Time Applications"
 subtitle: "Learn how to integrate WebSockets with Flask to build real-time applications"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "WebSockets", "Real-Time", "Python", "SocketIO", "Microservices"]
 excerpt: "Discover how to use Flask with WebSockets to build real-time applications. Learn about Flask-SocketIO, event handling, broadcasting, and performance optimizations."
 ---

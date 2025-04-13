@@ -3,6 +3,7 @@ layout: post
 title: Apache Spark on Databricks - Best Practices for Production Workloads
 subtitle: Essential strategies to optimize Spark performance on Databricks for production environments.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Databricks", "Apache Spark", "Big Data", "Production Workloads", "Cloud"]
 excerpt: Discover key best practices to ensure efficient and reliable Apache Spark workloads on the Databricks platform in production settings.
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

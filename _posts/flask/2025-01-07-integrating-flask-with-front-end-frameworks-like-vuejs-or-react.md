@@ -3,6 +3,7 @@ layout: post
 title: "Integrating Flask with Front-End Frameworks like Vue.js and React"
 subtitle: "Build full-stack applications by seamlessly connecting Flask with Vue.js and React"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Vue.js", "React", "Full Stack", "API", "JavaScript", "Python", "Frontend"]
 excerpt: "Learn how to integrate Flask with modern front-end frameworks like Vue.js and React to build seamless full-stack applications. Explore API design, CORS handling, authentication, and deployment strategies."
 ---

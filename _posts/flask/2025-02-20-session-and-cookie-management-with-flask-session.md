@@ -3,6 +3,7 @@ layout: post
 title: "Session and Cookie Management with Flask-Session"
 subtitle: "Learn how to manage sessions and cookies securely in Flask using Flask-Session"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Session Management", "Cookies", "Flask-Session", "Web Security", "State Management"]
 excerpt: "Master session and cookie management in Flask applications with Flask-Session. Learn how to securely store user sessions using client-side and server-side storage options."
 ---

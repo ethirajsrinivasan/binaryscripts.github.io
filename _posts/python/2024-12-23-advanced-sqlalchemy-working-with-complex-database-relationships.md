@@ -3,6 +3,7 @@ layout: post
 title: "Advanced SQLAlchemy: Working with Complex Database Relationships"
 subtitle: "Master SQLAlchemy relationships with one-to-many, many-to-many, and self-referential models"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "SQLAlchemy", "Database", "ORM", "PostgreSQL", "MySQL"]
 excerpt: "Learn advanced SQLAlchemy techniques for managing complex database relationships, including one-to-many, many-to-many, and self-referential relationships."
 ---

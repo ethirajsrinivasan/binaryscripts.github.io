@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Service Objects in Ruby - Best Practices"
 subtitle: "Learn how to use service objects in Ruby to keep your codebase clean, maintainable, and modular."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Service Objects, Design Patterns, Clean Code, Maintainability]
 excerpt: "Discover the best practices for implementing service objects in Ruby to achieve cleaner, more maintainable code."
 excerpt_image: "https://images.unsplash.com/photo-1696685733938-78ab563effe1"

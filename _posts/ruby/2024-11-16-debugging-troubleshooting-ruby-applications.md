@@ -3,6 +3,7 @@ layout: post
 title: "Debugging and Troubleshooting Complex Ruby Applications"
 subtitle: "Master advanced debugging techniques to tackle issues in complex Ruby projects"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Debugging, Troubleshooting, Development]
 excerpt: "Learn effective strategies and tools to debug and troubleshoot complex Ruby applications, ensuring smoother development and maintenance."
 excerpt_image: "/assets/images/ruby_debugging.jpg"

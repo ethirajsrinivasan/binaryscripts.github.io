@@ -3,6 +3,7 @@ layout: post
 title: "Real-World Applications of Ruby DSLs for Efficient Software Development"
 subtitle: "Explore how Ruby DSLs are transforming software development through domain-specific solutions"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, DSL, Software Development, Domain Specific Languages, Programming, Ruby On Rails]
 excerpt: "Discover the power of Ruby DSLs in solving domain-specific problems efficiently and learn how they are used in real-world applications."
 excerpt_image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2"

@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Spark Workflows with Airflow Integration"
 subtitle: "Streamline and optimize your Apache Spark workflows by integrating with Apache Airflow."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Apache Airflow, Workflow Automation, Big Data, Data Engineering]
 excerpt: "Learn how to integrate Apache Spark with Apache Airflow to create efficient, automated workflows for big data processing."
 ---

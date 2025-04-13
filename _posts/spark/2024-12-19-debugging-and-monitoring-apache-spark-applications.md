@@ -3,6 +3,7 @@ layout: post
 title: Debugging and Monitoring Apache Spark Applications
 subtitle: Explore advanced techniques for debugging and monitoring Apache Spark applications for improved performance and reliability.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Spark", "Big Data", "Monitoring", "Debugging", "Performance"]
 excerpt: This blog post covers techniques and tools for debugging and monitoring Apache Spark applications, helping users identify bottlenecks and ensure reliability.
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

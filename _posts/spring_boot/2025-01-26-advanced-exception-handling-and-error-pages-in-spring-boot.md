@@ -3,6 +3,7 @@ layout: post
 title: Advanced Exception Handling and Error Pages in Spring Boot
 subtitle: Master structured error handling and user-friendly error pages in Spring Boot applications
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Exception Handling, Error Pages, REST, ControllerAdvice, Global Error Handling]
 excerpt: Learn how to build robust Spring Boot applications with advanced exception handling and custom error pages. Implement global handlers, structured JSON responses, and user-friendly error views.
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Handling Large Data Sets in Java with Apache Arrow"
 subtitle: "A deep dive into efficient data processing using Apache Arrow in Java."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Apache Arrow", "Big Data", "High-Performance Computing", "Data Processing", "Memory Optimization"]
 excerpt: "Learn how Apache Arrow enables efficient in-memory columnar data processing in Java, reducing memory overhead and improving performance for large-scale data applications."
 ---

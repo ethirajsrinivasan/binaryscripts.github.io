@@ -3,6 +3,7 @@ layout: post
 title: "Implementing JWT Authentication and Authorization in Flask"
 subtitle: "Secure your Flask APIs with JWT authentication and role-based authorization"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "JWT", "Authentication", "Authorization", "Security", "REST", "API"]
 excerpt: "Learn how to implement JWT authentication and authorization in Flask to secure your APIs. Understand token-based authentication, role-based access control, and best practices for securing API endpoints."
 ---

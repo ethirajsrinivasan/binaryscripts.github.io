@@ -3,6 +3,7 @@ layout: post
 title: "Event-Driven Programming in Python with AsyncIO and Aiohttp"
 subtitle: "Master asynchronous programming with AsyncIO and Aiohttp to build high-performance Python applications"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "AsyncIO", "Aiohttp", "Event-Driven Programming", "Concurrency", "Networking"]
 excerpt: "Learn how to leverage event-driven programming in Python using AsyncIO and Aiohttp to build scalable and high-performance applications."
 ---

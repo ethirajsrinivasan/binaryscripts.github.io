@@ -2,7 +2,8 @@
 layout: post  
 title: Mastering Python Decorators for Code Reusability and Optimization  
 subtitle: Learn how to use Python decorators to enhance code reusability, maintainability, and performance  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Decorators", "Code Optimization", "Reusability", "Best Practices"]  
 excerpt: Discover how Python decorators can help you write reusable, efficient, and maintainable code by modifying function behavior dynamically.  
 ---

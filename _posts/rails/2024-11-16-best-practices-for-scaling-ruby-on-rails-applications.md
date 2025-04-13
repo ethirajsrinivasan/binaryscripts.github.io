@@ -3,6 +3,7 @@ layout: post
 title: Best Practices for Scaling Ruby on Rails Applications
 subtitle: A Comprehensive Guide to Effectively Scaling Your Ruby on Rails Apps
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Rails, Scaling, Performance, Optimization, Architecture, Backend]
 excerpt: Learn the best practices to scale Ruby on Rails applications efficiently. Discover tips, strategies, and techniques to handle increased traffic and improve performance.
 ---

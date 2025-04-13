@@ -3,6 +3,7 @@ layout: post
 title: Exploring Reactive Streams Specification in Java
 subtitle: Understand how Java’s Reactive Streams API enables non-blocking, backpressure-aware data pipelines
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Reactive Streams, Concurrency, Reactive Programming, Project Reactor, RxJava]
 excerpt: Dive into Java’s Reactive Streams specification to build responsive, resilient, and scalable applications. Learn how publishers, subscribers, and processors work together to enable non-blocking backpressure-driven data flows.
 ---

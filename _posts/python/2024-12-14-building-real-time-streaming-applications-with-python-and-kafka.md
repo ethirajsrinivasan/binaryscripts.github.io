@@ -3,6 +3,7 @@ layout: post
 title: "Building Real-Time Streaming Applications with Python and Kafka"
 subtitle: "Leverage Apache Kafka and Python to develop scalable real-time data pipelines"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Kafka", "Real-Time Streaming", "Big Data", "Data Engineering", "Apache Kafka"]
 excerpt: "Learn how to build real-time streaming applications using Python and Apache Kafka. Explore key concepts, best practices, and hands-on implementation."
 ---

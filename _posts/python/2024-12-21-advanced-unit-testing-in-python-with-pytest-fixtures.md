@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Unit Testing in Python with Pytest Fixtures"
 subtitle: "Boost your Python testing workflow with powerful Pytest fixtures"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Unit Testing", "Pytest", "Software Testing", "Best Practices"]
 excerpt: "Learn how to leverage Pytest fixtures to enhance your unit testing in Python, improve test maintainability, and streamline your development workflow."
 ---

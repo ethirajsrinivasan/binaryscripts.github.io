@@ -3,6 +3,7 @@ layout: "post"
 title: "Advanced Routing Techniques in Ruby on Rails Applications"
 subtitle: "Mastering Rails routing for clean, efficient, and maintainable applications"
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Ruby on Rails", "Routing", "API Design", "Advanced Rails", "Web Development"]
 excerpt: "Explore advanced routing techniques in Ruby on Rails to create scalable and efficient applications. Learn about constraints, custom routes, and API versioning for better application design."
 ---

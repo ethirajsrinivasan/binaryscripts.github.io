@@ -2,7 +2,8 @@
 layout: post  
 title: Python Metaclasses - Creating Dynamic Classes at Runtime  
 subtitle: Master the power of Python metaclasses to dynamically create and customize classes at runtime.  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Metaclasses", "OOP", "Dynamic Classes", "Advanced Python"]  
 excerpt: Learn how Python metaclasses work, how they enable dynamic class creation at runtime, and how to use them effectively to enhance object-oriented programming.  
 ---

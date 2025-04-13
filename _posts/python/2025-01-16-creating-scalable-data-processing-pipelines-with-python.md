@@ -3,6 +3,7 @@ layout: post
 title: "Creating Scalable Data Processing Pipelines with Python"
 subtitle: "Designing efficient and scalable data pipelines using Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Data Engineering", "Big Data", "ETL", "Apache Spark", "Pipeline Optimization"]
 excerpt: "Learn how to build scalable data processing pipelines in Python using efficient ETL strategies, distributed computing, and workflow orchestration."
 ---

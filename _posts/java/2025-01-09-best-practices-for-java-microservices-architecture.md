@@ -3,6 +3,7 @@ layout: post
 title: "Best Practices for Java Microservices Architecture"
 subtitle: "Key principles, design patterns, and strategies to build scalable and efficient Java microservices."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Microservices", "Spring Boot", "Distributed Systems", "API Design", "Cloud"]
 excerpt: "Learn the best practices for designing scalable, maintainable, and high-performance Java microservices. Explore key patterns, tools, and strategies to optimize your microservices architecture."
 ---

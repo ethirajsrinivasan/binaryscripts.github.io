@@ -3,6 +3,7 @@ layout: post
 title: "Session Management and Security in Flask for Production"
 subtitle: "Learn how to securely manage sessions in Flask and implement best practices for production environments"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Session Management", "Security", "Authentication", "Cookies", "CSRF", "JWT"]
 excerpt: "Explore the best practices for secure session management in Flask. Learn how to protect user data, prevent session hijacking, and enhance authentication security in production environments."
 ---

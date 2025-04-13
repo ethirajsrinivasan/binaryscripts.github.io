@@ -3,6 +3,7 @@ layout: post
 title: "Object-Oriented Design Patterns in Python for Reusable Code"
 subtitle: "Master key design patterns in Python to write reusable, scalable, and maintainable code"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Design Patterns", "OOP", "Software Architecture", "Best Practices"]
 excerpt: "Learn how to implement essential object-oriented design patterns in Python to improve code reusability, maintainability, and scalability."
 ---

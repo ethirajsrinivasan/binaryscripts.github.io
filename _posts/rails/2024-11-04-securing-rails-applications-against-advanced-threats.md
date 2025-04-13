@@ -3,6 +3,7 @@ layout: post
 title: Securing Rails Applications Against Advanced Threats - A Comprehensive Guide
 subtitle: Learn how to protect your Ruby on Rails applications from modern security vulnerabilities and attacks
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails Security", "OWASP", "Cybersecurity", "Web Security", "Authentication", "Encryption"]
 excerpt: Discover essential security strategies to safeguard Ruby on Rails applications against common and advanced threats, including OWASP Top 10 vulnerabilities, authentication best practices, and secure coding techniques.
 ---

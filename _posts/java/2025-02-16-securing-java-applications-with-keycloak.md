@@ -3,6 +3,7 @@ layout: post
 title: Securing Java Applications with Keycloak
 subtitle: Integrate Keycloak with Java apps for robust authentication and authorization
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Keycloak, OAuth2, Authentication, Security, Spring Security, OpenID]
 excerpt: Learn how to secure Java applications using Keycloak. Set up SSO, OAuth2 flows, role-based access control, and JWT validation with Spring Boot and Jakarta EE integration.
 ---

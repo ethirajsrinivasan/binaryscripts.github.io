@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Use Cases of Ruby's Refinements"
 subtitle: "Explore powerful and advanced applications of Ruby's refinements for cleaner, more modular code."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Refinements, Advanced Techniques, Object Oriented Design, Modular Programming]
 excerpt: "Dive deep into advanced use cases of Ruby's refinements, exploring how they can enhance code modularity and flexibility while maintaining backward compatibility."
 excerpt_image: "/assets/images/ruby_refinement.jpg"

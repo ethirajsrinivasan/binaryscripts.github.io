@@ -3,6 +3,7 @@ layout: "post"
 title: "Distributed Graph Processing with GraphX in Apache Spark"
 subtitle: "Explore how to leverage GraphX in Apache Spark for large-scale, distributed graph processing"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["GraphX", "Apache Spark", "Distributed Systems", "Big Data", "Graph Processing", "Data Science"]
 excerpt: "Learn how to perform distributed graph processing using GraphX in Apache Spark. Understand the concepts, tools, and best practices for analyzing large-scale graphs."
 excerpt_image: "https://images.unsplash.com/photo-1519474256002-c68f19822ede"

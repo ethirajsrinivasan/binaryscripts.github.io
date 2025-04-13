@@ -3,6 +3,7 @@ layout: post
 title: "Building Efficient Data Pipelines with Apache Beam in Python"
 subtitle: "Optimize data processing with scalable and efficient Apache Beam pipelines in Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Beam", "Data Engineering", "Big Data", "ETL", "Pipeline Optimization", "Python"]
 excerpt: "Learn how to design, optimize, and scale data pipelines using Apache Beam in Python. Improve data processing efficiency and scalability with best practices."
 ---

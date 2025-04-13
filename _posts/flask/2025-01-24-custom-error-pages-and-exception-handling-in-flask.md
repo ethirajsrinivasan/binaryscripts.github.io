@@ -3,6 +3,7 @@ layout: post
 title: "Custom Error Pages and Exception Handling in Flask"
 subtitle: "Enhance user experience by handling errors effectively in Flask applications"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Error Handling", "Custom Error Pages", "HTTP Exceptions", "Logging"]
 excerpt: "Learn how to create custom error pages and handle exceptions in Flask applications. Improve UX by designing user-friendly error responses and logging critical errors."
 ---

@@ -3,6 +3,7 @@ layout: "post"
 title: "Building Real-Time Data Pipelines with Spark Structured Streaming"
 subtitle: "A comprehensive guide to creating efficient and scalable real-time data pipelines using Spark Structured Streaming"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Structured Streaming", "Real-Time Data", "Big Data", "Streaming Pipelines", "ETL"]
 excerpt: "Explore how Spark Structured Streaming enables the creation of robust real-time data pipelines with minimal latency and high scalability."
 excerpt_image: "https://images.unsplash.com/photo-1501139083538-0139583c060f"

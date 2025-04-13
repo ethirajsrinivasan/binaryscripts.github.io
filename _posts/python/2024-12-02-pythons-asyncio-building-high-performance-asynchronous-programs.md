@@ -2,7 +2,8 @@
 layout: post  
 title: Python's Asyncio - Building High-Performance Asynchronous Programs  
 subtitle: Harness Python's Asyncio library to build scalable and high-performance asynchronous applications  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Asyncio", "Asynchronous Programming", "Performance", "Concurrency", "Python Async"]  
 excerpt: Learn how to use Python's Asyncio library to build high-performance asynchronous programs that handle I/O-bound tasks efficiently.  
 ---

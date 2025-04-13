@@ -3,6 +3,7 @@ layout: "post"
 title: "High-Performance Job Queues with Sidekiq in Ruby on Rails"
 subtitle: "Optimizing Background Processing in Rails with Sidekiq for Speed and Scalability"
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Ruby on Rails", "Sidekiq", "Background Jobs", "Concurrency", "Redis", "Job Queues", "Performance Optimization"]
 excerpt: "Learn how to leverage Sidekiq for high-performance background job processing in Ruby on Rails. Optimize concurrency, reduce latency, and scale your application efficiently."
 ---

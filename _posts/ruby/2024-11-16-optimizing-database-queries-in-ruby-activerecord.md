@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Database Queries in Ruby ActiveRecord"
 subtitle: "Learn advanced techniques to optimize your database queries in Ruby on Rails using ActiveRecord."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Active Record, Optimization, Database Queries, Performance]
 excerpt: "Master the art of optimizing database queries in Ruby on Rails with ActiveRecord to boost performance and scalability in your applications."
 excerpt_image: "https://images.unsplash.com/photo-1674027326254-88c960d8e561"

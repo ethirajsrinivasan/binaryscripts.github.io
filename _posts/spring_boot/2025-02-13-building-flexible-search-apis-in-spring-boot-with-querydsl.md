@@ -3,6 +3,7 @@ layout: post
 title: Building Flexible Search APIs in Spring Boot with QueryDSL
 subtitle: Create dynamic and type-safe search functionality using QueryDSL in Spring Boot applications
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, QueryDSL, Search, JPA, Java, Dynamic Queries, REST API]
 excerpt: Learn how to build flexible, type-safe, and dynamic search APIs using Spring Boot and QueryDSL. This guide walks through setup, predicates, pagination, and advanced filtering strategies.
 ---

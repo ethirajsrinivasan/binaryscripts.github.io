@@ -3,6 +3,7 @@ layout: post
 title: "Integrating Flask with Celery for Background Processing"
 subtitle: "Efficiently handle long-running tasks without blocking your Flask application"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Celery", "Background Tasks", "Asynchronous Processing", "Python"]
 excerpt: "Learn how to integrate Celery with Flask for executing long-running tasks asynchronously, improving scalability and performance."
 ---

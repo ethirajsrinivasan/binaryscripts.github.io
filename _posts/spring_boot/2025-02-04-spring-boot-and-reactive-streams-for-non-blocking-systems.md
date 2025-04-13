@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot and Reactive Streams for Non-Blocking Systems
 subtitle: Build scalable and responsive applications using Spring Boot and reactive programming with Project Reactor
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Reactive, WebFlux, Project Reactor, Non-Blocking, Asynchronous]
 excerpt: Learn how to build non-blocking, scalable applications using Spring Boot and Reactive Streams. Discover Project Reactor, Spring WebFlux, and the benefits of reactive programming in real-time systems.
 ---

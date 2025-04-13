@@ -3,6 +3,7 @@ layout: post
 title: Building Scalable File Upload Systems with Spring Boot
 subtitle: Design efficient and scalable file upload solutions using Spring Boot, multipart streaming, and cloud storage integration
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, File Upload, Multipart, Cloud Storage, Scalability, AWS S3, REST API]
 excerpt: Learn how to design scalable file upload systems using Spring Boot. Explore multipart handling, streaming uploads, storage strategies, and cloud integration to manage large files efficiently.
 ---

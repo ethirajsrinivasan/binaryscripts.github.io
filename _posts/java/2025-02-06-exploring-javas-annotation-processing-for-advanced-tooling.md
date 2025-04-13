@@ -3,6 +3,7 @@ layout: post
 title: Exploring Java's Annotation Processing for Advanced Tooling
 subtitle: Build custom code generation tools and frameworks using Java’s annotation processing API
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Annotation Processing, Code Generation, APT, Compiler Tools, Reflection]
 excerpt: Learn how to use Java’s annotation processing API to build advanced compile-time tools. Generate source code, perform validation, and enhance your development workflow with custom annotations.
 ---

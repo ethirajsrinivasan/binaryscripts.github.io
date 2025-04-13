@@ -3,6 +3,7 @@ layout: "post"
 title: "Advanced Windowing Functions in Spark for Analytical Processing"
 subtitle: "Unlock the power of advanced windowing functions to perform complex analytics on big data in Spark"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Windowing Functions", "Big Data", "Analytics", "SQL", "Data Processing"]
 excerpt: "Discover how to use advanced windowing functions in Apache Spark to enhance your analytical processing capabilities for big data applications."
 excerpt_image: "https://images.unsplash.com/photo-1501045337096-542a73dafa4f"

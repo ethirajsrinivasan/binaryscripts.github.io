@@ -3,6 +3,7 @@ layout: post
 title: Using Java for High-Frequency Trading Systems
 subtitle: Leverage Java's low-latency and high-performance capabilities for HFT systems
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Trading, Low Latency, High-Frequency Trading, Performance, Concurrency]
 excerpt: Explore how Java powers high-frequency trading systems by optimizing for latency, throughput, garbage collection, and concurrency. Learn design patterns and best practices tailored for ultra-fast applications.
 ---

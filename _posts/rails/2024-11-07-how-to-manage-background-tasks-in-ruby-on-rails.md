@@ -3,6 +3,7 @@ layout: post
 title: How to Manage Background Tasks in Ruby on Rails
 subtitle: Learn how to efficiently handle background jobs in Rails using Sidekiq, Delayed Job, and Active Job.
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Background Jobs", "Sidekiq", "Active Job", "Async Processing"]
 excerpt: Discover the best ways to manage background tasks in Ruby on Rails. Learn how to use Sidekiq, Delayed Job, and Active Job to process tasks efficiently.
 ---

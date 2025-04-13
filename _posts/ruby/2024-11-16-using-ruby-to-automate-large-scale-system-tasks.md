@@ -3,6 +3,7 @@ layout: post
 title: "Using Ruby to Automate Large-Scale System Tasks"
 subtitle: "Explore how Ruby can be leveraged for automating large-scale system tasks, making complex processes efficient and manageable."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Automation, System-administration, Devops, Scripting]
 excerpt: "Discover how Ruby's simplicity and power can be utilized to automate large-scale system tasks, from deployment to monitoring and maintenance."
 excerpt_image: "https://images.unsplash.com/photo-1647427060118-4911c9821b82"

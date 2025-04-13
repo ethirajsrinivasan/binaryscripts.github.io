@@ -2,7 +2,8 @@
 layout: post  
 title: Building Admin Dashboards in Rails with Avo or Administrate  
 subtitle: Create powerful admin panels in Rails using Avo and Administrate  
-categories: RubyOnRails  
+categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Admin Dashboard", "Avo", "Administrate", "ActiveAdmin", "CRUD", "Scalability"]  
 excerpt: Learn how to build admin dashboards in Ruby on Rails using Avo and Administrate, two powerful gems that simplify CRUD operations and data management.  
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Leveraging Java's VarHandle API for Performance Optimization
 subtitle: Unlock fine-grained memory access and concurrency control in Java using the VarHandle API
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, VarHandle, Performance, Concurrency, Memory Access, Unsafe, Low Latency]
 excerpt: Explore the VarHandle API introduced in Java 9 to safely and efficiently access variables at the memory level. Learn how it improves performance in concurrent and low-latency applications as a safer alternative to sun.misc.Unsafe.
 ---

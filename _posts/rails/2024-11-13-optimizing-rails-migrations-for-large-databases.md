@@ -3,6 +3,7 @@ layout: post
 title: Optimizing Rails Migrations for Large Databases
 subtitle: Strategies to make ActiveRecord migrations efficient, safe, and fast for large-scale applications.
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails Migrations", "Database Optimization", "PostgreSQL", "MySQL", "Performance"]
 excerpt: Learn best practices for handling large-scale Rails database migrations efficiently, avoiding downtime, and ensuring data integrity.
 ---

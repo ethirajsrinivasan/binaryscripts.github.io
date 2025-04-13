@@ -3,6 +3,7 @@ layout: post
 title: "Flask and Celery: Building Distributed Task Queues for Scalable Applications"
 subtitle: "Enhance Flask applications with Celery for asynchronous task processing and scalability"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Celery", "Task Queue", "Asynchronous Processing", "Python", "Distributed Systems", "Redis"]
 excerpt: "Learn how to integrate Celery with Flask to handle background tasks efficiently. Improve scalability, manage long-running operations, and enhance performance with distributed task queues."
 ---

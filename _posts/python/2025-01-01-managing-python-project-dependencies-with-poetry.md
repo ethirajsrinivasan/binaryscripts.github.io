@@ -3,6 +3,7 @@ layout: post
 title: "Managing Python Project Dependencies with Poetry"
 subtitle: "A comprehensive guide to handling Python dependencies efficiently with Poetry"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Poetry", "Dependency Management", "Python", "Package Management", "Virtual Environments", "Best Practices"]
 excerpt: "Learn how to simplify Python dependency management using Poetry. Discover best practices for project setup, version control, and environment isolation."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Exploring Advanced Generics and Wildcards in Java
 subtitle: Master the intricacies of Java generics and wildcards to write safer, cleaner, and reusable code
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Generics, Wildcards, Type Safety, JVM, Big Data, Apache Spark]
 excerpt: Dive into the advanced concepts of Java generics and wildcards to improve your code's flexibility and maintainability. Learn about bounded types, PECS, type erasure, and how to write type-safe APIs using Java's generic system.
 ---

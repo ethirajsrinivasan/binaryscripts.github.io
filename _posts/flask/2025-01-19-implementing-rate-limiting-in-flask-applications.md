@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Rate Limiting in Flask Applications"
 subtitle: "Learn how to protect your Flask API from abuse with efficient rate-limiting strategies"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Rate Limiting", "API Security", "Throttling", "Redis", "Flask-Limiter"]
 excerpt: "Explore how to implement rate limiting in Flask applications to prevent API abuse, ensure fair usage, and optimize security using Flask-Limiter and Redis."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Building Custom DSLs in Java for Domain-Specific Applications
 subtitle: Create expressive domain-specific languages (DSLs) in Java to simplify business logic and improve developer productivity
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, DSL, Fluent API, Domain Modeling, Code Design, Internal DSL]
 excerpt: Learn how to build custom domain-specific languages (DSLs) in Java. Create fluent APIs and internal DSLs that make complex logic readable, reusable, and maintainable.
 ---

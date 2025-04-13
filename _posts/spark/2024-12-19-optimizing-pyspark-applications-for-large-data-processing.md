@@ -3,6 +3,7 @@ layout: post
 title: Optimizing PySpark Applications for Large Data Processing
 subtitle: Best practices and strategies for enhancing the performance of PySpark applications handling large datasets.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["PySpark", "Big Data", "Performance Tuning", "Apache Spark", "Data Engineering"]
 excerpt: Learn key optimization techniques to boost the performance of PySpark applications for large-scale data processing.
 ---

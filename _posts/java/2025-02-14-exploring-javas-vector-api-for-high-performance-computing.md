@@ -3,6 +3,7 @@ layout: post
 title: Exploring Java's Vector API for High-Performance Computing
 subtitle: Unlock SIMD power in Java with the new Vector API for faster mathematical computations
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Vector API, High Performance, SIMD, JVM, Numerical Computing]
 excerpt: Explore Java's Vector API for leveraging SIMD instructions in high-performance computing scenarios. Learn how to use the Vector API for data parallelism, performance boosts, and numerical processing.
 ---

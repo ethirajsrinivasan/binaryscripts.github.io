@@ -3,6 +3,7 @@ layout: post
 title: Advanced Patterns in Ruby on Rails for Code Reusability
 subtitle: Explore advanced design patterns and best practices for maximizing code reusability in Ruby on Rails applications.
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Ruby On Rails, Design Patterns, Code Reusability, Clean Code, Software Architecture]
 excerpt: Learn advanced techniques for implementing design patterns in Ruby on Rails to enhance code reusability and maintainability, and avoid code duplication.
 excerpt_image: "https://images.unsplash.com/photo-1579268351204-346bc5d22f6e"

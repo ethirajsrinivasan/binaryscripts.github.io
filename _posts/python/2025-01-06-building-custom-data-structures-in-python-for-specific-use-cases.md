@@ -3,6 +3,7 @@ layout: post
 title: "Building Custom Data Structures in Python for Specific Use Cases"
 subtitle: "Enhance performance by designing tailored data structures in Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Data Structures", "Algorithm Optimization", "Performance", "Custom Implementation"]
 excerpt: "Learn how to build custom data structures in Python for specific use cases. Improve performance, optimize memory usage, and design efficient algorithms with tailored implementations."
 ---

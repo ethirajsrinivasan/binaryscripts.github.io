@@ -3,6 +3,7 @@ layout: post
 title: "Python for Financial Data Analysis: Techniques and Tools"
 subtitle: "Analyze financial data efficiently with Python libraries like Pandas, NumPy, and Matplotlib"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Finance", "Data Analysis", "Pandas", "NumPy", "Visualization"]
 excerpt: "Explore essential Python tools for financial data analysis, including Pandas, NumPy, Matplotlib, and more. Learn how to analyze, visualize, and forecast financial trends."
 ---

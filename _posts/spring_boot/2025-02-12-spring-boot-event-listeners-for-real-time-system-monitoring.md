@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot Event Listeners for Real-Time System Monitoring
 subtitle: Leverage Spring Boot’s event-driven architecture to build real-time monitoring and auditing features
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, Event Listener, Monitoring, Observability, Application Events, Real-Time]
 excerpt: Learn how to use Spring Boot's event listener system to build real-time monitoring and auditing features. Track system activity, performance, and custom events using a non-invasive, decoupled approach.
 ---

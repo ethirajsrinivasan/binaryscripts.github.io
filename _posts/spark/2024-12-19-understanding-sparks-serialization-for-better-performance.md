@@ -3,6 +3,7 @@ layout: post
 title: "Understanding Spark`s Serialization for Better Performance"
 subtitle: "A technical deep dive into optimizing serialization in Apache Spark for enhanced performance."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Serialization, Kryo, Performance Tuning, Big Data]
 excerpt: "Learn how serialization impacts Apache Spark`s performance and discover techniques to optimize it for large-scale data processing."
 ---

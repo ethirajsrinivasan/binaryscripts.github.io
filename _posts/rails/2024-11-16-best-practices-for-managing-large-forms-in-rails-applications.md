@@ -3,6 +3,7 @@ layout: "post"
 title: "Best Practices for Managing Large Forms in Rails Applications"
 subtitle: "Optimize and streamline large forms in Ruby on Rails applications for better UX and performance."
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Forms", "UX", "Performance Optimization", "Nested Forms", "JavaScript"]
 excerpt: "Learn best practices for managing large forms in Rails applications, including form optimization, validation strategies, and performance improvements."
 ---

@@ -3,6 +3,7 @@ layout: "post"
 title: "Exploring Spark`s Tungsten Execution Engine for Performance Boosts"
 subtitle: "Understand how Spark`s Tungsten Engine accelerates big data processing with advanced memory management and execution optimizations."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Tungsten Engine", "Big Data", "Performance Optimization", "Data Engineering"]
 excerpt: "Dive into Spark`s Tungsten Execution Engine and learn how it enhances performance through memory management, code generation, and execution optimization."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Leveraging Java Streams for High-Performance Data Processing"
 subtitle: "Optimize data processing in Java with Streams API for faster and more efficient computations."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Streams API", "Functional Programming", "Parallel Processing", "Performance Optimization"]
 excerpt: "Java Streams API simplifies high-performance data processing through functional programming, lazy evaluation, and parallel execution. Learn how to use Streams efficiently for real-world applications."
 ---

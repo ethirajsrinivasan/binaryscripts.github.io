@@ -3,6 +3,7 @@ layout: post
 title: "Managing Flask Project Environments with Docker"
 subtitle: "A complete guide to containerizing Flask applications using Docker for scalable development and deployment"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Docker", "Containerization", "DevOps", "Microservices"]
 excerpt: "Learn how to efficiently manage Flask project environments using Docker. This guide covers containerization, environment isolation, and best practices for development and production."
 ---

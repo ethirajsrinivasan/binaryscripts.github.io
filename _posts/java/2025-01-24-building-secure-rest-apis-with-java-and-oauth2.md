@@ -3,6 +3,7 @@ layout: post
 title: Building Secure REST APIs with Java and OAuth2
 subtitle: Secure your RESTful Java APIs using OAuth2 authentication and authorization best practices
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, REST, OAuth2, Security, Spring Boot, API Security]
 excerpt: Learn how to secure REST APIs in Java using OAuth2 protocols. Understand token-based authentication, access scopes, and integration with Spring Security for enterprise-grade security.
 ---

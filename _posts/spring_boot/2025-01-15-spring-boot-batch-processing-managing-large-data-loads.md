@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot Batch Processing Managing Large Data Loads
 subtitle: Efficiently process and manage massive data volumes using Spring Batch and Spring Boot
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Spring Batch, Batch Processing, Data Pipelines, ETL, Performance]
 excerpt: Learn how to implement scalable batch jobs using Spring Boot and Spring Batch. This guide covers chunk processing, job configuration, error handling, and performance tuning for managing large datasets.
 ---

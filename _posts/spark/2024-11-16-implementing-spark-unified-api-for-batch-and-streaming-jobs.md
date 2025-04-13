@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Spark Unified API for Batch and Streaming Jobs"
 subtitle: "A Technical Guide to Seamlessly Integrating Batch and Streaming Data with Apache Spark"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spark, Big Data, Data Engineering, Streaming, Batch Processing, Structured Streaming]
 excerpt: "Explore how to implement Spark's Unified API for batch and streaming jobs, enabling efficient and scalable data pipelines with Apache Spark."
 excerpt_image: "https://images.unsplash.com/photo-1566930665082-4ae9dbbb5b6b"

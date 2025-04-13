@@ -3,6 +3,7 @@ layout: "post"
 title: "Database Sharding with Rails for Scalability: A Deep Dive"
 subtitle: "Learn how to scale your Ruby on Rails application efficiently using database sharding techniques."
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Database Sharding", "PostgreSQL", "MySQL", "Scalability", "Performance Optimization", "Active Record"]
 excerpt: "Database sharding is a powerful technique for scaling Rails applications. This guide explores its benefits, implementation strategies, and best practices for achieving high performance."
 ---

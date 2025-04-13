@@ -3,6 +3,7 @@ layout: post
 title: Advanced Partitioning Strategies in Apache Spark
 subtitle: Explore advanced partitioning strategies in Apache Spark to optimize performance and resource utilization.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Spark", "Big Data", "Data Processing", "Partitioning", "Performance"]
 excerpt: Learn about advanced partitioning strategies in Apache Spark that can help optimize data processing and improve resource utilization for large-scale applications.
 excerpt_image: "https://images.unsplash.com/photo-1626374292195-09d1f06d6ced"

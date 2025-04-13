@@ -3,6 +3,7 @@ layout: post
 title: "Implementing OpenAPI Standards in Flask APIs"
 subtitle: "Enhance Flask APIs with OpenAPI for better documentation, validation, and interoperability"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "OpenAPI", "API Design", "Swagger", "RESTful APIs"]
 excerpt: "Learn how to integrate OpenAPI into Flask applications to improve API documentation, validation, and standardization using Flask-Swagger and Flask-RESTPlus."
 ---

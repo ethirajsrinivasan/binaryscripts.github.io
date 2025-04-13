@@ -3,6 +3,7 @@ layout: post
 title: "Python in Natural Language Processing NLP for Advanced Applications"
 subtitle: "Unlock the power of Python for cutting-edge NLP applications using deep learning and transformers"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "NLP", "Deep Learning", "Transformers", "AI", "Machine Learning"]
 excerpt: "Explore how Python enables advanced NLP applications with deep learning and transformer models. Learn about key libraries, optimization techniques, and real-world use cases."
 ---

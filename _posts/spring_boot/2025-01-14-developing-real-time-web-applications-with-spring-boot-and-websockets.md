@@ -3,6 +3,7 @@ layout: post
 title: Developing Real-Time Web Applications with Spring Boot and WebSockets
 subtitle: Build responsive real-time applications in Java using Spring Boot and WebSocket integration
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, WebSocket, Real-Time, Java, Messaging, STOMP, SockJS]
 excerpt: Learn how to develop real-time, bidirectional communication in your web apps using Spring Boot and WebSockets. From server setup to message broadcasting and client integration, this guide covers it all.
 ---

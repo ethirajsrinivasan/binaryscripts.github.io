@@ -3,6 +3,7 @@ layout: post
 title: Deploying Spring Boot Applications on Google Cloud Platform
 subtitle: Learn how to deploy and manage Spring Boot applications on GCP using App Engine, Cloud Run, and GKE
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, GCP, Google Cloud, Deployment, App Engine, Cloud Run, Kubernetes, DevOps]
 excerpt: Discover the complete process of deploying Spring Boot applications on Google Cloud Platform. This guide covers App Engine, Cloud Run, Kubernetes, and best practices for cloud-native deployment.
 ---

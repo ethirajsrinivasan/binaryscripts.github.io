@@ -3,6 +3,7 @@ layout: post
 title: "Advanced File I/O Operations in Ruby for Large Data Sets"
 subtitle: "Master Ruby's file handling techniques to efficiently process massive data files."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, File-io, Data Processing, Performance, Large Data]
 excerpt: "Learn advanced techniques for handling file I/O in Ruby to process large data sets efficiently and effectively."
 excerpt_image: "/assets/images/ruby_file_io_data_processing.jpg"

@@ -3,6 +3,7 @@ layout: post
 title: Stream-Processing Pipelines with Apache Spark and Apache Pulsar
 subtitle: Building real-time, high-performance stream-processing pipelines using Apache Spark and Apache Pulsar.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Apache Pulsar", "Streaming Pipelines", "Real-Time Data", "Big Data", "Data Engineering"]
 excerpt: Learn how to combine Apache Spark and Apache Pulsar to build scalable and efficient stream-processing pipelines for real-time data analytics.
 ---

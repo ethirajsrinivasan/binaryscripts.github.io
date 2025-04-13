@@ -3,6 +3,7 @@ layout: post
 title: Advanced Data Validation in Spring Boot with Custom Validators
 subtitle: Implement robust and reusable validation logic in Spring Boot using annotations and custom validators
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Validation, Custom Validator, Hibernate Validator, Bean Validation]
 excerpt: Master advanced data validation in Spring Boot by creating custom validators, combining annotations, and improving data integrity across layers with reusable validation logic.
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Memory Usage in Python Applications"
 subtitle: "Techniques to reduce memory footprint and enhance performance in Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Memory Optimization", "Performance", "Garbage Collection", "Profiling", "Big Data"]
 excerpt: "Learn effective techniques to optimize memory usage in Python applications using profiling tools, efficient data structures, and garbage collection tuning."
 ---

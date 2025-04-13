@@ -3,6 +3,7 @@ layout: post
 title: Integrating Spark with Elasticsearch for Search Analytics
 subtitle: Learn how to integrate Apache Spark with Elasticsearch to build powerful search and analytics applications.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Spark", "Elasticsearch", "Search Analytics", "Big Data", "Data Processing"]
 excerpt: Discover how integrating Apache Spark with Elasticsearch can enhance your search and analytics capabilities for large datasets.
 ---

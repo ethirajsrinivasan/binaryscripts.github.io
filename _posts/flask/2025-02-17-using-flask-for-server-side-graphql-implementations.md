@@ -3,6 +3,7 @@ layout: post
 title: "Using Flask for Server-Side GraphQL Implementations"
 subtitle: "A deep dive into building efficient GraphQL APIs with Flask and Graphene"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "GraphQL", "Graphene", "API", "Python", "REST vs GraphQL"]
 excerpt: "Learn how to implement GraphQL on the server side using Flask and Graphene, enabling efficient data retrieval and flexible API interactions."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Implementing Zero-Downtime Deployments in Java Applications
 subtitle: Achieve seamless Java application deployments with zero service interruptions
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, DevOps, CI/CD, Deployment, High Availability, Blue-Green]
 excerpt: Learn how to implement zero-downtime deployments in Java applications using techniques like blue-green deployment, canary releases, rolling updates, and database versioning.
 ---

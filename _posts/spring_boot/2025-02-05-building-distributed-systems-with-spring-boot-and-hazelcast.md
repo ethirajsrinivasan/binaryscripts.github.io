@@ -3,6 +3,7 @@ layout: post
 title: Building Distributed Systems with Spring Boot and Hazelcast
 subtitle: Design scalable and resilient distributed systems using Spring Boot and Hazelcast's in-memory data grid
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Hazelcast, Distributed Systems, Caching, Clustering, Microservices]
 excerpt: Learn how to build scalable distributed systems using Spring Boot and Hazelcast. Explore clustering, in-memory caching, pub-sub messaging, and distributed data structures to build resilient microservices.
 ---

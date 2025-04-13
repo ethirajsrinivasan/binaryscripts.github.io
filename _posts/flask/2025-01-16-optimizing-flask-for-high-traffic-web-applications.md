@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Flask for High-Traffic Web Applications"
 subtitle: "Enhance Flask performance and scalability for handling high traffic"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Performance", "Optimization", "Scalability", "Load Balancing", "Caching", "Gunicorn", "Nginx"]
 excerpt: "Learn how to optimize Flask applications for high traffic with caching, load balancing, connection pooling, asynchronous processing, and database tuning. Improve scalability and performance for production deployments."
 ---

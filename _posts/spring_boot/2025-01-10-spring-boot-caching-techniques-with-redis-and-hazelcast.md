@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot Caching Techniques with Redis and Hazelcast
 subtitle: Enhance Java application performance with Spring Boot caching using Redis and Hazelcast
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Caching, Redis, Hazelcast, Performance, In-Memory]
 excerpt: Learn how to implement powerful caching strategies in Spring Boot using Redis and Hazelcast. Improve performance, reduce database load, and build responsive Java applications.
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Mastering Custom Exception Handling Patterns in Python"
 subtitle: "Enhance error handling in Python with advanced custom exception patterns"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Error Handling", "Exceptions", "Best Practices", "Software Development"]
 excerpt: "Learn how to implement custom exception handling patterns in Python for better error management, maintainability, and debugging."
 ---

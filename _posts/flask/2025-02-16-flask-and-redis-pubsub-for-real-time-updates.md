@@ -3,6 +3,7 @@ layout: post
 title: "Flask and Redis Pub/Sub for Real-Time Updates"
 subtitle: "Using Flask and Redis Pub/Sub for real-time event-driven communication"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Redis", "Pub/Sub", "WebSockets", "Real-Time", "Streaming"]
 excerpt: "Learn how to integrate Flask with Redis Pub/Sub for real-time messaging and event-driven communication, enabling instant updates and scalable architectures."
 ---

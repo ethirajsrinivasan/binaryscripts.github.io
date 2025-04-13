@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot with MongoDB for NoSQL Applications
 subtitle: Build flexible and scalable NoSQL applications with Spring Boot and MongoDB
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, MongoDB, NoSQL, Database, Reactive, JSON, Document Store]
 excerpt: Learn how to integrate Spring Boot with MongoDB to develop powerful NoSQL applications. Explore document modeling, repository usage, query techniques, and best practices for real-world deployments.
 ---

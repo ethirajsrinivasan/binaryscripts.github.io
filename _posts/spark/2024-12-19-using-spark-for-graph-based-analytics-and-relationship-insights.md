@@ -3,6 +3,7 @@ layout: post
 title: Using Spark for Graph-Based Analytics and Relationship Insights
 subtitle: Learn how to leverage Apache Spark for graph-based analytics to uncover relationship insights in large datasets.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Spark", "Graph Analytics", "Big Data", "GraphX", "Relationship Insights"]
 excerpt: Explore how to use Apache Spark’s GraphX library to analyze graph data, uncover relationships, and extract valuable insights for your business.
 ---

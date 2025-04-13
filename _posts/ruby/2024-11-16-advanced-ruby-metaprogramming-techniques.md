@@ -3,6 +3,7 @@ layout: post
 title: "Unlocking Advanced Ruby Metaprogramming Techniques"
 subtitle: "A detailed guide to mastering advanced Ruby metaprogramming for seasoned developers"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Metaprogramming, Advanced Programming, Software Development]
 excerpt: "Explore advanced Ruby metaprogramming techniques to create dynamic, reusable code. Perfect for experienced developers aiming to level up their Ruby skills."
 excerpt_image: "/assets/images/ruby_metaprogramming.jpg"

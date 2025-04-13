@@ -3,6 +3,7 @@ layout: post
 title: "Using Flask with OAuth2 for Third-Party Auth Integrations"
 subtitle: "Securely authenticate users in Flask using OAuth2 providers like Google, GitHub, and Facebook"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "OAuth2", "Authentication", "Authorization", "Security", "API", "Login"]
 excerpt: "Learn how to integrate OAuth2 authentication in Flask using providers like Google, GitHub, and Facebook. Secure your applications with third-party authentication and protect user data."
 ---

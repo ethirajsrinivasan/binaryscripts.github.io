@@ -3,6 +3,7 @@ layout: post
 title: Leveraging Ruby for Real-Time Data Processing Applications
 subtitle: Harness the power of Ruby for building high-performance real-time data processing systems
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Real Time Data Processing, Streaming, Concurrency, Data Engineering]
 excerpt: Discover how to leverage Ruby for real-time data processing, focusing on tools, libraries, and best practices to handle high-throughput data streams efficiently.
 excerpt_image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43"

@@ -3,6 +3,7 @@ layout: post
 title: Advanced Cluster Management with YARN and Spark Executors
 subtitle: Mastering YARN and Spark Executor configurations for optimal cluster utilization.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["YARN", "Apache Spark", "Big Data", "Cluster Management", "Spark Executors"]
 excerpt: Learn advanced techniques for managing clusters using YARN and Spark Executors to maximize resource efficiency and application performance.
 excerpt_image: "https://images.unsplash.com/photo-1699755621699-011832314a9c"

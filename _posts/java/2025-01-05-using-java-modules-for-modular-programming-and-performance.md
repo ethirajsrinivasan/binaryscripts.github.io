@@ -3,6 +3,7 @@ layout: post
 title: "Using Java Modules for Modular Programming and Performance"
 subtitle: "A deep dive into Java Modules and how they enhance code organization, security, and performance."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Java Modules", "Jigsaw", "Modular Programming", "Performance Optimization", "Encapsulation"]
 excerpt: "Java Modules, introduced in Java 9, revolutionize code organization and performance by enabling strong encapsulation, improved maintainability, and efficient runtime execution. Learn how to use Java Modules effectively."
 ---

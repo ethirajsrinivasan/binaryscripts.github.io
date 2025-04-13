@@ -3,6 +3,7 @@ layout: post
 title: "Real-Time Data Processing with Flask and Redis Streams"
 subtitle: "Learn how to process real-time data efficiently using Flask and Redis Streams"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Redis Streams", "Real-Time Data", "Event-Driven Architecture", "Streaming", "Python", "Redis"]
 excerpt: "Discover how to integrate Redis Streams with Flask for real-time data processing. Learn how to publish, consume, and process streaming data efficiently."
 ---

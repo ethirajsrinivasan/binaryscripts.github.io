@@ -3,6 +3,7 @@ layout: post
 title: "Using Spark on Google Cloud Dataproc for Scalable Solutions"
 subtitle: "Harness the power of Apache Spark on Google Cloud Dataproc to build scalable and efficient data solutions."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Google Cloud, Dataproc, Big Data, Cloud Computing]
 excerpt: "Discover how to leverage Apache Spark on Google Cloud Dataproc for building scalable, cost-effective, and high-performance big data solutions."
 ---

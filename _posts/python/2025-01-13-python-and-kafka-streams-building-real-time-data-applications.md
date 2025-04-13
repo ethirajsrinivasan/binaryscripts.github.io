@@ -3,6 +3,7 @@ layout: post
 title: "Python and Kafka Streams: Building Real-Time Data Applications"
 subtitle: "A deep dive into real-time data processing with Python and Apache Kafka"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Kafka", "Streaming", "Big Data", "Real-Time Processing", "Event-Driven Architecture"]
 excerpt: "Learn how to build real-time data applications with Python and Apache Kafka by leveraging Kafka Streams, event-driven architecture, and scalable processing techniques."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Exploring Delta Engine on Apache Spark for Faster Queries
 subtitle: Harness the power of Delta Engine to supercharge query performance on Apache Spark.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Delta Engine", "Apache Spark", "Big Data", "Query Optimization", "Delta Lake"]
 excerpt: Learn how Delta Engine enhances query speed and reliability on Apache Spark with advanced caching, indexing, and adaptive execution.
 ---

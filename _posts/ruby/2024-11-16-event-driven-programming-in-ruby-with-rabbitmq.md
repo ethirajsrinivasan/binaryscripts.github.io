@@ -3,6 +3,7 @@ layout: post
 title: "Event-Driven Programming in Ruby with RabbitMQ: A Practical Guide"
 subtitle: "Harness the power of event-driven architectures using Ruby and RabbitMQ for scalable, real-time applications."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Rabbitmq, Event Driven, Messaging, Microservices]
 excerpt: "Explore how to implement event-driven programming in Ruby with RabbitMQ. Learn about messaging patterns, scalability, and real-time data processing."
 excerpt_image: "/assets/images/ruby_event.jpg"

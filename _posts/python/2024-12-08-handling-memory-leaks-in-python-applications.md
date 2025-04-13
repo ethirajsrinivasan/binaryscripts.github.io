@@ -2,7 +2,8 @@
 layout: post  
 title: Handling Memory Leaks in Python Applications  
 subtitle: Detect, Debug, and Prevent Memory Leaks in Python for Optimal Performance  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Memory Management", "Garbage Collection", "Performance Optimization", "Debugging"]  
 excerpt: Learn how to detect, debug, and prevent memory leaks in Python applications to improve performance and resource efficiency.  
 ---

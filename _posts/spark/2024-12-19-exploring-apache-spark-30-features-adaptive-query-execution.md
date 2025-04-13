@@ -3,6 +3,7 @@ layout: post
 title: Exploring Apache Spark 3.0 Features - Adaptive Query Execution
 subtitle: A deep dive into the new Adaptive Query Execution (AQE) feature in Apache Spark 3.0 and its impact on performance optimization.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Spark 3.0", "Adaptive Query Execution", "Big Data", "Performance Optimization", "Data Engineering"]
 excerpt: Learn about the Adaptive Query Execution (AQE) feature introduced in Apache Spark 3.0 and how it improves query performance through dynamic optimization.
 ---

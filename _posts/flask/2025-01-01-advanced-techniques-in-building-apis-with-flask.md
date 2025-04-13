@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Techniques for Building High-Performance APIs with Flask"
 subtitle: "Optimize Flask APIs with advanced techniques, performance tuning, and security best practices"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "API", "Python", "Performance", "Security", "REST", "Microservices"]
 excerpt: "Discover advanced techniques to build high-performance and secure APIs with Flask. Learn about request handling, caching, authentication, and optimization strategies to enhance your Flask applications."
 ---

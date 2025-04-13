@@ -3,6 +3,7 @@ layout: post
 title: "Building CI/CD Pipelines for Flask Applications"
 subtitle: "Automate deployment and testing of Flask applications with CI/CD pipelines"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "CI/CD", "DevOps", "GitHub Actions", "Docker", "Kubernetes"]
 excerpt: "Learn how to set up a CI/CD pipeline for Flask applications using GitHub Actions, Docker, and Kubernetes to automate testing and deployment."
 ---

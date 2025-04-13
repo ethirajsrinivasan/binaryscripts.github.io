@@ -3,6 +3,7 @@ layout: post
 title: "Developing a Plugin System in Flask for Extensibility"
 subtitle: "Extend Flask applications dynamically with a modular plugin system"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Plugins", "Extensibility", "Python", "Modular Design"]
 excerpt: "Learn how to develop a plugin system in Flask to enable dynamic extensions and modular architecture for scalable applications."
 ---

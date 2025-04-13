@@ -2,7 +2,8 @@
 layout: post  
 title: Understanding the Rails Evented File Update Checker  
 subtitle: Optimize your Rails app's file watching mechanism for better performance  
-categories: RubyOnRails  
+categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Evented File Update Checker", "File Watching", "Performance", "Threads", "Concurrency"]  
 excerpt: Learn how Rails' Evented File Update Checker works, how it improves file watching efficiency, and how to configure it for optimal performance.  
 ---

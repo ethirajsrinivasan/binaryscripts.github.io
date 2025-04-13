@@ -3,6 +3,7 @@ layout: post
 title: "Ruby Internals: Understanding Method Lookup and Caching"
 subtitle: "Delve into Ruby's method lookup mechanism and how caching plays a critical role in performance optimization."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Performance, Method Lookup, Caching, Internals]
 excerpt: "Explore how Ruby performs method lookup and the significance of caching in optimizing performance in object-oriented programming."
 excerpt_image: "/assets/images/ruby_cache.jpg"

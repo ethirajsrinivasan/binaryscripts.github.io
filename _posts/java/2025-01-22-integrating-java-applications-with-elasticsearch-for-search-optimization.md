@@ -3,6 +3,7 @@ layout: post
 title: Integrating Java Applications with Elasticsearch for Search Optimization
 subtitle: Boost search performance in your Java apps using Elasticsearch integration best practices
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Elasticsearch, Search, Performance, Big Data, Spring Boot]
 excerpt: Learn how to integrate Elasticsearch with Java applications to build robust and scalable search features. Discover indexing strategies, performance optimizations, and practical Java code examples.
 ---

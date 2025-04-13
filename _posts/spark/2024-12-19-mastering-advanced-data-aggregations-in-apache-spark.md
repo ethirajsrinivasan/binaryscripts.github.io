@@ -3,6 +3,7 @@ layout: post
 title: "Mastering Advanced Data Aggregations in Apache Spark"
 subtitle: "A Comprehensive Guide to Efficient Data Aggregation Techniques in Apache Spark"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Big Data, Data Aggregation, Spark SQL, Optimization]
 excerpt: "Explore advanced data aggregation techniques in Apache Spark, including optimization strategies, practical examples, and best practices for handling large-scale datasets."
 ---

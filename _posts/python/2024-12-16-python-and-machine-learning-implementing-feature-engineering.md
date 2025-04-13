@@ -3,6 +3,7 @@ layout: post
 title: "Python and Machine Learning: Implementing Feature Engineering for Optimal Model Performance"
 subtitle: "Enhance machine learning models with advanced feature engineering techniques in Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Machine Learning", "Feature Engineering", "Data Science", "AI", "Model Optimization"]
 excerpt: "Learn essential feature engineering techniques in Python to improve machine learning model performance. Discover best practices for handling categorical, numerical, and time-series data."
 ---

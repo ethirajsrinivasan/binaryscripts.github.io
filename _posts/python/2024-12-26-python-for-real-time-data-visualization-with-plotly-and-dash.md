@@ -3,6 +3,7 @@ layout: post
 title: "Python for Real-Time Data Visualization with Plotly and Dash"
 subtitle: "Create interactive and real-time data visualizations using Python, Plotly, and Dash"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Data Visualization", "Plotly", "Dash", "Real-Time", "Interactive Dashboards"]
 excerpt: "Learn how to build interactive and real-time data visualizations using Python with Plotly and Dash, perfect for monitoring live data streams."
 ---

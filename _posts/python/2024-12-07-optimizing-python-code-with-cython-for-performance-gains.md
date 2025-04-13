@@ -2,7 +2,8 @@
 layout: post  
 title: Optimizing Python Code with Cython for Performance Gains  
 subtitle: Speed up your Python applications by leveraging Cython for high-performance computing.  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Cython", "Performance Optimization", "High-Performance Computing", "Speed Boost"]  
 excerpt: Learn how to optimize Python code using Cython to achieve near C-level performance. Explore type annotations, compilation techniques, and real-world examples to improve execution speed.  
 ---

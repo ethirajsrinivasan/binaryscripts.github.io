@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot for Serverless Applications with AWS Lambda
 subtitle: Build scalable and cost-effective serverless Java applications using Spring Boot and AWS Lambda
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, AWS, Lambda, Serverless, Java, Cloud, API Gateway]
 excerpt: Learn how to build serverless applications using Spring Boot and AWS Lambda. This guide covers setup, performance tuning, cold start optimization, and deployment strategies for cloud-native Java services.
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Role-Based Access Control (RBAC) in Flask"
 subtitle: "Secure your Flask applications with Role-Based Access Control (RBAC) for fine-grained user permissions"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "RBAC", "Authentication", "Authorization", "Security", "JWT", "SQLAlchemy"]
 excerpt: "Learn how to implement Role-Based Access Control (RBAC) in Flask to enhance security by defining user roles, managing permissions, and integrating JWT authentication for protected routes."
 ---

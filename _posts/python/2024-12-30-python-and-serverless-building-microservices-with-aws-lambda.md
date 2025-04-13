@@ -3,6 +3,7 @@ layout: post
 title: "Python and Serverless: Building Microservices with AWS Lambda"
 subtitle: "Learn how to build scalable and cost-effective microservices using Python and AWS Lambda"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "AWS Lambda", "Serverless", "Microservices", "Cloud Computing", "API Gateway"]
 excerpt: "Explore how to build efficient, scalable, and cost-effective microservices using Python and AWS Lambda in a serverless architecture."
 ---
@@ -212,6 +213,7 @@ layout: post
 title: "Python and Serverless: Building Microservices with AWS Lambda"
 subtitle: "Learn how to build scalable and cost-effective microservices using Python and AWS Lambda"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "AWS Lambda", "Serverless", "Microservices", "Cloud Computing", "API Gateway"]
 excerpt: "Explore how to build efficient, scalable, and cost-effective microservices using Python and AWS Lambda in a serverless architecture."
 ---

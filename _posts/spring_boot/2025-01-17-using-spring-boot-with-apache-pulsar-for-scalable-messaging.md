@@ -3,6 +3,7 @@ layout: post
 title: Using Spring Boot with Apache Pulsar for Scalable Messaging
 subtitle: Build scalable and resilient messaging systems using Spring Boot and Apache Pulsar
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Apache Pulsar, Messaging, Event-Driven, Microservices]
 excerpt: Learn how to integrate Apache Pulsar with Spring Boot to build scalable, event-driven messaging systems. This guide covers configuration, producers, consumers, topics, and performance tuning.
 ---

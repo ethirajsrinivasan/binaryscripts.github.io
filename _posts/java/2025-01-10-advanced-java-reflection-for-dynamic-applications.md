@@ -3,6 +3,7 @@ layout: post
 title: "Mastering Java Reflection - Building Dynamic and Flexible Applications"
 subtitle: "An in-depth guide to advanced Java Reflection for dynamic class loading, method invocation, and runtime manipulation."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Reflection", "Dynamic Programming", "Annotations", "Runtime Manipulation", "Performance Optimization"]
 excerpt: "Java Reflection enables dynamic class loading, method invocation, and runtime object manipulation. Learn advanced techniques, best practices, and performance considerations to harness Reflection effectively."
 ---

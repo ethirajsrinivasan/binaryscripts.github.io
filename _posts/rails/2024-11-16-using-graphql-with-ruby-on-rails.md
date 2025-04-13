@@ -3,6 +3,7 @@ layout: "post"
 title: "Using GraphQL with Ruby on Rails - An Intermediate Guide"
 subtitle: "Optimize your Ruby on Rails API with GraphQL for better performance and flexibility"
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["GraphQL", "Ruby on Rails", "API Development", "REST vs GraphQL", "Advanced GraphQL"]
 excerpt: "Learn how to integrate and optimize GraphQL with Ruby on Rails. This intermediate guide covers schema design, query optimization, authentication, and advanced GraphQL techniques."
 ---

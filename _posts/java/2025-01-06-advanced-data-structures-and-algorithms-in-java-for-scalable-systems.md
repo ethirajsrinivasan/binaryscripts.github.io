@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Data Structures and Algorithms in Java for Scalable Systems"
 subtitle: "Optimize performance with high-efficiency data structures and algorithms for large-scale Java applications."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Data Structures", "Algorithms", "Scalability", "Performance Optimization", "Big Data"]
 excerpt: "Learn advanced data structures and algorithms in Java designed for scalable systems. Optimize performance with efficient memory usage, parallel processing, and data-intensive computing techniques."
 ---

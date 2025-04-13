@@ -2,7 +2,8 @@
 layout: post  
 title: Managing Secrets Securely in Ruby on Rails  
 subtitle: Best practices for handling sensitive data in Ruby on Rails applications  
-categories: RubyOnRails  
+categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Ruby on Rails", "Security", "Secrets Management", "Encryption", "DevOps"]  
 excerpt: Learn how to securely manage secrets in your Ruby on Rails applications by utilizing best practices and modern tools to safeguard sensitive data.  
 ---

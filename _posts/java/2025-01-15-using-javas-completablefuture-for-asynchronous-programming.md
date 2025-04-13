@@ -3,6 +3,7 @@ layout: post
 title: "Using Java's CompletableFuture for Asynchronous Programming"
 subtitle: "Master Java's CompletableFuture to write efficient, non-blocking, and scalable asynchronous code."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "CompletableFuture", "Asynchronous Programming", "Concurrency", "Multithreading", "Performance Optimization"]
 excerpt: "Java's CompletableFuture simplifies asynchronous programming, enabling non-blocking operations and efficient concurrency. Learn how to use CompletableFuture with real-world examples and performance optimizations."
 ---

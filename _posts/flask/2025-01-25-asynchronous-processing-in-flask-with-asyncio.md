@@ -3,6 +3,7 @@ layout: post
 title: "Asynchronous Processing in Flask with AsyncIO"
 subtitle: "Boost Flask performance with AsyncIO for non-blocking execution"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "AsyncIO", "Asynchronous", "Performance", "Concurrency", "Web Development"]
 excerpt: "Learn how to implement asynchronous processing in Flask using AsyncIO to handle I/O-bound operations efficiently and improve performance in high-load applications."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Advanced Testing Techniques for Spring Boot Applications
 subtitle: Elevate your Spring Boot testing strategy with mocking, slicing, integration testing, and testcontainers
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, JUnit, Mockito, Integration Testing, Testcontainers, TDD]
 excerpt: Explore advanced testing techniques in Spring Boot using JUnit, Mockito, Testcontainers, and Spring test slices. Learn how to isolate layers, validate APIs, and write maintainable tests for production-ready applications.
 ---

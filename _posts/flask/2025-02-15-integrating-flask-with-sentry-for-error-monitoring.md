@@ -3,6 +3,7 @@ layout: post
 title: "Integrating Flask with Sentry for Error Monitoring"
 subtitle: "Enhance Flask applications with real-time error tracking and performance monitoring using Sentry"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Sentry", "Error Monitoring", "Logging", "Performance Optimization"]
 excerpt: "Learn how to integrate Sentry with Flask to track errors, debug issues, and optimize application performance in real time."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Working with Complex Data Types in Spark Arrays and Maps
 subtitle: A technical guide for handling arrays and maps in Apache Spark for intermediate and advanced users
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [HDFS, Spark, Big Data, DataFrame, Data Engineering, Apache Spark]
 excerpt: Master the use of complex data types like arrays and maps in Apache Spark to efficiently process nested and structured data.
 ---

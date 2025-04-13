@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Testing Strategies for Ruby Applications with RSpec"
 subtitle: "Master advanced RSpec techniques to ensure robust, maintainable, and high-quality Ruby applications."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Rspec, Testing, TDD, BDD, Software Quality]
 excerpt: "Explore advanced RSpec testing strategies for Ruby applications, focusing on mock objects, shared examples, custom matchers, and performance testing."
 excerpt_image: "/assets/images/ruby_rspec.jpg"

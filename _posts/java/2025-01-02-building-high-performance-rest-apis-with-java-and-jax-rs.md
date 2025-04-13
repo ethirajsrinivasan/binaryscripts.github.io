@@ -3,6 +3,7 @@ layout: post
 title: "Building High-Performance REST APIs with Java and JAX-RS"
 subtitle: "Optimize REST API performance using Java and JAX-RS with best practices for scalability and efficiency."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "REST API", "JAX-RS", "Jakarta EE", "Performance Optimization", "Microservices"]
 excerpt: "Learn how to build high-performance REST APIs using Java and JAX-RS. This guide covers optimization techniques, best practices, and strategies for scalability."
 ---

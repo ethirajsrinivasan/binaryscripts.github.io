@@ -3,6 +3,7 @@ layout: post
 title: "Using Spark with Apache Cassandra for Low-Latency Analytics"
 subtitle: "A guide to integrating Apache Spark and Cassandra for real-time, low-latency data analytics."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Cassandra, Low-Latency, Big Data, Analytics]
 excerpt: "Learn how to harness the combined power of Apache Spark and Apache Cassandra to build low-latency analytics systems for modern data challenges."
 ---

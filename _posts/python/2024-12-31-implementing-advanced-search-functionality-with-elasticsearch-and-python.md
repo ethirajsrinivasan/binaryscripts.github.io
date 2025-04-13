@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Advanced Search Functionality with Elasticsearch and Python"
 subtitle: "Enhance search capabilities with Elasticsearch and Python for high-performance applications"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Elasticsearch", "Full-Text Search", "Big Data", "Search Optimization"]
 excerpt: "Learn how to implement advanced search functionality using Elasticsearch and Python, covering indexing, querying, and optimization strategies."
 ---

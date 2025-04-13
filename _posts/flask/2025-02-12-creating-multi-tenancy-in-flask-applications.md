@@ -3,6 +3,7 @@ layout: post
 title: "Creating Multi-Tenancy in Flask Applications"
 subtitle: "Implementing Multi-Tenancy with Database Isolation and Schema Separation in Flask"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Multi-Tenancy", "SQLAlchemy", "Database", "Web Development"]
 excerpt: "Learn how to design and implement a multi-tenant architecture in Flask using database isolation and schema-based approaches."
 ---

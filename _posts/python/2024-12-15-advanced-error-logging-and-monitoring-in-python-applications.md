@@ -3,6 +3,7 @@ layout: post
 title: "Advanced Error Logging and Monitoring in Python Applications"
 subtitle: "Master efficient error logging and monitoring techniques for Python applications"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Logging", "Monitoring", "Error Handling", "Best Practices", "Observability"]
 excerpt: "Learn how to implement advanced error logging and monitoring techniques in Python to enhance observability, debugging, and application performance."
 ---

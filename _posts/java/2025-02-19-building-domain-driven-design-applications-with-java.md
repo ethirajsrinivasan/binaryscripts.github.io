@@ -3,6 +3,7 @@ layout: post
 title: Building Domain-Driven Design Applications with Java
 subtitle: Model complex business domains in Java using strategic patterns and DDD principles
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, DDD, Domain-Driven Design, Architecture, Modeling, Microservices]
 excerpt: Learn how to build Domain-Driven Design (DDD) applications in Java. Apply aggregates, value objects, repositories, and bounded contexts to solve complex business problems with clean, maintainable architecture.
 ---

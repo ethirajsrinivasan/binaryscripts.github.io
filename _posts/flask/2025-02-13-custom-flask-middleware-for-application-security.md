@@ -3,6 +3,7 @@ layout: post
 title: "Custom Flask Middleware for Application Security"
 subtitle: "Enhancing Flask application security with custom middleware"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Security", "Middleware", "Authentication", "Authorization", "Logging"]
 excerpt: "Learn how to implement custom Flask middleware for security, including request validation, authentication, and logging."
 ---

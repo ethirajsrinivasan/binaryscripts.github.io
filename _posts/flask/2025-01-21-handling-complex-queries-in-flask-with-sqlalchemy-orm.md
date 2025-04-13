@@ -3,6 +3,7 @@ layout: post
 title: "Handling Complex Queries in Flask with SQLAlchemy ORM"
 subtitle: "Optimize and manage complex database queries in Flask using SQLAlchemy ORM"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "SQLAlchemy", "Database", "ORM", "Python", "Query Optimization"]
 excerpt: "Learn how to handle complex queries efficiently in Flask using SQLAlchemy ORM. Discover techniques like query optimization, relationships, and lazy loading for better performance."
 ---

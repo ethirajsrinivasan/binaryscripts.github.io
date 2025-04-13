@@ -3,6 +3,7 @@ layout: post
 title: "Enhancing Debugging Workflows in Ruby Applications: A Comprehensive Guide"
 subtitle: "Master debugging techniques in Ruby to streamline your development process and resolve issues efficiently."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Debugging, Development, Workflows, Tools]
 excerpt: "Discover advanced debugging workflows for Ruby applications. Learn about tools, techniques, and best practices to identify and fix issues effectively."
 excerpt_image: "https://images.unsplash.com/photo-1605313294941-ea43850d9de5"

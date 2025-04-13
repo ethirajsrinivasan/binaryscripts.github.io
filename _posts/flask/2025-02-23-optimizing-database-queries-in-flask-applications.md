@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Database Queries in Flask Applications"
 subtitle: "Boost Flask application performance with efficient database queries"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Database", "SQLAlchemy", "Optimization", "Performance", "Query Tuning"]
 excerpt: "Learn advanced techniques to optimize database queries in Flask applications, including indexing, caching, and ORM best practices."
 ---

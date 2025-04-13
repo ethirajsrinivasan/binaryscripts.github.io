@@ -3,6 +3,7 @@ layout: post
 title: "Working with Flask and Apache Kafka for Event-Driven Systems"
 subtitle: "Building scalable event-driven architectures using Flask and Kafka"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Kafka", "Event-Driven Architecture", "Python", "Streaming"]
 excerpt: "Learn how to integrate Flask with Apache Kafka to build scalable event-driven architectures for real-time data processing."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Exploring Python's Descriptor Protocol for Property Management"
 subtitle: "Master Python's descriptor protocol to control attribute access and behavior efficiently"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Descriptor", "OOP", "Property Management", "Best Practices"]
 excerpt: "Learn how Python’s descriptor protocol works and how to leverage it for advanced property management, attribute control, and cleaner object-oriented design."
 ---

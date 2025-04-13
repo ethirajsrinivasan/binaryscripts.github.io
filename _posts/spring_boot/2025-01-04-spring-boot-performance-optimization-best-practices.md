@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot Performance Optimization Best Practices
 subtitle: Tune your Spring Boot applications for speed, scalability, and production readiness
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, Java, Performance, JVM Tuning, Optimization, Caching]
 excerpt: Learn the most effective strategies to optimize Spring Boot application performance. Explore startup time reduction, memory tuning, lazy loading, caching, and database optimizations for production environments.
 ---

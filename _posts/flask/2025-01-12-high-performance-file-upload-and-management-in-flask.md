@@ -3,6 +3,7 @@ layout: post
 title: "High-Performance File Upload and Management in Flask"
 subtitle: "Optimize file upload, storage, and retrieval in Flask for high-performance applications"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "File Upload", "Performance", "Storage", "API", "Multipart", "Asynchronous"]
 excerpt: "Learn how to implement efficient, high-performance file upload and management in Flask. Explore techniques such as streaming uploads, chunked file processing, and cloud storage integration."
 ---

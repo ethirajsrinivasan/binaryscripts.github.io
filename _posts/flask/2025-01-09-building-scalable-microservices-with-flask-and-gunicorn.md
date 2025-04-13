@@ -3,6 +3,7 @@ layout: post
 title: "Building Scalable Microservices with Flask and Gunicorn"
 subtitle: "Learn how to create high-performance microservices using Flask and Gunicorn"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Microservices", "Gunicorn", "API", "Scalability", "Python"]
 excerpt: "Discover how to build scalable microservices using Flask and Gunicorn. Learn about worker models, performance tuning, and deployment strategies to optimize your API architecture."
 ---

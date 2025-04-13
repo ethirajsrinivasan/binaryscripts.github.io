@@ -3,6 +3,7 @@ layout: "post"
 title: "Optimizing Spark Applications for Performance and Scalability"
 subtitle: "Master the art of tuning Apache Spark for maximum efficiency and scalability"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Spark", "Big Data", "HDFS", "Apache Spark", "Performance Tuning", "Scalability"]
 excerpt: "Discover proven techniques and strategies to optimize Apache Spark applications, improve performance, and ensure scalability for large-scale data processing."
 excerpt_image: "https://images.unsplash.com/photo-1674027326347-37509301f286"

@@ -3,6 +3,7 @@ layout: post
 title: Building Scalable Serverless Functions with Java
 subtitle: Leverage Java to build efficient, event-driven serverless applications on AWS Lambda, Azure, and GCP
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Serverless, AWS Lambda, GCP Functions, Azure Functions, Scalability]
 excerpt: Learn how to build and deploy serverless functions in Java using AWS Lambda, Azure Functions, and GCP. Optimize cold starts, manage dependencies, and architect event-driven scalable systems.
 ---

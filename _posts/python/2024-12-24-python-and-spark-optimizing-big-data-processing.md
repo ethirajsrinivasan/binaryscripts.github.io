@@ -3,6 +3,7 @@ layout: post
 title: "Python and Spark: Optimizing Big Data Processing"
 subtitle: "Advanced techniques to enhance performance in PySpark applications"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Spark", "Big Data", "PySpark", "Performance Optimization", "Data Engineering"]
 excerpt: "Learn how to optimize Big Data processing with Python and Apache Spark using best practices, tuning strategies, and performance optimizations for scalable data pipelines."
 ---

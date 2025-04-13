@@ -3,6 +3,7 @@ layout: post
 title: "Integrating Flask with PostgreSQL for Large Databases"
 subtitle: "A comprehensive guide to setting up Flask with PostgreSQL for handling large-scale databases efficiently"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "PostgreSQL", "SQLAlchemy", "Database", "ORM", "Backend", "Scalability"]
 excerpt: "Learn how to integrate PostgreSQL with Flask, set up SQLAlchemy ORM, optimize queries, and handle large-scale databases efficiently."
 ---

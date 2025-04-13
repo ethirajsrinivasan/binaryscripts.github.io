@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Advanced Data Validation with Marshmallow"
 subtitle: "Enhance data validation in Flask with Marshmallow's powerful serialization and schema validation"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Marshmallow", "Data Validation", "Serialization", "API", "Schema", "Python"]
 excerpt: "Learn how to implement advanced data validation using Marshmallow in Flask. Explore techniques like nested schemas, custom field validation, and automatic serialization for robust APIs."
 ---

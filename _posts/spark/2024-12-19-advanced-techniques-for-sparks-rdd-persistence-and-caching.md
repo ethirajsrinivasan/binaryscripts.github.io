@@ -3,6 +3,7 @@ layout: "post"
 title: "Advanced Techniques for Spark`s RDD Persistence and Caching"
 subtitle: "Optimize Apache Spark performance with expert-level strategies for RDD persistence and caching."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "RDD", "Caching", "Big Data", "Performance Optimization"]
 excerpt: "Explore advanced techniques for leveraging Apache Spark`s RDD persistence and caching to enhance big data processing performance."
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

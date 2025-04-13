@@ -3,6 +3,7 @@ layout: post
 title: "Deploying Flask on AWS Lambda for Serverless Applications"
 subtitle: "Step-by-step guide to deploying Flask as a serverless application using AWS Lambda and API Gateway"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "AWS Lambda", "Serverless", "API Gateway", "Zappa", "Python"]
 excerpt: "Learn how to deploy Flask applications on AWS Lambda for serverless, scalable, and cost-efficient API hosting using API Gateway and Zappa."
 ---

@@ -3,6 +3,7 @@ layout: "post"
 title: "Optimizing Joins and Skew Handling in Spark Applications"
 subtitle: "Learn how to tackle data skew and improve join performance in Apache Spark for faster and efficient big data processing."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Data Skew", "Joins", "Big Data Optimization", "Spark Performance"]
 excerpt: "Discover techniques to optimize joins and handle skewed data in Apache Spark, ensuring better performance and resource utilization in your big data workflows."
 ---

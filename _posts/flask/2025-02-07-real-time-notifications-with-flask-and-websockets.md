@@ -3,6 +3,7 @@ layout: post
 title: "Real-Time Notifications with Flask and WebSockets"
 subtitle: "Learn how to build a real-time notification system using Flask, WebSockets, and Flask-SocketIO"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "WebSockets", "Real-Time", "Notifications", "Flask-SocketIO", "Python"]
 excerpt: "Discover how to implement a real-time notification system in Flask using WebSockets and Flask-SocketIO for instant data updates and seamless user experience."
 ---

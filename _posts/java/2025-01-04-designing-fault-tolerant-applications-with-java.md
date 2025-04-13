@@ -3,6 +3,7 @@ layout: post
 title: "Designing Fault-Tolerant Applications with Java"
 subtitle: "Best practices and strategies for building resilient and highly available Java applications."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Fault Tolerance", "Resilience", "Microservices", "High Availability", "Distributed Systems"]
 excerpt: "Learn how to design fault-tolerant Java applications using techniques like retries, circuit breakers, distributed logging, and state recovery. Build robust systems that can handle failures gracefully."
 ---

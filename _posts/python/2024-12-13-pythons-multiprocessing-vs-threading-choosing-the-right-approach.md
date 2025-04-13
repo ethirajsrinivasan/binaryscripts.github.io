@@ -3,6 +3,7 @@ layout: post
 title: "Python's Multiprocessing vs Threading: Choosing the Right Approach"
 subtitle: "A deep dive into Python's multiprocessing and threading to optimize performance"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Multiprocessing", "Threading", "Concurrency", "Parallelism", "Performance Optimization"]
 excerpt: "Understand the key differences between Python's multiprocessing and threading, when to use each, and how to optimize performance in concurrent applications."
 ---

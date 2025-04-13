@@ -3,6 +3,7 @@ layout: post
 title: Using Spark with AWS Glue for Cloud-Native Data Engineering
 subtitle: Harness the power of Apache Spark and AWS Glue for scalable cloud-native data engineering solutions.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "AWS Glue", "Data Engineering", "Cloud", "Big Data"]
 excerpt: Discover how to leverage Apache Spark and AWS Glue to build efficient, scalable, cloud-native data engineering pipelines on AWS.
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Handling Complex Data Transformations in Ruby"
 subtitle: "Master advanced techniques for managing and transforming complex data structures in Ruby."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Data Transformation, Advanced Techniques, Algorithms, Big Data]
 excerpt: "Discover advanced strategies and best practices for handling complex data transformations in Ruby, from parsing nested data to optimizing performance."
 excerpt_image: "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6"

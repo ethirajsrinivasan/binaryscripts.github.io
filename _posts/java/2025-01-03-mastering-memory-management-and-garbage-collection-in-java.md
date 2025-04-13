@@ -3,6 +3,7 @@ layout: post
 title: "Mastering Memory Management and Garbage Collection in Java"
 subtitle: "A comprehensive guide to Java's memory management and garbage collection techniques for high-performance applications."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Memory Management", "Garbage Collection", "JVM", "Performance Optimization"]
 excerpt: "Learn how Java's memory management and garbage collection work, explore different GC algorithms, and optimize your applications for peak performance."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot and HATEOAS Designing RESTful APIs
 subtitle: Build discoverable and self-descriptive REST APIs using Spring Boot and HATEOAS
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, REST, HATEOAS, Hypermedia, API Design, HAL, JSON]
 excerpt: Learn how to design discoverable RESTful APIs with Spring Boot and HATEOAS. Implement hypermedia links, HAL responses, and navigable resources to enhance client usability and API maintainability.
 ---

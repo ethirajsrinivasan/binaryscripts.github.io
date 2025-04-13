@@ -3,6 +3,7 @@ layout: post
 title: "Exploring Java's Reactive Programming with Project Reactor"
 subtitle: "A deep dive into reactive programming in Java using Project Reactor for building responsive, scalable applications."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Reactive Programming", "Project Reactor", "WebFlux", "Concurrency", "Asynchronous"]
 excerpt: "Learn how to leverage Project Reactor to build highly scalable, non-blocking applications in Java. Explore key concepts like Mono, Flux, and reactive streams with real-world examples."
 ---

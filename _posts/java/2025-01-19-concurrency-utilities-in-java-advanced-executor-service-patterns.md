@@ -3,6 +3,7 @@ layout: post
 title: "Concurrency Utilities in Java - Advanced Executor Service Patterns"
 subtitle: "Master advanced patterns of Java's Executor Service for scalable and efficient concurrent programming."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Concurrency", "ExecutorService", "Multithreading", "Parallel Processing", "Thread Pools", "Performance Optimization"]
 excerpt: "Explore advanced patterns in Java's Executor Service, including custom thread pools, task scheduling, and performance tuning for high-performance concurrent applications."
 ---

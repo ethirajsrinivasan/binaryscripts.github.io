@@ -2,7 +2,8 @@
 layout: post  
 title: Efficient Data Processing with Pandas for Large Datasets  
 subtitle: Learn strategies to handle and process large datasets efficiently using Pandas, ensuring performance and scalability.  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Pandas", "Data Processing", "Big Data", "Python", "Data Science"]  
 excerpt: Master techniques in Pandas for processing large datasets efficiently, including memory optimization, chunking, and parallel processing strategies.  
 ---

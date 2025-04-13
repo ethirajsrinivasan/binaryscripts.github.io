@@ -3,6 +3,7 @@ layout: post
 title: "Building Scalable Event-Driven Applications with Java and Kafka"
 subtitle: "Leverage Apache Kafka and Java to build high-performance, event-driven architectures."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Kafka", "Event-Driven Architecture", "Microservices", "Streaming", "Scalability"]
 excerpt: "Learn how to build scalable event-driven applications using Java and Apache Kafka. This guide covers architecture, best practices, and performance optimizations."
 ---

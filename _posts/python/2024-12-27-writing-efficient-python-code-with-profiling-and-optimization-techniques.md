@@ -3,6 +3,7 @@ layout: post
 title: "Writing Efficient Python Code with Profiling and Optimization Techniques"
 subtitle: "Boost Python performance with advanced profiling and optimization strategies"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Performance Optimization", "Profiling", "Code Efficiency", "Debugging", "Memory Management"]
 excerpt: "Learn how to optimize Python code performance using profiling tools, efficient algorithms, and memory management techniques. Master best practices for writing high-performance Python applications."
 ---

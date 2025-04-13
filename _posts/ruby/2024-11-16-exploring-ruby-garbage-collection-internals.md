@@ -3,6 +3,7 @@ layout: post
 title: Exploring Ruby's Garbage Collection Internals
 subtitle: A deep dive into the internals of Ruby's garbage collection system and how it impacts application performance
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Garbage Collection, Performance]
 excerpt: Explore the inner workings of Ruby's garbage collection mechanism, its strategies, and how to optimize it for better performance.
 excerpt_image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac"

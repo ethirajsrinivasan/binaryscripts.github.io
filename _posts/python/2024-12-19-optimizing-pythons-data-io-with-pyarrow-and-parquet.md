@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Python's Data I/O with PyArrow and Parquet"
 subtitle: "Enhance data processing efficiency using PyArrow and Parquet in Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "PyArrow", "Parquet", "Data Engineering", "Big Data", "Performance Optimization"]
 excerpt: "Learn how to optimize data I/O operations in Python using PyArrow and Parquet for high-performance data processing."
 ---

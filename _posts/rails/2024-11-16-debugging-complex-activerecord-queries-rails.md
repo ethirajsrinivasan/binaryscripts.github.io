@@ -3,6 +3,7 @@ layout: "post"
 title: "Debugging Complex ActiveRecord Queries in Rails"
 subtitle: "Master techniques to debug and optimize complex ActiveRecord queries in Ruby on Rails"
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Ruby on Rails", "ActiveRecord", "Database Optimization", "SQL Debugging", "Performance Tuning", "Rails Debugging"]
 excerpt: "Learn how to effectively debug and optimize complex ActiveRecord queries in Rails to improve database performance and application scalability."
 ---

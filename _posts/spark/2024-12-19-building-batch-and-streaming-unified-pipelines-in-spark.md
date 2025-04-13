@@ -3,6 +3,7 @@ layout: "post"
 title: "Building Batch and Streaming Unified Pipelines in Spark"
 subtitle: "Explore how to create unified data pipelines for both batch and streaming workloads using Apache Spark."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Batch Processing", "Streaming", "Unified Pipelines", "Big Data"]
 excerpt: "Learn how to leverage Apache Spark to build unified pipelines that handle both batch and streaming data efficiently, enabling real-time and offline analytics in a single framework."
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

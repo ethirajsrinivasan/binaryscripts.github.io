@@ -3,6 +3,7 @@ layout: post
 title: Advanced File I/O and NIO in Java for Real-Time Systems
 subtitle: Master Java NIO and asynchronous I/O for real-time and high-throughput systems
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, NIO, File I/O, Real-Time, Performance, Async]
 excerpt: Explore Java’s NIO and advanced file I/O capabilities to build responsive, real-time applications. Learn about channels, buffers, memory-mapped files, and asynchronous I/O strategies.
 ---

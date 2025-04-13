@@ -3,6 +3,7 @@ layout: post
 title: Efficient Serialization and Deserialization in Java with Avro
 subtitle: Use Apache Avro for fast and compact serialization in Java applications
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Avro, Serialization, Big Data, Performance, Data Engineering]
 excerpt: Discover how Apache Avro enhances serialization in Java. Learn schema evolution, binary formats, integration with Kafka, and how to serialize and deserialize data efficiently in modern applications.
 ---

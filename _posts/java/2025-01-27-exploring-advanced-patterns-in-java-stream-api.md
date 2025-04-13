@@ -3,6 +3,7 @@ layout: post
 title: Exploring Advanced Patterns in Java Stream API
 subtitle: Push Java Stream API to its limits with advanced patterns and techniques
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Streams, Functional Programming, Lambda, Performance, Stream API]
 excerpt: Go beyond the basics with Java Stream API. Learn advanced patterns like grouping, flatMapping, reduction, and custom collectors to write elegant and performant functional code.
 ---

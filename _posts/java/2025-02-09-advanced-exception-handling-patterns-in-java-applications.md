@@ -3,6 +3,7 @@ layout: post
 title: Advanced Exception Handling Patterns in Java Applications
 subtitle: Go beyond try-catch blocks with advanced exception management strategies in Java
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Exception Handling, Error Management, Best Practices, Clean Code]
 excerpt: Learn advanced patterns and best practices for exception handling in Java. Improve application robustness, maintainability, and readability with techniques like exception translation, hierarchy design, and functional error handling.
 ---

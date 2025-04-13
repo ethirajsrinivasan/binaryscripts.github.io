@@ -3,6 +3,7 @@ layout: post
 title: Apache Spark's Structured Streaming vs Flink - A Deep Dive
 subtitle: Comparing Apache Spark's Structured Streaming with Apache Flink for real-time stream processing - Features, performance, and use cases.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Structured Streaming", "Apache Flink", "Stream Processing", "Big Data"]
 excerpt: Explore the key differences between Apache Spark's Structured Streaming and Apache Flink for real-time stream processing, including their features, strengths, and performance metrics.
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

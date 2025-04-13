@@ -2,7 +2,8 @@
 layout: post  
 title: Advanced Data Structures in Python for High-Performance Applications  
 subtitle: Leveraging advanced data structures in Python to build efficient and scalable applications  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Data Structures", "Performance Optimization", "Algorithms", "High-Performance Computing"]  
 excerpt: Learn how to use advanced data structures in Python to improve performance and scalability in high-performance applications.
 ---

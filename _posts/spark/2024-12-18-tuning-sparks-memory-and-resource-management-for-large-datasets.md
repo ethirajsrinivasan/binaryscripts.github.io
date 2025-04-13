@@ -3,6 +3,7 @@ layout: "post"
 title: "Tuning Spark`s Memory and Resource Management for Large Datasets"
 subtitle: "Optimize Spark`s memory and resource allocation for efficient big data processing"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Memory Tuning", "Resource Management", "Big Data", "Performance Optimization"]
 excerpt: "Learn advanced techniques to fine-tune Apache Spark`s memory and resource management for handling large datasets efficiently and at scale."
 excerpt_image: "https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff"

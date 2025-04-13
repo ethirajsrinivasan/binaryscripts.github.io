@@ -3,6 +3,7 @@ layout: post
 title: "Database Optimization in Flask with SQLAlchemy"
 subtitle: "Boost Flask application performance with SQLAlchemy optimizations"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "SQLAlchemy", "Database", "Optimization", "Performance", "PostgreSQL", "MySQL"]
 excerpt: "Optimize database performance in Flask using SQLAlchemy with indexing, connection pooling, query optimization, and caching strategies. Learn best practices to enhance efficiency and scalability."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Securing Java Applications with Advanced Cryptography"
 subtitle: "A deep dive into cryptographic techniques for securing Java applications against modern threats."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Cryptography", "Security", "Encryption", "Hashing", "TLS"]
 excerpt: "Explore advanced cryptographic techniques in Java, including encryption, hashing, digital signatures, and TLS, to build secure applications."
 ---

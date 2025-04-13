@@ -3,6 +3,7 @@ layout: post
 title: "Integrating Flask with GraphQL for API Development"
 subtitle: "Learn how to integrate GraphQL with Flask to build flexible and efficient APIs"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "GraphQL", "API", "Python", "Web Development", "Graphene"]
 excerpt: "Discover how to use Flask with GraphQL to create powerful APIs. Learn about Graphene, schema design, query handling, and optimizations."
 ---

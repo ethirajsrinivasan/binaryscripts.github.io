@@ -3,6 +3,7 @@ layout: post
 title: "Using Python to Create and Manage Web Scraping Pipelines"
 subtitle: "Automate data extraction efficiently with scalable Python web scraping pipelines"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Web Scraping", "Data Engineering", "Automation", "BeautifulSoup", "Scrapy"]
 excerpt: "Learn how to build and manage efficient web scraping pipelines using Python, leveraging tools like Scrapy, BeautifulSoup, and Selenium."
 ---

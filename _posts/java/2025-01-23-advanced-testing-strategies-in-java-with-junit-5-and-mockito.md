@@ -3,6 +3,7 @@ layout: post
 title: Advanced Testing Strategies in Java with JUnit 5 and Mockito
 subtitle: Master JUnit 5 and Mockito to write expressive, robust, and isolated unit and integration tests
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, JUnit5, Mockito, Testing, TDD, Mocking]
 excerpt: Explore powerful testing strategies in Java using JUnit 5 and Mockito. Learn how to write maintainable, isolated, and expressive tests for real-world applications.
 ---

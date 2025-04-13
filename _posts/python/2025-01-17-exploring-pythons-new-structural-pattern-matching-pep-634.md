@@ -3,6 +3,7 @@ layout: post
 title: "Exploring Python's New Structural Pattern Matching (PEP 634)"
 subtitle: "Master Python's match-case statement with real-world examples and advanced techniques"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Pattern Matching", "PEP 634", "Advanced Python", "match-case"]
 excerpt: "Learn how Python's structural pattern matching (PEP 634) revolutionizes conditional logic with match-case statements. Explore advanced use cases with real-world examples."
 ---

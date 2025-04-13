@@ -3,6 +3,7 @@ layout: post
 title: "Best Practices for Managing Dependencies in Ruby Projects"
 subtitle: "Streamline dependency management in Ruby projects with expert tips and techniques."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Dependencies, Bundler, Gems, Software Development]
 excerpt: "Learn the best practices for managing dependencies in Ruby projects, including using Bundler, maintaining gem security, and optimizing performance."
 excerpt_image: "https://images.unsplash.com/photo-1557837847-582372d3765b"

@@ -3,6 +3,7 @@ layout: post
 title: "Exploring Advanced Functional Programming Techniques in Python"
 subtitle: "Master higher-order functions, function composition, monads, and more"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Functional Programming", "Higher-Order Functions", "Lambdas", "Monads", "Closures"]
 excerpt: "Learn how to leverage advanced functional programming techniques in Python to write concise, expressive, and efficient code."
 ---

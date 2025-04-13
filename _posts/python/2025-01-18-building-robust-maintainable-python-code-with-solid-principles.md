@@ -3,6 +3,7 @@ layout: post
 title: "Building Robust, Maintainable Python Code with SOLID Principles"
 subtitle: "Master SOLID principles to write cleaner, scalable, and maintainable Python applications"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "SOLID", "Best Practices", "Software Design", "OOP"]
 excerpt: "Learn how to apply SOLID principles in Python to enhance code maintainability, scalability, and robustness while adhering to object-oriented design best practices."
 ---

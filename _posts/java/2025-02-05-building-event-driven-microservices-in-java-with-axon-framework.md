@@ -3,6 +3,7 @@ layout: post
 title: Building Event-Driven Microservices in Java with Axon Framework
 subtitle: Architect scalable, decoupled microservices with event sourcing and CQRS using Axon Framework
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Microservices, Axon Framework, Event Sourcing, CQRS, Event-Driven Architecture]
 excerpt: Learn how to build scalable, decoupled event-driven microservices in Java using Axon Framework. Discover concepts like event sourcing, CQRS, and domain-driven design in action.
 ---

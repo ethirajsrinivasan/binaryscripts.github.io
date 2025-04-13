@@ -3,6 +3,7 @@ layout: post
 title: "Working with JSON in Ruby: Best Practices for Performance"
 subtitle: "Learn how to handle JSON efficiently in Ruby, optimizing performance for large-scale applications."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, JSON, Performance, Optimization, Best Practices]
 excerpt: "Explore the best practices for working with JSON in Ruby to ensure efficient performance, especially in large-scale and high-performance applications."
 excerpt_image: "https://images.unsplash.com/photo-1610986602538-431d65df4385"

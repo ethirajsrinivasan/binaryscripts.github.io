@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Ruby Code for Low-Latency Applications"
 subtitle: "Techniques and strategies to minimize latency in Ruby applications for performance-critical environments."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Performance, Optimization, Low Latency, Scalable Applications]
 excerpt: "Learn advanced techniques to optimize Ruby code for low-latency applications, ensuring fast response times and efficient resource utilization."
 excerpt_image: "https://images.unsplash.com/photo-1509099652299-30938b0aeb63"

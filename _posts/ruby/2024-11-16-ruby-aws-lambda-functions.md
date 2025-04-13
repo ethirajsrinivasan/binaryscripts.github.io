@@ -3,6 +3,7 @@ layout: post
 title: "Ruby on the Cloud - Leveraging AWS Lambda and Ruby Functions"
 subtitle: "Harness the power of AWS Lambda with Ruby for scalable and cost-efficient cloud applications."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, AWS, Lambda, Cloud Computing, Serverless]
 excerpt: "Explore how to use AWS Lambda with Ruby to build powerful, scalable, and serverless cloud applications with real-world examples."
 excerpt_image: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2"

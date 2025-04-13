@@ -3,6 +3,7 @@ layout: post
 title: "Using Java for Big Data Applications with Apache Hadoop"
 subtitle: "A deep dive into leveraging Java for building scalable Big Data applications with Apache Hadoop."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Big Data", "Hadoop", "MapReduce", "HDFS", "YARN", "Distributed Computing"]
 excerpt: "Learn how to use Java for Big Data applications with Apache Hadoop, including MapReduce programming, HDFS interactions, and performance optimizations."
 ---

@@ -2,7 +2,8 @@
 layout: post  
 title: Implementing Circuit Breaker Patterns in Ruby on Rails  
 subtitle: Protect your Rails application from cascading failures by implementing the circuit breaker pattern  
-categories: RubyOnRails  
+categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Circuit Breaker", "Resilience", "Fault Tolerance", "Microservices"]  
 excerpt: Learn how to implement the circuit breaker pattern in your Ruby on Rails applications to improve resilience, reduce downtime, and handle failures gracefully.  
 ---

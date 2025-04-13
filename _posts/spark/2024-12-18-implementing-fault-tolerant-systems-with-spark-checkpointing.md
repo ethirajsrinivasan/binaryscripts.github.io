@@ -3,6 +3,7 @@ layout: "post"
 title: "Implementing Fault-Tolerant Systems with Spark Checkpointing"
 subtitle: "Ensure data reliability and recoverability in Spark with checkpointing techniques"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Fault Tolerance", "Checkpointing", "Big Data", "Distributed Systems"]
 excerpt: "Learn how to implement fault-tolerant systems in Apache Spark using checkpointing to ensure reliable data processing and recovery from failures."
 excerpt_image: "https://images.unsplash.com/photo-1676911809779-5ce408f0cf26"

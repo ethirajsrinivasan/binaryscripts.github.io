@@ -3,6 +3,7 @@ layout: post
 title: "Scaling Flask Applications with Docker and Kubernetes"
 subtitle: "Deploy and scale Flask applications seamlessly using Docker and Kubernetes"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Docker", "Kubernetes", "Scaling", "Microservices", "Cloud"]
 excerpt: "Learn how to scale Flask applications using Docker and Kubernetes. This guide covers containerization, orchestration, and best practices for deploying Flask at scale."
 ---

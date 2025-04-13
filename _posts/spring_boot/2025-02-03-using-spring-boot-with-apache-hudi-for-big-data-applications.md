@@ -3,6 +3,7 @@ layout: post
 title: Using Spring Boot with Apache Hudi for Big Data Applications
 subtitle: Build scalable, incremental data pipelines with Spring Boot and Apache Hudi
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, Apache Hudi, Big Data, Hadoop, Data Lake, Java, Incremental Processing]
 excerpt: Learn how to integrate Spring Boot with Apache Hudi to build real-time big data applications. This guide explores Hudi architecture, ingestion patterns, and how to manage large-scale datasets efficiently.
 ---

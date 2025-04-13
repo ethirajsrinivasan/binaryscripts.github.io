@@ -3,6 +3,7 @@ layout: post
 title: Securing Spring Boot Applications with JWT and OAuth2
 subtitle: Implement robust authentication and authorization in Spring Boot using JWT and OAuth2
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, JWT, OAuth2, Security, Authentication, Authorization, Java]
 excerpt: Learn how to secure Spring Boot applications using JWT and OAuth2. This guide covers token-based authentication, access control, role-based authorization, and integration with third-party identity providers.
 ---

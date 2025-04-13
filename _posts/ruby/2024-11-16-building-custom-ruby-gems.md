@@ -3,6 +3,7 @@ layout: post
 title: "Building Custom Ruby Gems - A Step-by-Step Advanced Guide"
 subtitle: "Master the art of creating reusable Ruby gems with this comprehensive guide for advanced developers."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Gems, Libraries, Development, Packaging]
 excerpt: "Learn how to build custom Ruby gems with advanced features, best practices, and step-by-step guidance for efficient code reuse and distribution."
 excerpt_image: "/assets/images/ruby_gems.jpg"

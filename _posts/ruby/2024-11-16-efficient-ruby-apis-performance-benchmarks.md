@@ -3,6 +3,7 @@ layout: post
 title: "How to Build Efficient Ruby APIs with Performance Benchmarks"
 subtitle: "Optimizing Ruby APIs for speed and scalability with actionable benchmarking strategies."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, API, Performance, Benchmarking, Scalability]
 excerpt: "Learn how to design high-performing Ruby APIs by implementing best practices and leveraging performance benchmarks to ensure scalability."
 excerpt_image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86"

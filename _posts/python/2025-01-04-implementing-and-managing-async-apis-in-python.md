@@ -3,6 +3,7 @@ layout: post
 title: "Implementing and Managing Async APIs in Python"
 subtitle: "Build high-performance asynchronous APIs with FastAPI and asyncio"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "FastAPI", "Async", "API Development", "Asynchronous Programming", "Performance Optimization"]
 excerpt: "Learn how to implement and manage asynchronous APIs in Python using FastAPI, asyncio, and best practices for high-performance API development."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Flask for Building RESTful APIs: Beyond the Basics"
 subtitle: "Advanced techniques for designing, optimizing, and securing RESTful APIs with Flask"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "REST API", "Python", "API Design", "JWT", "Security", "Optimization"]
 excerpt: "Explore advanced Flask techniques for building scalable, secure, and high-performance RESTful APIs with authentication, rate limiting, and optimization."
 ---

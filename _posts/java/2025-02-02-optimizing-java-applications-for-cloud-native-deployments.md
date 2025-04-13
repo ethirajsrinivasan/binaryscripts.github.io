@@ -3,6 +3,7 @@ layout: post
 title: Optimizing Java Applications for Cloud-Native Deployments
 subtitle: Tune your Java apps for scalability, performance, and observability in containerized cloud-native environments
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Cloud-Native, Kubernetes, Docker, Microservices, Performance, Optimization]
 excerpt: Discover how to optimize Java applications for cloud-native environments with a focus on containerization, resource limits, startup time, memory management, and observability in Kubernetes.
 ---

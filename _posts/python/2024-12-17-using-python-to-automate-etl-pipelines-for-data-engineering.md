@@ -3,6 +3,7 @@ layout: post
 title: "Using Python to Automate ETL Pipelines for Data Engineering"
 subtitle: "Streamline your data workflows with Python-based ETL automation"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "ETL", "Data Engineering", "Automation", "Big Data", "Pipelines"]
 excerpt: "Learn how to automate ETL pipelines using Python to improve efficiency, scalability, and reliability in data engineering workflows."
 ---

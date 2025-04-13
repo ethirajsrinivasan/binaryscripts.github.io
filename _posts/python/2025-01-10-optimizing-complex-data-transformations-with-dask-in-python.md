@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Complex Data Transformations with Dask in Python"
 subtitle: "Boost performance and scalability of data transformations with Dask's parallel computing capabilities"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Dask", "Big Data", "Data Transformation", "Parallel Computing"]
 excerpt: "Learn how to optimize complex data transformations using Dask in Python. Discover parallel computing techniques to handle large datasets efficiently."
 ---

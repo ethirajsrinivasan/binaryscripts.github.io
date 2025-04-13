@@ -3,6 +3,7 @@ layout: post
 title: "Building Secure Flask Applications with OAuth2"
 subtitle: "Implement OAuth2 authentication in Flask to enhance security and user management"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "OAuth2", "Authentication", "Security", "OAuth", "Identity Management"]
 excerpt: "Learn how to integrate OAuth2 authentication into Flask applications for secure user authentication. Explore best practices, security considerations, and implementation techniques."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Performance Testing and Load Balancing Flask Applications"
 subtitle: "Optimize Flask applications with performance testing and effective load balancing techniques"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Performance Testing", "Load Balancing", "Gunicorn", "NGINX", "Scaling"]
 excerpt: "Learn how to enhance the performance of Flask applications through benchmarking, profiling, and load balancing techniques using tools like Locust, JMeter, Gunicorn, and NGINX."
 ---

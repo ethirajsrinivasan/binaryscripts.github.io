@@ -3,6 +3,7 @@ layout: "post"
 title: "Using Apache Spark with Kubernetes for Scalable Deployments"
 subtitle: "Learn how to deploy Apache Spark on Kubernetes for scalable, efficient, and flexible big data processing."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Kubernetes", "Big Data", "Scalable Deployments", "Cloud Computing"]
 excerpt: "Discover the integration of Apache Spark with Kubernetes, enabling scalable and cost-efficient big data processing using containerized deployments."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Debugging Common Memory Issues in Rails Applications
 subtitle: A deep dive into identifying and fixing memory leaks in Ruby on Rails applications.
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails Performance", "Memory Leaks", "Garbage Collection", "Optimization", "Profiling"]
 excerpt: Learn how to detect, debug, and fix memory issues in Rails applications using profiling tools, garbage collection tuning, and best practices.
 ---

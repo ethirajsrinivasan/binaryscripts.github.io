@@ -3,6 +3,7 @@ layout: "post"
 title: "Leveraging Spark's Broadcast Variables for Optimized Processing"
 subtitle: "Learn how to optimize Spark applications by using Broadcast Variables for more efficient data processing."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Broadcast Variables", "Big Data", "Optimization", "Data Processing"]
 excerpt: "Explore how Spark's Broadcast Variables can significantly improve performance by reducing data shuffling and network overhead in distributed applications."
 ---

@@ -3,6 +3,7 @@ layout: "post"
 title: "Implementing Spark SQL Query Federation with HBase and Hive"
 subtitle: "Learn how to integrate Spark SQL with HBase and Hive for seamless query federation."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "HBase", "Hive", "Big Data", "SQL Query Federation"]
 excerpt: "Discover the power of Spark SQL query federation by combining HBase and Hive to enable unified data access and analytics."
 ---

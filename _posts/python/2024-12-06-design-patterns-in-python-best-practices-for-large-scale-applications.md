@@ -2,7 +2,8 @@
 layout: post  
 title: Design Patterns in Python - Best Practices for Large-Scale Applications  
 subtitle: Explore essential design patterns in Python to create scalable, maintainable, and efficient large-scale applications  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Design Patterns", "Software Architecture", "Large-Scale Applications", "Best Practices", "Python Design"]  
 excerpt: Learn how to implement design patterns in Python to improve scalability, maintainability, and code organization in large-scale applications.  
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Building Advanced Data Serialization with Flask and Marshmallow"
 subtitle: "Mastering Flask Data Serialization with Marshmallow for Clean and Efficient APIs"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Marshmallow", "Data Serialization", "REST API", "JSON"]
 excerpt: "Learn how to implement advanced data serialization in Flask using Marshmallow, ensuring clean, efficient, and structured API responses."
 ---

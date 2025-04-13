@@ -3,6 +3,7 @@ layout: "post"
 title: "Using Spark with Hudi for Incremental Data Processing"
 subtitle: "Learn how to leverage Apache Hudi with Spark for efficient and scalable incremental data processing"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Apache Hudi", "Incremental Data Processing", "Big Data", "Data Lakes", "ETL"]
 excerpt: "Explore how Apache Hudi and Apache Spark can be combined for handling incremental data processing in data lakes with high efficiency."
 excerpt_image: "https://images.unsplash.com/photo-1532882871449-7fbb1ec36d48"

@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing Ruby Applications for High Availability"
 subtitle: "A comprehensive guide to making your Ruby applications resilient, scalable, and always available."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, High Availability, Scalability, Performance Optimization, Fault Tolerance]
 excerpt: "Learn how to optimize Ruby applications for high availability with best practices for scalability, fault tolerance, and performance."
 excerpt_image: "/assets/images/ruby_high_availability.jpg"

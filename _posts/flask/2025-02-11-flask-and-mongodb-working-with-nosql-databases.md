@@ -3,6 +3,7 @@ layout: post
 title: "Flask and MongoDB: Working with NoSQL Databases"
 subtitle: "Learn how to integrate MongoDB with Flask for scalable NoSQL database management"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "MongoDB", "NoSQL", "Database", "PyMongo", "API", "CRUD"]
 excerpt: "Explore how to connect Flask with MongoDB, perform CRUD operations, and build a scalable NoSQL-based web application with PyMongo."
 ---

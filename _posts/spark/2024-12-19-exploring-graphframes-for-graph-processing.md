@@ -3,6 +3,7 @@ layout: post
 title: "Exploring GraphFrames for Graph Processing in Spark"
 subtitle: "A comprehensive guide to leveraging GraphFrames for scalable graph analytics in Apache Spark."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, GraphFrames, Graph Analytics, Big Data, Data Engineering]
 excerpt: "Discover how GraphFrames extends Spark's capabilities for graph processing and learn advanced techniques for analyzing complex relationships and patterns in large datasets."
 ---

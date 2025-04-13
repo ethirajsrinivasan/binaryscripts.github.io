@@ -3,6 +3,7 @@ layout: post
 title: Debugging Memory Leaks in Ruby Applications
 subtitle: A comprehensive guide on how to identify and fix memory leaks in Ruby applications to improve performance and prevent resource exhaustion.
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Memory Leaks, Performance, Debugging, Memory Management, Optimization, Garbage Collection]
 excerpt: Learn how to identify and fix memory leaks in Ruby applications with practical tips, debugging tools, and best practices for optimizing memory usage and application performance.
 excerpt_image: "https://images.unsplash.com/photo-1661347335413-e4ef4c97d625"

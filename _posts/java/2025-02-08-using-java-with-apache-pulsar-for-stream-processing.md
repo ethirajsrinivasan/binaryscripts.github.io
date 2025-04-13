@@ -3,6 +3,7 @@ layout: post
 title: Using Java with Apache Pulsar for Stream Processing
 subtitle: Build scalable real-time stream processing applications using Java and Apache Pulsar
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Apache Pulsar, Stream Processing, Messaging, Real-Time, Big Data]
 excerpt: Learn how to use Apache Pulsar with Java to build high-throughput, low-latency stream processing systems. Understand producers, consumers, subscriptions, and Pulsar’s multi-topic architecture.
 ---

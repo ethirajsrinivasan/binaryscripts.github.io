@@ -3,6 +3,7 @@ layout: post
 title: "Building Real-Time Fraud Detection Systems with Apache Spark"
 subtitle: "How to Leverage Apache Spark for Real-Time Fraud Detection and Prevention"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spark, Big Data, Fraud Detection, Machine Learning, Streaming, Real-Time Analytics]
 excerpt: "Learn how to build real-time fraud detection systems using Apache Spark's powerful stream processing and machine learning capabilities."
 excerpt_image: "https://images.unsplash.com/photo-1666875758412-5957b60d7969"

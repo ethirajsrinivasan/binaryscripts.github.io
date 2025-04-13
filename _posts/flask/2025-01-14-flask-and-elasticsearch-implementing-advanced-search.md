@@ -3,6 +3,7 @@ layout: post
 title: "Flask and Elasticsearch Implementing Advanced Search"
 subtitle: "Enhance your Flask applications with powerful search capabilities using Elasticsearch"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Elasticsearch", "Search", "Full-Text Search", "Indexing", "Big Data"]
 excerpt: "Learn how to integrate Elasticsearch with Flask to implement advanced search functionalities. This guide covers indexing, querying, and optimizing search performance."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Analyzing Ruby Code for Performance Bottlenecks"
 subtitle: "A comprehensive guide to identifying and resolving performance issues in Ruby applications."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Performance, Optimization, Profiling, Bottlenecks]
 excerpt: "Discover effective strategies and tools for analyzing Ruby code to uncover and fix performance bottlenecks in your applications."
 excerpt_image: "https://images.unsplash.com/photo-1506951796365-405279289a75"

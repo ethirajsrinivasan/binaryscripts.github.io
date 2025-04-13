@@ -3,6 +3,7 @@ layout: post
 title: "Data Encryption and Security Best Practices in Python"
 subtitle: "Learn how to protect sensitive data with encryption, hashing, and secure coding practices in Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Cybersecurity", "Encryption", "Cryptography", "Hashing", "Security"]
 excerpt: "Explore essential data encryption techniques and security best practices in Python to safeguard sensitive information from cyber threats."
 ---

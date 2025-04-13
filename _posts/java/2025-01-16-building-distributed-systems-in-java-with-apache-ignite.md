@@ -3,6 +3,7 @@ layout: post
 title: "Building Distributed Systems in Java with Apache Ignite"
 subtitle: "Leverage Apache Ignite for high-performance, scalable distributed computing in Java."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Distributed Systems", "Apache Ignite", "Scalability", "Caching", "Big Data"]
 excerpt: "Apache Ignite provides a powerful in-memory data grid and distributed computing platform for Java applications. Learn how to build scalable, fault-tolerant distributed systems with Ignite."
 ---

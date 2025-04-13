@@ -3,6 +3,7 @@ layout: post
 title: Building Recommendation Systems with Spark MLlib
 subtitle: Learn how to leverage Apache Spark MLlib to build powerful recommendation systems for personalized experiences.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Spark", "Big Data", "Machine Learning", "MLlib", "Recommendation Systems"]
 excerpt: This blog post explores how to use Apache Spark MLlib to build efficient recommendation systems with scalable algorithms.
 excerpt_image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3"

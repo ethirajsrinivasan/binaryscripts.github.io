@@ -3,6 +3,7 @@ layout: post
 title: Time Series Analytics with Apache Spark
 subtitle: Harnessing Apache Spark for scalable and efficient time series data analysis.
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Time Series", "Big Data", "Data Analytics", "Machine Learning"]
 excerpt: Explore how Apache Spark can be used for analyzing time series data, with techniques for preprocessing, modeling, and forecasting at scale.
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Migrating Legacy Applications to Ruby on Rails 7
 subtitle: A step-by-step guide to upgrading legacy applications to the latest Ruby on Rails version.
 categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails 7", "Legacy Code", "Migration", "Upgrade", "Refactoring"]
 excerpt: Learn how to migrate legacy applications to Ruby on Rails 7 with best practices, upgrade strategies, and common pitfalls to avoid.
 ---

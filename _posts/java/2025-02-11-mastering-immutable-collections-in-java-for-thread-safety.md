@@ -3,6 +3,7 @@ layout: post
 title: Mastering Immutable Collections in Java for Thread Safety
 subtitle: Use immutable collections to simplify concurrent programming and write safer Java code
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Immutable Collections, Concurrency, Thread Safety, Functional Programming]
 excerpt: Learn how to use immutable collections in Java to write thread-safe and predictable code. Explore built-in tools from Java 9+, Guava, and functional techniques that reduce concurrency bugs.
 ---

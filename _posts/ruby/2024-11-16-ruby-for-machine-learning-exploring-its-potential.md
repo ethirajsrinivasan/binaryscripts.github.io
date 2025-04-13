@@ -3,6 +3,7 @@ layout: post
 title: "Ruby for Machine Learning - Exploring Its Potential"
 subtitle: "Uncover how Ruby can be effectively utilized for machine learning applications and its unique strengths in the AI landscape."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Machine Learning, AI, Data Science, Algorithms]
 excerpt: "Learn about the potential of Ruby for machine learning, its libraries, tools, and how it compares with other languages like Python in AI development."
 excerpt_image: "https://images.unsplash.com/photo-1677442136019-21780ecad995"

@@ -3,6 +3,7 @@ layout: post
 title: Building Real-Time Monitoring Systems in Java
 subtitle: Build scalable and responsive real-time monitoring systems with Java and modern observability tools
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Monitoring, Real-Time, Observability, Metrics, Prometheus, Grafana]
 excerpt: Learn how to architect and implement real-time monitoring systems in Java. Track metrics, logs, and traces using Prometheus, Micrometer, and Grafana for full observability.
 ---

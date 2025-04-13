@@ -3,6 +3,7 @@ layout: post
 title: "Python's PEP 484: Advanced Type Hints and Annotations"
 subtitle: "Mastering Python's type hints for better code clarity and maintainability"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "PEP 484", "Type Hints", "Annotations", "Best Practices"]
 excerpt: "Explore Python’s PEP 484 type hints, covering static typing, generics, protocols, and advanced annotations to write more readable and maintainable code."
 ---

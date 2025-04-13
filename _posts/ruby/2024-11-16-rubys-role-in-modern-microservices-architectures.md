@@ -3,6 +3,7 @@ layout: post
 title: "Ruby's Role in Modern Microservices Architectures"
 subtitle: "How Ruby powers modern microservices for scalability, flexibility, and efficiency."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Microservices, Architecture, Scalability, Cloud Computing]
 excerpt: "Explore how Ruby integrates into modern microservices architectures, including its frameworks, tools, and best practices for building scalable and maintainable systems."
 excerpt_image: "/assets/images/ruby_microservice.jpg"

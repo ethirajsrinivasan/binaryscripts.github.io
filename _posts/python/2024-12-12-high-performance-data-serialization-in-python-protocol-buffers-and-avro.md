@@ -3,6 +3,7 @@ layout: post
 title: "High-Performance Data Serialization in Python: Protocol Buffers and Avro"
 subtitle: "Boost Python application performance with efficient data serialization using Protocol Buffers and Avro"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Data Serialization", "Protocol Buffers", "Avro", "Big Data", "Performance Optimization"]
 excerpt: "Learn how Protocol Buffers and Avro enhance data serialization in Python for high-performance applications, reducing size and improving efficiency."
 ---

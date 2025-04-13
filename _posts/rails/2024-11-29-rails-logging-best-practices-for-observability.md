@@ -2,7 +2,8 @@
 layout: post  
 title: Rails Logging Best Practices for Observability  
 subtitle: Improve application monitoring with structured and scalable Rails logging  
-categories: RubyOnRails  
+categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Logging", "Observability", "Performance Monitoring", "Structured Logs"]  
 excerpt: Learn best practices for logging in Ruby on Rails applications to improve observability, debugging, and performance monitoring.  
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Creating Custom Annotations in Spring Boot for Dynamic Behavior
 subtitle: Build reusable and expressive code with custom annotations in Spring Boot
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, Annotations, AOP, Reflection, Dynamic Behavior, Custom Logic]
 excerpt: Learn how to create and use custom annotations in Spring Boot to add dynamic behavior, enforce cross-cutting concerns, and simplify reusable business logic using AOP and reflection.
 ---

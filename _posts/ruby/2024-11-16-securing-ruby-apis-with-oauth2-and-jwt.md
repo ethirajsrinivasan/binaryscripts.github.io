@@ -3,6 +3,7 @@ layout: post
 title: "Securing Ruby APIs with OAuth2 and JWT Tokens"
 subtitle: "Learn how to secure your Ruby APIs using OAuth2 and JWT tokens for robust authentication and authorization."
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, API, Security, Oauth2, JWT, Authentication]
 excerpt: "Master the art of securing Ruby APIs with OAuth2 and JWT tokens. Explore best practices for implementing authentication and authorization."
 excerpt_image: "https://images.unsplash.com/photo-1603899122406-e7eb957f9fd6"

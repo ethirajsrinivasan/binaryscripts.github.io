@@ -3,6 +3,7 @@ layout: post
 title: Implementing Advanced Caching Mechanisms in Java
 subtitle: Optimize application performance with smart, layered, and distributed caching strategies in Java
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Caching, Performance, Spring Boot, Redis, Guava, Ehcache]
 excerpt: Learn how to implement advanced caching in Java using in-memory caches, eviction policies, multi-layered caches, and distributed solutions like Redis. Boost performance and reduce latency in your applications.
 ---

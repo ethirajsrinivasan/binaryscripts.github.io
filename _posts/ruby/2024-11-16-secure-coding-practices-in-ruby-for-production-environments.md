@@ -3,6 +3,7 @@ layout: post
 title: "Secure Coding Practices in Ruby for Production Environments"
 subtitle: "Best practices and techniques to ensure your Ruby applications are secure in production"
 categories: Ruby
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Ruby, Secure Coding, Security, Rails, Production, Best Practices]
 excerpt: "Learn advanced secure coding practices for Ruby applications to protect against vulnerabilities and ensure production-ready security."
 excerpt_image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4"

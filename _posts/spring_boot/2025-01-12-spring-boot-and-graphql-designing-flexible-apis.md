@@ -3,6 +3,7 @@ layout: post
 title: Spring Boot and GraphQL Designing Flexible APIs
 subtitle: Build flexible and efficient APIs with Spring Boot and GraphQL for modern client-driven applications
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Spring Boot, GraphQL, Java, API Design, Microservices, Flexible APIs]
 excerpt: Discover how to design powerful and flexible APIs in Java using Spring Boot and GraphQL. Learn schema definition, query resolvers, filtering, pagination, and best practices for real-world applications.
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Python and IoT: Building Scalable IoT Applications"
 subtitle: "Best practices for developing scalable and efficient IoT solutions using Python"
 categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "IoT", "Edge Computing", "MQTT", "Big Data", "Cloud", "Data Engineering"]
 excerpt: "Learn how to build scalable IoT applications with Python by leveraging MQTT, cloud platforms, and edge computing for real-time data processing."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Implementing Distributed Tracing in Flask Applications"
 subtitle: "Monitor and troubleshoot Flask microservices with distributed tracing"
 categories: Flask
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Flask", "Tracing", "Microservices", "OpenTelemetry", "Observability"]
 excerpt: "Learn how to implement distributed tracing in Flask using OpenTelemetry to monitor and troubleshoot microservices efficiently."
 ---

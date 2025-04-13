@@ -3,6 +3,7 @@ layout: "post"
 title: "Exploring Spark`s Catalyst Optimizer for Query Optimization"
 subtitle: "Unveiling the power of Spark`s Catalyst Optimizer to enhance query performance and scalability"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Apache Spark", "Catalyst Optimizer", "Big Data", "Query Optimization", "Spark SQL"]
 excerpt: "Discover how Spark`s Catalyst Optimizer transforms queries into efficient execution plans for faster and scalable big data processing."
 excerpt_image: "https://images.unsplash.com/photo-1674027326476-3ea3cbf7b9be"

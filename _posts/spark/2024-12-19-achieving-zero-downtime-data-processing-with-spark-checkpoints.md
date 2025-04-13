@@ -3,6 +3,7 @@ layout: post
 title: "Achieving Zero-Downtime Data Processing with Spark Checkpoints"
 subtitle: "A comprehensive guide to using Spark checkpoints for fault-tolerant and continuous data processing."
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Apache Spark, Checkpointing, Fault-Tolerance, Streaming, Big Data]
 excerpt: "Learn how to leverage Spark checkpoints to achieve zero-downtime data processing in batch and streaming applications."
 excerpt_image: "https://images.unsplash.com/photo-1636110291887-a1a76d79ccaa"

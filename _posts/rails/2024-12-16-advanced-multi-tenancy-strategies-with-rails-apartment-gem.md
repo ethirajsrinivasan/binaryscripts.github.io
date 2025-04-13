@@ -2,7 +2,8 @@
 layout: post  
 title: Advanced Multi-Tenancy Strategies with Rails' Apartment Gem  
 subtitle: Master multi-tenancy in Rails using the Apartment gem for scalable and isolated tenant data management  
-categories: RubyOnRails  
+categories: RubyOnRails
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Multi-Tenancy", "Apartment Gem", "Scalability", "Best Practices"]  
 excerpt: Learn how to implement advanced multi-tenancy strategies in Rails applications using the Apartment gem, ensuring scalability, data isolation, and maintainable tenant architecture.  
 ---

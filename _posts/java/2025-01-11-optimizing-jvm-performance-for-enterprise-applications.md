@@ -3,6 +3,7 @@ layout: post
 title: "Optimizing JVM Performance for Enterprise Applications"
 subtitle: "Techniques and best practices to enhance JVM efficiency and scalability in enterprise environments."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "JVM Performance", "Garbage Collection", "Optimization", "Enterprise Applications", "Profiling"]
 excerpt: "Learn how to optimize JVM performance for enterprise applications by tuning garbage collection, memory management, and leveraging profiling tools to enhance efficiency and scalability."
 ---

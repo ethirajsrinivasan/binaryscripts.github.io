@@ -2,7 +2,8 @@
 layout: post  
 title: Advanced Generators and Coroutines in Python  
 subtitle: Unlock the full potential of Python's generators and coroutines for efficient asynchronous programming.  
-categories: Python  
+categories: Python
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Python", "Generators", "Coroutines", "Asynchronous Programming", "Concurrency"]  
 excerpt: Learn advanced techniques for using Python's generators and coroutines, and explore how they enhance performance, memory efficiency, and asynchronous programming.  
 ---

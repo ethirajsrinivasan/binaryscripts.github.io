@@ -3,6 +3,7 @@ layout: post
 title: "Exploring Java Virtual Threads - The Future of Concurrent Programming"
 subtitle: "A deep dive into Java's Virtual Threads and their impact on high-performance concurrent applications."
 categories: Java
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Java", "Virtual Threads", "Concurrency", "Multithreading", "Loom", "Performance Optimization"]
 excerpt: "Java Virtual Threads revolutionize concurrent programming by offering lightweight, scalable thread management. Learn how Virtual Threads work, their benefits, and how they compare to traditional threads."
 ---

@@ -3,6 +3,7 @@ layout: post
 title: Advanced Spring Boot REST API Design and Implementation
 subtitle: Design robust, scalable, and maintainable REST APIs using advanced features of Spring Boot
 categories: SpringBoot
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: [Java, Spring Boot, REST, API Design, Microservices, JSON, Validation]
 excerpt: Learn how to build powerful and scalable REST APIs with Spring Boot. This guide covers best practices, versioning, error handling, DTO patterns, HATEOAS, and security for modern API development.
 ---

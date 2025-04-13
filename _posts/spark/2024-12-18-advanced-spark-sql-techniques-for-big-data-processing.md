@@ -3,6 +3,7 @@ layout: "post"
 title: "Advanced Spark SQL Techniques for Big Data Processing"
 subtitle: "Leverage Spark SQL to handle large-scale data with efficiency and precision"
 categories: Spark
+last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Spark", "Big Data", "Spark SQL", "Data Processing", "SQL Optimization", "ETL"]
 excerpt: "Explore advanced Spark SQL techniques to optimize performance, process massive datasets, and unlock the full potential of SQL in Spark environments."
 excerpt_image: "https://images.unsplash.com/photo-1633412802994-5c058f151b66"
