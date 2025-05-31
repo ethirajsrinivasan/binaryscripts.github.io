@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Shards, Replicas, Write Ahead Log, WAL, Search Engine, Big Data, Distributed Systems]
 excerpt: Explore Elasticsearch internals focusing on how shards, replicas, and the write ahead log work together to ensure scalability, reliability, and durability in distributed search clusters.
 ---
-
-#### Introduction
-
 Elasticsearch is a powerful distributed search and analytics engine widely used for large-scale data indexing and querying. Its internal architecture is designed to handle massive amounts of data while providing **high availability**, **fault tolerance**, and **scalability**. Understanding the core concepts of **shards**, **replicas**, and the **Write-Ahead Log (WAL)** is crucial for intermediate to advanced users who want to optimize cluster performance and reliability.
 
 This post dives deep into these fundamental components, their roles, and how they interact under the hood.

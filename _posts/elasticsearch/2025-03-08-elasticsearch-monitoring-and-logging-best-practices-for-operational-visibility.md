@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Monitoring, Logging, DevOps, Observability, Big Data, Infrastructure]
 excerpt: Discover essential best practices for monitoring and logging Elasticsearch clusters to ensure operational visibility, performance tuning, and proactive issue resolution.
 ---
-
-#### Introduction
-
 Elasticsearch powers critical search and analytics workloads for many enterprises. However, maintaining its performance and reliability requires **comprehensive monitoring and logging**. Effective operational visibility helps detect bottlenecks, avoid downtime, and optimize cluster health proactively. This post delves into the best practices for Elasticsearch monitoring and logging, targeting intermediate to advanced users seeking to enhance observability and cluster management.
 
 #### Why Elasticsearch Monitoring Matters

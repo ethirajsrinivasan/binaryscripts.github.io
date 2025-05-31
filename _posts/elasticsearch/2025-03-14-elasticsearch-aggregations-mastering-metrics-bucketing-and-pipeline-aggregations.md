@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Aggregations, Metrics, Bucketing, Pipeline Aggregations, Big Data, Search, Analytics, DevOps]
 excerpt: Learn how to master Elasticsearch aggregations including metrics, bucketing, and pipeline aggregations to analyze complex data and derive meaningful insights efficiently.
 ---
-
-#### Introduction
-
 Elasticsearch aggregations unlock powerful analytics capabilities, enabling you to summarize, group, and transform large datasets in real-time. Mastering **metrics, bucketing, and pipeline aggregations** is essential for building sophisticated search and analytics solutions.
 
 This post provides an advanced, technical dive into Elasticsearch aggregations — detailing how each type works, their use cases, and best practices to maximize performance and flexibility.

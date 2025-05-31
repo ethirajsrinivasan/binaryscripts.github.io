@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Security, RBAC, Encryption, TLS, DevOps, Data Security, Kubernetes, Observability]
 excerpt: Discover best practices for securing Elasticsearch clusters by implementing RBAC encryption and secure communication channels to protect sensitive data and ensure compliance.
 ---
-
-#### Introduction
-
 Elasticsearch has become a cornerstone for scalable search and analytics in modern data infrastructures. However, its open design demands robust security mechanisms to protect sensitive data and maintain cluster integrity. This post explores advanced methods to secure Elasticsearch clusters focusing on **Role-Based Access Control (RBAC)**, **encryption at rest and in transit**, and **secure communication protocols**.
 
 #### Understanding Elasticsearch Security Challenges

@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Full-Text Search, Custom Analyzers, Search Relevance, Text Analysis, NLP, DevOps]
 excerpt: Learn how to improve Elasticsearch full-text search relevance by designing and implementing custom analyzers. Explore tokenizers, filters, and advanced configurations to fine-tune your search results.
 ---
-
-#### Introduction
-
 Elasticsearch is renowned for its powerful full-text search capabilities. However, default analyzers may not always yield optimal relevance for complex or domain-specific search requirements. Custom analyzers empower you to tailor text processing pipelines — from tokenization to filtering — significantly improving search accuracy and user satisfaction.
 
 This guide is aimed at intermediate and advanced users who want to deepen their understanding of Elasticsearch analyzers and learn best practices for building custom solutions that boost search relevance.

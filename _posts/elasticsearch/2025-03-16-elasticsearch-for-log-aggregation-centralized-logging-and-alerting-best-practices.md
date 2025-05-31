@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Log Aggregation, Centralized Logging, Alerting, DevOps, Monitoring, Observability, Big Data]
 excerpt: Discover best practices for using Elasticsearch in log aggregation and centralized logging. Learn how to implement effective alerting strategies for improved monitoring and faster incident response.
 ---
-
-#### Introduction
-
 In modern distributed systems, **centralized log aggregation** is essential for monitoring, troubleshooting, and securing applications. Elasticsearch, as a scalable and flexible search engine, has become a cornerstone of many logging stacks. This post explores best practices for building robust centralized logging and alerting systems with Elasticsearch, enabling efficient log ingestion, storage, and proactive incident detection.
 
 #### Why Use Elasticsearch for Log Aggregation?

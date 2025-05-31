@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: post
 title: Troubleshooting Elasticsearch Advanced Debugging Techniques for Clusters and Queries

@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Shard Sizing, Query Optimization, Big Data, Search Performance, DevOps, Infrastructure]
 excerpt: Learn best practices for shard sizing and query optimization in Elasticsearch to effectively handle large datasets while maintaining high performance and scalability.
 ---
-
-#### Introduction
-
 Elasticsearch is a powerful distributed search engine widely used for handling large datasets. However, **managing performance at scale** requires careful shard sizing and optimized querying strategies. Incorrect shard configurations and inefficient queries can lead to resource exhaustion, slow response times, and cluster instability. This blog explores best practices and techniques for **shard sizing** and **query optimization** designed for intermediate to advanced Elasticsearch users aiming to scale confidently.
 
 #### Understanding Elasticsearch Shards and Their Importance
