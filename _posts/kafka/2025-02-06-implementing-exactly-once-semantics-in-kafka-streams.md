@@ -13,9 +13,6 @@ In distributed stream processing, ensuring **data correctness and consistency** 
 In this post, we’ll explore how **Exactly-Once Semantics** works in Kafka Streams and how to configure and implement it correctly.
 
 ---
-
-#### Understanding Delivery Semantics
-
 Kafka provides three delivery guarantees:
 
 - **At-most-once**: Messages may be lost but never duplicated

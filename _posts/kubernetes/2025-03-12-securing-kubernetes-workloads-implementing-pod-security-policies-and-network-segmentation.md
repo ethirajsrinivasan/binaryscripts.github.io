@@ -9,9 +9,6 @@ excerpt: Learn how to secure Kubernetes workloads by implementing Pod Security P
 As Kubernetes adoption grows, **securing workloads** becomes critical to protect applications and data from unauthorized access, privilege escalation, and lateral movement within the cluster. This post dives deep into **Pod Security Policies (PSPs)** and **network segmentation** — foundational mechanisms to harden your Kubernetes environment.
 
 ---
-
-#### Understanding Pod Security Policies (PSPs)
-
 - PSPs define a set of conditions that pods must comply with to be accepted by the cluster.
 - They control pod security attributes such as running as root, volume usage, host networking, and capabilities.
 - Enforced at admission time via the Kubernetes API server.

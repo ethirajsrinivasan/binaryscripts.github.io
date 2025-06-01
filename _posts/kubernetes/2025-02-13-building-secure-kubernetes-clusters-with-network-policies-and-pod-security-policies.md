@@ -9,9 +9,6 @@ excerpt: Explore how to secure Kubernetes clusters by implementing Network Polic
 Securing Kubernetes clusters is critical to maintaining robust, reliable, and compliant containerized environments. Two powerful features — **Network Policies** and **Pod Security Policies (PSPs)** — provide essential layers of defense to control network traffic and enforce strict pod security standards. This post targets intermediate to advanced Kubernetes users looking to deepen their security expertise and build hardened clusters.
 
 ---
-
-#### Understanding Kubernetes Network Policies
-
 By default, Kubernetes allows unrestricted network communication between pods within a cluster. This default openness poses significant risks in multi-tenant or sensitive environments.
 
 ##### What Are Network Policies?

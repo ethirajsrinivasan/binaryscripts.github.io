@@ -111,7 +111,7 @@ Upload this JAR directly to AWS Lambda or deploy with the **AWS SAM CLI** or **S
 4. Select runtime: **Java 17 (or 11/8)**
 5. Upload your JAR
 6. Set the handler to:
-   &#96;com.example.StreamLambdaHandler::handleRequest&#96;
+   `com.example.StreamLambdaHandler::handleRequest`
 
 Test the function using a mock API Gateway request or trigger.
 

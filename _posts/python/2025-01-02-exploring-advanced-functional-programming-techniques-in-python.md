@@ -19,7 +19,7 @@ A **higher-order function** is a function that either:
 ✔ **Takes another function** as an argument  
 ✔ **Returns a function**
 
-### Example: Using &#96;map&#96;, &#96;filter&#96;, and &#96;reduce&#96;
+### Example: Using `map`, `filter`, and `reduce`
 
 ```python
 from functools import reduce
@@ -83,7 +83,7 @@ info_log = logger("info")
 info_log("Server started")  # Output: [INFO] Server started  
 ```
 
-### Example: Using &#96;functools.partial&#96;
+### Example: Using `functools.partial`
 
 ```python
 from functools import partial
@@ -122,7 +122,7 @@ print(next(fib))  # 1
 
 Monads **wrap values** and **apply transformations** while preserving state.
 
-### Example: &#96;Maybe&#96; Monad (Avoiding &#96;None&#96; Errors)
+### Example: `Maybe` Monad (Avoiding `None` Errors)
 
 ```python
 class Maybe:  
@@ -145,7 +145,7 @@ result = Maybe(10).bind(safe_divide(0))  # Maybe(None)
 print(result)  
 ```
 
-✔ Prevents &#96;NoneType&#96; errors **without** excessive &#96;if&#96; statements!
+✔ Prevents `NoneType` errors **without** excessive `if` statements!
 
 ---
 
@@ -153,7 +153,7 @@ print(result)
 
 Python’s **functional programming techniques** make code **expressive, modular, and bug-resistant**. Key takeaways:
 
-✅ **Use higher-order functions** (&#96;map&#96;, &#96;filter&#96;, &#96;reduce&#96;)  
+✅ **Use higher-order functions** (`map`, `filter`, `reduce`)  
 ✅ **Compose functions** for modular code  
 ✅ **Leverage closures** and **partial functions**  
 ✅ **Use lazy evaluation** for performance efficiency  

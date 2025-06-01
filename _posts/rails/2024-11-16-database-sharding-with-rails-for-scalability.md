@@ -41,8 +41,8 @@ A mapping service determines which shard a specific record belongs to. This prov
 ### **1. Using Active Record to Connect to Multiple Databases**
 Rails **6+** introduced **multiple database support**, which can be leveraged for sharding.
 
-#### **Step 1: Configure &#96;database.yml&#96;**
-Modify your &#96;config/database.yml&#96; file to define multiple database connections.
+#### **Step 1: Configure `database.yml`**
+Modify your `config/database.yml` file to define multiple database connections.
 
 ```yaml
 production:
@@ -69,7 +69,7 @@ host: shard-db-2-host
 ```
 
 #### **Step 2: Define Models for Sharded Databases**
-You can assign models to specific databases by setting &#96;connects_to&#96; in your models.
+You can assign models to specific databases by setting `connects_to` in your models.
 
 ```ruby
 class User < ApplicationRecord
@@ -81,7 +81,7 @@ end
 [Octopus](https://github.com/thiagopradi/octopus) is a popular Ruby gem that simplifies database sharding.
 
 #### **Step 1: Install Octopus**
-Add the gem to your &#96;Gemfile&#96;:
+Add the gem to your `Gemfile`:
 
 ```ruby
 gem "octopus"
@@ -93,7 +93,7 @@ Run:
 bundle install
 ```
 
-#### **Step 2: Configure Shards in &#96;config/shards.yml&#96;**
+#### **Step 2: Configure Shards in `config/shards.yml`**
 Define your shards:
 
 ```yaml

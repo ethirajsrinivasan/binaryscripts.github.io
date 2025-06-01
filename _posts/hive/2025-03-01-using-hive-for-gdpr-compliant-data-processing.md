@@ -11,9 +11,6 @@ With regulations like **GDPR (General Data Protection Regulation)** in full effe
 Apache Hive, as a foundational component of many Hadoop-based data lakes, can be extended to support **GDPR-compliant data processing**. In this guide, we’ll explore how to use Hive to implement policies for **data masking**, **user anonymization**, **retention enforcement**, and **audit tracking** to align with GDPR mandates.
 
 ---
-
-#### Understanding GDPR in Big Data
-
 GDPR impacts data engineering in several ways:
 
 - **Right to be forgotten**: Users can request deletion of their data.

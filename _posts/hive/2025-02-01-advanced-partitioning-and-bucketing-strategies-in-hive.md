@@ -12,9 +12,6 @@ As data volumes grow exponentially in data lakes, **Hive partitioning and bucket
 This post covers **advanced strategies for partitioning and bucketing in Apache Hive**, helping you design efficient schemas and reduce query latency. You’ll learn when to partition, how to choose bucket columns, and best practices for managing large datasets in HDFS.
 
 ---
-
-#### Understanding Hive Partitioning
-
 **Partitioning** in Hive is a way to divide a table into subdirectories based on the values of one or more columns. Hive creates separate HDFS directories for each partition, which reduces the amount of data scanned during query execution.
 
 ```sql

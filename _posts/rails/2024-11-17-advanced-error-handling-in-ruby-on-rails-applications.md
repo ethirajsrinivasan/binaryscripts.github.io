@@ -7,8 +7,6 @@ last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Error Handling", "Exceptions", "Logging", "Best Practices"]  
 excerpt: Discover advanced error handling techniques in Ruby on Rails, including custom exceptions, centralized error management, logging, and debugging best practices.  
 ---
-
-
 Error handling in **Ruby on Rails** is a critical component of building stable and maintainable applications. Poorly managed errors can lead to **security risks, application crashes, and poor user experience**.
 
 In this guide, we will cover:  
@@ -23,7 +21,7 @@ By mastering these techniques, you can ensure **better fault tolerance, improved
 ---
 
 #### **1. Understanding Rails' Default Error Handling**
-Rails uses **middleware-based error handling**, primarily via &#96;ActionDispatch::ShowExceptions&#96;.
+Rails uses **middleware-based error handling**, primarily via `ActionDispatch::ShowExceptions`.
 
 By default:
 - **In development**, Rails shows a **detailed error page** with stack traces.
@@ -47,7 +45,7 @@ match "/500", to: "errors#internal_server_error", via: :all
 For better control over errors, create **custom exception classes**.
 
 ##### **Step 1: Define a Custom Exception Class**
-Create a new file in &#96;app/exceptions/&#96;:  
+Create a new file in `app/exceptions/`:  
 ```rb  
 class PaymentProcessingError < StandardError; end  
 ```
@@ -71,7 +69,7 @@ end
 ---
 
 #### **3. Centralized Error Handling in ApplicationController**
-Instead of handling errors in every controller, **centralize error management** in &#96;ApplicationController&#96;.
+Instead of handling errors in every controller, **centralize error management** in `ApplicationController`.
 
 ```rb  
 class ApplicationController < ActionController::API  
@@ -96,7 +94,7 @@ end
 Proper logging helps **debug issues faster**.
 
 ##### **Best Practices for Logging:**
-✔️ Use **Rails' built-in logging** via &#96;Rails.logger&#96;  
+✔️ Use **Rails' built-in logging** via `Rails.logger`  
 ✔️ Capture **request details** and **user context**  
 ✔️ Send logs to external monitoring services
 
@@ -107,9 +105,9 @@ Rails.logger.error("Payment failed for user #{current_user.id}: #{exception.mess
 
 ##### **Using External Monitoring Tools**
 Popular error tracking services:
-- **Sentry** (&#96;sentry-ruby&#96;)
-- **Rollbar** (&#96;rollbar&#96;)
-- **Airbrake** (&#96;airbrake&#96;)
+- **Sentry** (`sentry-ruby`)
+- **Rollbar** (`rollbar`)
+- **Airbrake** (`airbrake`)
 
 Example Sentry Integration:  
 ```rb  

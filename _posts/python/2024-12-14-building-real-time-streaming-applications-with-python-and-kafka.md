@@ -12,9 +12,6 @@ In today's data-driven world, real-time processing is crucial for applications l
 In this guide, we’ll explore Kafka’s architecture, set up a Python-based Kafka producer and consumer, and implement real-world streaming use cases.
 
 ---
-
-#### Understanding Apache Kafka
-
 Kafka is a distributed event streaming platform used for high-throughput, low-latency data streaming. It consists of:
 
 - **Producers**: Publish messages to Kafka topics

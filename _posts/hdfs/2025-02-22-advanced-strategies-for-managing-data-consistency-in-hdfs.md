@@ -11,9 +11,6 @@ excerpt: Learn advanced techniques to maintain data consistency in HDFS. Explore
 In this blog, we'll explore **advanced strategies to manage data consistency in HDFS**, including file write guarantees, replication checks, block verification, transactional patterns, and error recovery techniques.
 
 ---
-
-#### Understanding HDFS Consistency Model
-
 HDFS follows a **write-once, read-many** consistency model:
 - A file is considered **consistent** only after it has been **successfully closed**
 - Until closed, a file may be **incomplete or corrupted**

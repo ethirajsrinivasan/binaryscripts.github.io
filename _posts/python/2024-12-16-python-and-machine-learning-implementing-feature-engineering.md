@@ -22,7 +22,7 @@ Feature engineering directly impacts the accuracy, interpretability, and efficie
 - Improve generalization to unseen data
 - Align data with algorithm-specific requirements
 
-Python provides powerful libraries like &#96;pandas&#96;, &#96;scikit-learn&#96;, and &#96;feature-engine&#96; to facilitate feature engineering.
+Python provides powerful libraries like `pandas`, `scikit-learn`, and `feature-engine` to facilitate feature engineering.
 
 ---
 

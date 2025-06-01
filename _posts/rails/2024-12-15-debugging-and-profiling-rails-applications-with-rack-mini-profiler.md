@@ -7,8 +7,6 @@ last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Profiling", "Debugging", "Rack Mini Profiler", "Performance", "Optimization"]
 excerpt: Discover how to use Rack Mini Profiler to debug and profile Rails applications, helping you identify performance bottlenecks and improve app efficiency.  
 ---
-
-
 As Rails applications grow, debugging and performance optimization become crucial to maintaining a smooth user experience. One effective tool for both debugging and profiling Rails applications is **Rack Mini Profiler**. This gem provides valuable insights into the performance of your application by showing detailed information about each request's execution, including database queries, view rendering times, and HTTP request durations.
 
 In this post, we will explore how to integrate and use Rack Mini Profiler in your Rails application to debug performance bottlenecks and optimize your app.

@@ -11,9 +11,6 @@ Serverless architectures have revolutionized how developers build and deploy app
 In this article, we dive deep into **building serverless applications with Kubernetes and Kubeless**, an open-source Kubernetes-native serverless framework. We cover architectural concepts, deployment workflows, and best practices designed for intermediate and advanced Kubernetes users.
 
 ---
-
-#### Understanding Kubeless in the Kubernetes Ecosystem
-
 Kubeless is a Kubernetes-native serverless framework that runs **functions as lightweight containers** managed directly by Kubernetes. Unlike managed cloud serverless services, Kubeless leverages Kubernetes primitives, providing:
 
 - **Full control** over runtime environments and scaling policies.

@@ -11,9 +11,6 @@ In distributed messaging systems, **data durability and cross-region replication
 This guide explains how to manage **Pulsar’s data durability guarantees** and set up **multi-region replication** for high-availability and disaster-resilient architectures.
 
 ---
-
-#### Understanding Pulsar's Durability Architecture
-
 Apache Pulsar separates its **serving layer (Brokers)** from the **storage layer (BookKeeper)**. This allows fine-grained control over message durability and redundancy.
 
 Key components:

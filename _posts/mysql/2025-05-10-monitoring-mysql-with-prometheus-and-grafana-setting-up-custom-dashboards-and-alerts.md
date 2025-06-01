@@ -27,7 +27,7 @@ To collect MySQL metrics, the **MySQL Exporter** by Prometheus is the industry s
 3. **Launching Exporter**  
    Run the exporter with:
 
-   &#96;./mysqld_exporter --config.my-cnf=.my.cnf --web.listen-address=:9104&#96;
+   `./mysqld_exporter --config.my-cnf=.my.cnf --web.listen-address=:9104`
 
    Prometheus will scrape metrics from `http://<exporter_host>:9104/metrics`.
 

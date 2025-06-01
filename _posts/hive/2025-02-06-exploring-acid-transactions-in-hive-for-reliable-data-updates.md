@@ -116,9 +116,6 @@ WHEN NOT MATCHED THEN INSERT VALUES (source.id, source.name, source.email);
 ```
 
 ---
-
-#### Understanding the Delta File System
-
 Hive ACID tables store data as **base files** and **delta files**:
 - Base files hold the latest snapshot
 - Delta files hold incremental updates/deletes

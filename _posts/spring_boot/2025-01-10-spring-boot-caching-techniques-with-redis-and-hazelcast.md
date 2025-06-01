@@ -56,9 +56,9 @@ return userRepository.findById(id).orElseThrow();
 ```
 
 Other useful annotations:
-- &#96;@CachePut&#96; – updates the cache
-- &#96;@CacheEvict&#96; – removes data from the cache
-- &#96;@Caching&#96; – group multiple operations
+- `@CachePut` – updates the cache
+- `@CacheEvict` – removes data from the cache
+- `@Caching` – group multiple operations
 
 ```java
 @CacheEvict(value = "users", key = "#id")
@@ -82,7 +82,7 @@ Redis is a fast, persistent, key-value store often used for caching.
 </dependency>
 ```
 
-**Configure Redis in &#96;application.yml&#96;:**
+**Configure Redis in `application.yml`:**
 
 ```yml
 spring:

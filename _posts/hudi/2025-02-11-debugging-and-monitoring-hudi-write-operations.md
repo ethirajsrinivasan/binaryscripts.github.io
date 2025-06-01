@@ -16,9 +16,6 @@ In this guide, we'll explore how to **debug and monitor Hudi write operations**,
 - Integration with monitoring systems
 
 ---
-
-#### Understanding Hudi's Write Model
-
 Hudi supports several write operations:
 - **UPSERT** – Update if key exists, insert if not
 - **INSERT** – Append-only

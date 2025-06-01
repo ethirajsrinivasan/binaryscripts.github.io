@@ -15,7 +15,7 @@ In this blog, we will explore best practices for **handling exceptions, logging 
 
 #### Using Flask’s Built-in Error Handlers
 
-Flask allows you to define custom error handlers for different HTTP status codes using the &#96;@app.errorhandler&#96; decorator.
+Flask allows you to define custom error handlers for different HTTP status codes using the `@app.errorhandler` decorator.
 
 ```python
 from flask import Flask, jsonify
@@ -64,7 +64,7 @@ This allows for **better debugging and structured error responses** across the a
 
 #### Configuring Python’s Logging Module
 
-Flask’s default logging is minimal. To improve it, configure **structured logging** using Python’s &#96;logging&#96; module.
+Flask’s default logging is minimal. To improve it, configure **structured logging** using Python’s `logging` module.
 
 ```python
 import logging

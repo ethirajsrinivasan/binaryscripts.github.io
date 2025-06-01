@@ -7,8 +7,6 @@ last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Multi-Step Forms", "Wizards", "Form Handling", "UX"]  
 excerpt: Learn how to build simple and scalable multi-step forms in Rails, improving user experience and data handling while keeping the implementation clean and efficient.  
 ---
-
-
 Multi-step forms (also known as **form wizards**) enhance **user experience** by breaking down long forms into smaller, manageable steps. This approach reduces **friction** and increases **completion rates**, especially for forms that collect a large amount of data.
 
 In this guide, we will:

@@ -7,8 +7,6 @@ last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Custom Validations", "ActiveRecord", "Best Practices", "Data Integrity"]
 excerpt: Learn how to build advanced custom validations in Ruby on Rails models to enforce complex business rules and ensure data integrity.
 ---
-
-
 ActiveRecord's built-in validations (`validates_presence_of`, `validates_uniqueness_of`, etc.) cover most use cases, but sometimes, you need **custom validations** to enforce complex business rules.
 
 **Example Use Cases for Custom Validations:**  

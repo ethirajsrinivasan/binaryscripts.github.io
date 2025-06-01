@@ -192,7 +192,7 @@ query = Product.query
 
 ### Example Request:
 
-&#96;/products?category=electronics&min_price=100&sort_by=price&order=desc&page=1&per_page=5&#96;
+`/products?category=electronics&min_price=100&sort_by=price&order=desc&page=1&per_page=5`
 
 - Filters by **category** and **min price**.
 - Sorts by **price descending**.

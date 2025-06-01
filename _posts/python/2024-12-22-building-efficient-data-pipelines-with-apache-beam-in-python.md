@@ -63,9 +63,6 @@ with beam.Pipeline() as pipeline:
 This basic example reads a file, converts text to uppercase, and writes it to an output file.
 
 ---
-
-#### Understanding Apache Beam’s Core Concepts
-
 Apache Beam provides a rich set of abstractions for defining data transformations:
 
 - **PCollection**: The distributed dataset representation

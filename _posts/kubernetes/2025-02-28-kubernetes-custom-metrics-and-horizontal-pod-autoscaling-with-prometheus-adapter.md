@@ -11,9 +11,6 @@ Horizontal Pod Autoscaling (HPA) is a vital Kubernetes feature that enables auto
 This post explores how to implement **Kubernetes Custom Metrics API** integration using **Prometheus Adapter** to enable HPA based on custom metrics, empowering developers and operators to scale workloads dynamically and precisely.
 
 ---
-
-#### Understanding Kubernetes Horizontal Pod Autoscaling and Metrics APIs
-
 The Kubernetes HPA controller relies on the **Metrics API** to retrieve metrics about pods or objects and adjusts replica counts accordingly. There are two main metrics APIs relevant for HPA:
 
 - **Resource Metrics API:** Exposes standard metrics like CPU and memory usage.

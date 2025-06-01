@@ -29,9 +29,6 @@ Key building blocks of DDD include:
 - **Domain Services**: Encapsulate domain logic that doesn't naturally fit an entity
 
 ---
-
-#### Understanding Aggregates
-
 An **aggregate** is a **cluster of domain objects** that are treated as a single unit for data changes. Every aggregate has a **root** — an entity that enforces consistency boundaries.
 
 For example, an `Order` aggregate may contain:

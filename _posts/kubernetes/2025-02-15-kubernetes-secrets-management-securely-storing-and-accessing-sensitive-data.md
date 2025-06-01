@@ -11,9 +11,6 @@ In Kubernetes environments, managing sensitive data such as API keys, passwords,
 This article explores advanced Kubernetes secrets management strategies designed for intermediate and advanced users aiming to safeguard sensitive information across their clusters.
 
 ---
-
-#### Understanding Kubernetes Secrets
-
 Kubernetes Secrets are Kubernetes objects intended to hold sensitive data encoded in base64. They are not encrypted by default, making it essential to combine them with cluster-level security best practices.
 
 **Key characteristics:**

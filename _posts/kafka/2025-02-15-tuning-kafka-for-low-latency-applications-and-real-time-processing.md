@@ -11,9 +11,6 @@ Apache Kafka is widely used for building **real-time data pipelines** and **even
 In this post, we'll explore practical techniques for **tuning Kafka for low-latency applications**, covering optimizations at the producer, broker, and consumer layers to minimize delay across the entire streaming pipeline.
 
 ---
-
-#### Understanding Kafka Latency
-
 Kafka latency is the **end-to-end delay** between the time a message is produced and the time it is consumed.
 
 Key components:

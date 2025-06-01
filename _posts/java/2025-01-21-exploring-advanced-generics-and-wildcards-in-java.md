@@ -31,9 +31,6 @@ String name = names.get(0);
 ```
 
 ---
-
-#### Understanding Wildcards in Java
-
 Wildcards introduce flexibility in how we use generics. A wildcard is represented by the `?` symbol and allows for broader compatibility.
 
 **Types of wildcards:**

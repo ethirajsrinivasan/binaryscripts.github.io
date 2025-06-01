@@ -7,8 +7,6 @@ last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "Middleware", "Performance", "Security", "Customization"]  
 excerpt: Discover how to customize Rails middleware to optimize performance, enhance security, and add custom request processing to your application.  
 ---
-
-
 Middleware plays a crucial role in the **Rails request/response lifecycle**. It allows developers to **modify requests before they reach the controller** and **manipulate responses before they reach the client**.
 
 In this guide, we'll cover:  

@@ -13,7 +13,7 @@ Exception handling is a crucial part of building robust Python applications. Whi
 
 #### Why Use Custom Exceptions?
 
-Built-in exceptions like &#96;ValueError&#96; and &#96;TypeError&#96; are useful but may not always convey the full context of an error. Custom exceptions help by:
+Built-in exceptions like `ValueError` and `TypeError` are useful but may not always convey the full context of an error. Custom exceptions help by:
 
 - Providing more meaningful error messages
 - Allowing hierarchical error classification
@@ -24,7 +24,7 @@ Built-in exceptions like &#96;ValueError&#96; and &#96;TypeError&#96; are useful
 
 #### Defining Custom Exceptions
 
-A basic custom exception can be created by subclassing Python’s &#96;Exception&#96; class.
+A basic custom exception can be created by subclassing Python’s `Exception` class.
 
 ```python  
 class CustomError(Exception):  
@@ -32,7 +32,7 @@ class CustomError(Exception):
 pass  
 ```
 
-For more descriptive errors, override the &#96;__init__&#96; method:
+For more descriptive errors, override the `__init__` method:
 
 ```python  
 class InvalidInputError(CustomError):  
@@ -70,7 +70,7 @@ class APIError(ApplicationError):
 pass  
 ```
 
-With this approach, catching &#96;ApplicationError&#96; will handle all derived exceptions.
+With this approach, catching `ApplicationError` will handle all derived exceptions.
 
 ```python  
 try:  
@@ -106,7 +106,7 @@ print(f"Logged Exception: {e}")
 
 #### Using Context Managers for Exception Handling
 
-A clean approach to handling exceptions is using context managers with Python’s &#96;with&#96; statement.
+A clean approach to handling exceptions is using context managers with Python’s `with` statement.
 
 ```python  
 import logging
@@ -147,7 +147,7 @@ print(f"Error: {e}, Status Code: {e.status_code}")
 
 #### Best Practices for Custom Exception Handling
 
-- **Use clear and specific exception names**: Avoid generic names like &#96;MyError&#96;—be descriptive.
+- **Use clear and specific exception names**: Avoid generic names like `MyError`—be descriptive.
 - **Implement exception hierarchies**: Helps organize errors logically.
 - **Leverage logging**: Always log exceptions instead of printing them.
 - **Provide meaningful error messages**: Helps with debugging and user experience.

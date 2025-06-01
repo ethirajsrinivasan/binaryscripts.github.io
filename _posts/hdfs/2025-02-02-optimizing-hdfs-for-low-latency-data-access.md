@@ -13,9 +13,6 @@ By default, HDFS prioritizes **throughput over latency** — but with careful tu
 In this guide, we explore how to **optimize HDFS for low-latency reads and writes**, covering both system-level and architecture-level strategies.
 
 ---
-
-#### Understanding HDFS Latency Challenges
-
 Before optimization, it's important to understand where latency originates in HDFS:
 
 - **Metadata lookup delay** (NameNode)

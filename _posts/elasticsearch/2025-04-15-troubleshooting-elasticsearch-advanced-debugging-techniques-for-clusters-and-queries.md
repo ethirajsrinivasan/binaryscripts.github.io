@@ -6,9 +6,6 @@ categories: Elasticsearch
 tags: [Elasticsearch, Search, Big Data, Debugging, Clusters, Queries, Performance, Troubleshooting]
 excerpt: Dive into advanced Elasticsearch troubleshooting techniques designed for intermediate and expert users to optimize cluster health and improve query performance.
 ---
-
-#### Understanding Elasticsearch Cluster Health Metrics
-
 Before diving into complex debugging, it is crucial to assess the **overall health** of your Elasticsearch cluster. Use the `_cluster/health` API to monitor *status* (green, yellow, red), active shards, and unassigned shards. Pay special attention to **unassigned shards**, which often indicate node failures, allocation issues, or resource constraints.
 
 Example query:

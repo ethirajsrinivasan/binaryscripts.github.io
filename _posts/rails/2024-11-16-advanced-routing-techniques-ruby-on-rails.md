@@ -13,9 +13,6 @@ excerpt: "Explore advanced routing techniques in Ruby on Rails to create scalabl
 In Ruby on Rails, routing serves as the backbone of how web requests are processed and directed to the appropriate controllers and actions. While the basic `resources` and `get` routes work for simple apps, complex applications require advanced techniques to maintain clarity, scalability, and flexibility. This guide dives into advanced routing strategies to take your Rails applications to the next level.
 
 ---
-
-#### Understanding the Rails Router
-
 The Rails router connects incoming HTTP requests to the appropriate controllers and actions. With advanced techniques, you can customize this process to handle:
 - Complex APIs with versioning
 - SEO-friendly URL structures

@@ -12,9 +12,6 @@ In Hive, **joins** are among the most resource-intensive operations. With the ma
 This blog dives deep into **advanced join strategies in Hive**, helping you understand when and how to use map joins, bucketed joins, skew joins, and join order optimization. Whether you're dealing with terabytes of transaction logs or joining large dimension tables, mastering these techniques will improve your Hive query performance dramatically.
 
 ---
-
-#### Understanding Hive Join Types
-
 Hive supports several types of joins:
 
 - **INNER JOIN** – returns matching records between two tables

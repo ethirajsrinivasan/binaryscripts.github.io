@@ -7,8 +7,6 @@ last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["GraphQL", "Rails API", "Performance", "Authorization", "Data Loading"]
 excerpt: Learn how to build scalable, high-performance GraphQL APIs in Ruby on Rails using advanced techniques, including query optimization, authorization, and data loading strategies.
 ---
-
-
 GraphQL has revolutionized API development by offering **flexible data fetching, type safety, and declarative queries**. However, **building a GraphQL API in Ruby on Rails** comes with challenges, such as **query optimization, security, and performance bottlenecks**.
 
 In this guide, we’ll explore:  

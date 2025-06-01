@@ -7,8 +7,6 @@ last_modified_at: "2025-04-03T10:30:00+00:00"
 tags: ["Rails", "ActiveStorage", "File Uploads", "Cloud Storage", "Image Processing"]  
 excerpt: A deep dive into Rails ActiveStorage, covering file uploads, cloud storage integration, and performance optimizations for managing media files.  
 ---
-
-
 Handling **file uploads and media storage** efficiently is a crucial part of web applications. Ruby on Rails provides **ActiveStorage**, a built-in solution that simplifies file uploads, supports **cloud storage services**, and integrates well with image processing libraries.
 
 In this guide, we’ll cover:

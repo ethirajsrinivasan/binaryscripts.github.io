@@ -14,9 +14,6 @@ Although Python is **dynamically typed** and encourages **duck typing**, applyin
 In this article, we’ll explore each **SOLID principle** with Python examples and best practices.
 
 ---
-
-#### Understanding SOLID Principles
-
 The **SOLID** acronym stands for:
 
 1️⃣ **S**ingle Responsibility Principle (SRP)  

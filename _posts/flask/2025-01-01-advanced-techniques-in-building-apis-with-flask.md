@@ -15,7 +15,7 @@ Flask is a lightweight yet powerful microframework for building APIs in Python. 
 
 Flask's default request handling is synchronous, meaning each request blocks the thread until completion. For high-throughput APIs, using **asynchronous processing** can significantly improve performance.
 
-**Solution:** Use &#96;gevent&#96;, &#96;gunicorn&#96;, or &#96;quart&#96; to enable asynchronous request handling.
+**Solution:** Use `gevent`, `gunicorn`, or `quart` to enable asynchronous request handling.
 
 ```python
 from flask import Flask
@@ -38,7 +38,7 @@ This setup allows Flask to handle multiple requests concurrently, reducing respo
 
 #### Connection Pooling
 
-Creating and closing database connections for each request is inefficient. Instead, use **connection pooling** with &#96;SQLAlchemy&#96;.
+Creating and closing database connections for each request is inefficient. Instead, use **connection pooling** with `SQLAlchemy`.
 
 ```python
 from flask_sqlalchemy import SQLAlchemy
@@ -58,7 +58,7 @@ This configuration **reuses database connections**, reducing overhead and improv
 
 #### Using Redis for Faster Responses
 
-Frequent database queries can slow down an API. Caching responses using &#96;Redis&#96; significantly improves performance.
+Frequent database queries can slow down an API. Caching responses using `Redis` significantly improves performance.
 
 ```python
 from flask import Flask, request

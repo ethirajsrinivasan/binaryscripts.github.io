@@ -96,9 +96,6 @@ FROM gcr.io/distroless/python3
 This can cut image sizes by 70–90%.
 
 ---
-
-#### Understanding Cache Invalidation
-
 Cache breaks when:
 
 - File contents change

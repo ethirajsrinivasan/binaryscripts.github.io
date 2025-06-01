@@ -36,7 +36,7 @@ For best results, also verify MySQL version compatibility with your Percona Xtra
 
 A full backup copies all InnoDB data files and MySQL logs. The basic command:
 
-&#96;xtrabackup --backup --target-dir=/path/to/backupdir&#96;
+`xtrabackup --backup --target-dir=/path/to/backupdir`
 
 Key points:
 
@@ -46,7 +46,7 @@ Key points:
 
 Example prepare command:
 
-&#96;xtrabackup --prepare --target-dir=/path/to/backupdir&#96;
+`xtrabackup --prepare --target-dir=/path/to/backupdir`
 
 This step applies transaction logs to the backup data, ensuring consistency.
 
@@ -61,7 +61,7 @@ To create an incremental backup:
 
 Example:
 
-&#96;xtrabackup --backup --target-dir=/path/to/inc_backup --incremental-basedir=/path/to/full_backup&#96;
+`xtrabackup --backup --target-dir=/path/to/inc_backup --incremental-basedir=/path/to/full_backup`
 
 When restoring, apply incremental backups sequentially after the full backup prepare step.
 
@@ -71,7 +71,7 @@ For production environments, automation is key. Use cron jobs or orchestration t
 
 Example cron job for nightly full backup:
 
-&#96;0 2 * * * /usr/bin/xtrabackup --backup --target-dir=/backups/full_$(date +%F)&#96;
+`0 2 * * * /usr/bin/xtrabackup --backup --target-dir=/backups/full_$(date +%F)`
 
 Retention strategies should balance storage costs and recovery objectives. Common practices include:
 
@@ -90,15 +90,15 @@ To restore:
 
 Example restore commands:
 
-&#96;systemctl stop mysqld&#96;
+`systemctl stop mysqld`
 
-&#96;rm -rf /var/lib/mysql/*&#96;
+`rm -rf /var/lib/mysql/*`
 
-&#96;cp -r /path/to/backupdir/* /var/lib/mysql/&#96;
+`cp -r /path/to/backupdir/* /var/lib/mysql/`
 
-&#96;chown -R mysql:mysql /var/lib/mysql/&#96;
+`chown -R mysql:mysql /var/lib/mysql/`
 
-&#96;systemctl start mysqld&#96;
+`systemctl start mysqld`
 
 Always test restores regularly to ensure disaster recovery readiness.
 

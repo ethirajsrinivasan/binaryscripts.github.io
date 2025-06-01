@@ -32,7 +32,7 @@ Partitioning splits a large table into smaller, manageable pieces called partiti
 
 Example snippet for range partitioning by date:
 
-&#96;&#96;&#96;sql  
+```sql  
 CREATE TABLE orders (  
   order_id INT,  
   order_date DATE,  
@@ -43,7 +43,7 @@ PARTITION BY RANGE (YEAR(order_date)) (
   PARTITION p2020 VALUES LESS THAN (2021),  
   PARTITION pmax VALUES LESS THAN MAXVALUE  
 );  
-&#96;&#96;&#96;
+```
 
 #### Sharding MySQL Databases for Horizontal Scalability
 
@@ -69,11 +69,11 @@ When a single MySQL server hits its capacity limits, **sharding** distributes da
 
 Example of shard key usage in an application workflow:
 
-&#96;&#96;&#96;  
+```  
 // Determine shard based on user_id hash  
 shard_id = hash(user_id) % number_of_shards;  
 // Route query to shard_id  
-&#96;&#96;&#96;
+```
 
 #### Archiving Strategies to Manage Historical Data Growth
 
@@ -93,10 +93,10 @@ Large databases accumulate historical data that is infrequently accessed but mus
 
 Example MySQL archiving job moving data older than one year:
 
-&#96;&#96;&#96;sql  
+```sql  
 INSERT INTO orders_archive SELECT * FROM orders WHERE order_date < DATE_SUB(NOW(), INTERVAL 1 YEAR);  
 DELETE FROM orders WHERE order_date < DATE_SUB(NOW(), INTERVAL 1 YEAR);  
-&#96;&#96;&#96;
+```
 
 #### Combining Partitioning Sharding and Archiving for Optimal Performance
 

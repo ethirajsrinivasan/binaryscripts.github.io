@@ -107,9 +107,6 @@ Use this in **ETL pipelines** to fetch only new or changed records since the las
 You can also **store commit timestamps** in an external metadata table to persist offsets between jobs.
 
 ---
-
-#### Understanding Hoodie Metadata Columns
-
 Useful columns available in every Hudi table:
 - `_hoodie_commit_time` – Commit timestamp
 - `_hoodie_record_key` – Unique record identifier
