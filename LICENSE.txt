@@ -1,6 +1,8 @@
 The MIT License (MIT)
 
-Copyright (c) 2019 Jeffrey Tse
+BinaryScripts is a dynamic tech blog dedicated to empowering developers, tech enthusiasts, and innovators with in-depth articles, tutorials, and insights into the ever-evolving world of technology.
+
+Copyright (c) 2023 BinaryScripts
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
