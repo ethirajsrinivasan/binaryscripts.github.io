@@ -40,7 +40,7 @@ author:
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright &copy; 2017-{currentYear} <a href='https://binaryscripts.com'>BinaryScripts</a>. All rights reserved."
+copyright: "Copyright &copy; {currentYear} <a href='https://binaryscripts.com'>BinaryScripts</a>. All rights reserved."
 
 description: >- # this means to ignore newlines until "baseurl:"
   BinaryScripts is a dynamic tech blog dedicated to empowering developers, tech enthusiasts, and innovators with in-depth articles, tutorials, and insights into the ever-evolving world of technology. From programming and software development to data engineering, DevOps, and emerging technologies, we strive to simplify complex concepts and provide actionable solutions.
